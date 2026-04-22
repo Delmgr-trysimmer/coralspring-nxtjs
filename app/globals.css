@@ -1,26 +1,121 @@
 @import "tailwindcss";
+@import "lenis/dist/lenis.css";
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Logo cyan #00AEEF — page bg stays in this family (not neutral slate) */
+  --background: #004a63;
+  --surface: #111827;
+  --card: #1f2937;
+  --foreground: #ffffff;
+  /* Crisp copy on teal — avoid lavender/gray that reads “washed out” */
+  --secondary: #ffffff;
+  --muted: rgb(255 255 255 / 0.78);
+  --accent: #0ea5e9;
+  --accent-light: #38bdf8;
+  --highlight: #22d3ee;
+  /* Logo terracotta (“SMILES” / emblem) — not Tailwind orange-500 */
+  --brand: #c6512a;
+  --brand-light: #df7a58;
+  --brand-muted: #9e3d24;
+  --border: #1e293b;
+
+  /* Hero / Doctor / CTA — one shell: logo cyan glows + terracotta tint + teal band */
+  --brand-section-bg:
+    radial-gradient(
+      circle at 72% 22%,
+      rgb(0 174 239 / 0.35),
+      transparent 42%
+    ),
+    radial-gradient(
+      circle at 18% 18%,
+      rgb(0 174 239 / 0.28),
+      transparent 38%
+    ),
+    radial-gradient(
+      circle at 8% 55%,
+      rgb(198 81 42 / 0.14),
+      transparent 32%
+    ),
+    linear-gradient(180deg, #005a78 0%, #007ea8 42%, #006892 100%);
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-card: var(--card);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-secondary: var(--secondary);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-light: var(--accent-light);
+  --color-highlight: var(--highlight);
+  --color-brand: var(--brand);
+  --color-brand-light: var(--brand-light);
+  --color-brand-muted: var(--brand-muted);
+  --color-border: var(--border);
+  --font-sans: var(--font-plus-jakarta-sans);
+  --font-display: var(--font-sora);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Soft default so UI on teal doesn’t pick up a harsh slate edge */
+* {
+  border-color: rgb(255 255 255 / 0.09);
+}
+
+html {
+  background: #004a63;
+  color-scheme: dark;
 }
 
 body {
-  background: var(--background);
+  min-height: 100vh;
+  background-color: #004a63 !important;
+  background:
+    radial-gradient(circle at 12% 18%, rgb(198 81 42 / 0.12), transparent 32%),
+    radial-gradient(circle at top, rgb(0 174 239 / 0.22), transparent 34%),
+    radial-gradient(circle at 88% 42%, rgb(0 174 239 / 0.1), transparent 38%),
+    linear-gradient(180deg, #003d54 0%, #005f82 48%, #004a63 100%) !important;
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-plus-jakarta-sans), sans-serif;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgb(255 255 255 / 0.018) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(255 255 255 / 0.018) 1px, transparent 1px);
+  background-size: 72px 72px;
+  mask-image: radial-gradient(circle at center, black 26%, transparent 82%);
+  opacity: 0.5;
+}
+
+::selection {
+  background: rgb(198 81 42 / 0.32);
+  color: #ffffff;
+}
+
+a,
+button {
+  transition:
+    color 220ms ease,
+    background-color 220ms ease,
+    border-color 220ms ease,
+    transform 220ms ease,
+    box-shadow 220ms ease;
+}
+
+img {
+  -webkit-user-drag: none;
+}
+
+/* Shared by Hero, Doctor, CTA — matches logo cyan (#00AEEF) + terracotta field */
+.bg-brand-section {
+  background-color: #006892;
+  background-image: var(--brand-section-bg);
 }
