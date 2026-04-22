@@ -22,7 +22,7 @@ export default function Doctor() {
       className="bg-brand-section scroll-mt-28 border-y border-white/10 py-16"
     >
       <div className="mx-auto grid max-w-7xl gap-14 px-4 sm:px-6 lg:grid-cols-[minmax(380px,0.9fr)_minmax(0,1.1fr)] items-start lg:px-8">
-        <div className="lg:sticky lg:top-20">
+        <div className="lg:sticky lg:top-32">
           <Reveal direction="left">
             <div className="relative mx-auto w-full max-w-[460px]" data-parallax="soft">
               <div className="absolute -inset-6 -z-10 rounded-full bg-[rgba(34,211,238,0.10)] blur-[110px]" />
