@@ -55,6 +55,9 @@ const navigation: NavigationItem[] = [
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [expandedMobileItems, setExpandedMobileItems] = useState<
+    Record<string, boolean>
+  >({});
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 18);
@@ -62,6 +65,21 @@ export default function Navbar() {
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  const closeMobileMenu = () => {
+    setMobileOpen(false);
+    setExpandedMobileItems({});
+  };
+
+  const toggleMobileMenu = () => {
+    setMobileOpen((open) => {
+      const nextOpen = !open;
+      if (!nextOpen) {
+        setExpandedMobileItems({});
+      }
+      return nextOpen;
+    });
+  };
 
   return (
     <header
@@ -92,7 +110,7 @@ export default function Navbar() {
           href="#home"
           className="relative flex items-center gap-3 rounded-2xl p-2 ring-offset-background transition-shadow hover:shadow-[0_0_36px_rgba(0,174,239,0.2),0_0_48px_rgba(198,81,42,0.14)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-light/45 focus-visible:ring-offset-2 focus-visible:ring-offset-[#003d54]"
         >
-          <Image src="/logo.webp" alt="Logo" width={100} height={100} />
+          <Image src="/logo.webp" alt="Logo" width={100} height={100} className="w-[70px] sm:w-[100px]" />
         </Link>
 
         <div className="hidden xl:flex items-center gap-6">
@@ -169,7 +187,7 @@ export default function Navbar() {
             size="icon"
             aria-expanded={mobileOpen}
             aria-label="Toggle navigation menu"
-            onClick={() => setMobileOpen((open) => !open)}
+            onClick={toggleMobileMenu}
             className="rounded-2xl border-0 bg-linear-to-b from-white/6 to-transparent shadow-[inset_0_0_0_1px_rgb(255_255_255/0.1)] hover:from-[rgb(198_81_42/0.12)] hover:shadow-[inset_0_0_0_1px_rgb(198_81_42/0.38)]"
           >
             {mobileOpen ? <X className="size-4" /> : <Menu className="size-4" />}
@@ -198,20 +216,50 @@ export default function Navbar() {
               <div className="grid gap-2">
                 {navigation.map((item) => (
                   <div key={item.label} className="rounded-2xl border-0 bg-linear-to-r from-white/4 via-white/2 to-transparent p-1 shadow-[inset_0_0_0_1px_rgb(255_255_255/0.08)]">
-                    <Link
-                      href={item.href}
-                      onClick={() => setMobileOpen(false)}
-                      className="block rounded-xl px-3 py-2 text-sm text-white transition-all duration-300 hover:bg-[rgb(198_81_42/0.1)] hover:text-white"
-                    >
-                      {item.label}
-                    </Link>
+                    <div className="flex items-center">
+                      <Link
+                        href={item.href}
+                        onClick={closeMobileMenu}
+                        className="block flex-1 rounded-xl px-3 py-2 text-sm text-white transition-all duration-300 hover:bg-[rgb(198_81_42/0.1)] hover:text-white"
+                      >
+                        {item.label}
+                      </Link>
+                      {item.sublinks ? (
+                        <button
+                          type="button"
+                          aria-label={`Toggle ${item.label} sublinks`}
+                          aria-expanded={Boolean(expandedMobileItems[item.label])}
+                          onClick={() =>
+                            setExpandedMobileItems((prev) => ({
+                              ...prev,
+                              [item.label]: !prev[item.label],
+                            }))
+                          }
+                          className="mr-1 inline-flex size-8 items-center justify-center rounded-lg text-white/85 transition-colors hover:bg-white/10 hover:text-white"
+                        >
+                          <ChevronDown
+                            className={cn(
+                              "size-4 transition-transform duration-200",
+                              expandedMobileItems[item.label] ? "rotate-180" : "",
+                            )}
+                          />
+                        </button>
+                      ) : null}
+                    </div>
                     {item.sublinks ? (
-                      <div className="mt-1 grid gap-1 pl-3">
+                      <div
+                        className={cn(
+                          "mt-1 grid gap-1 overflow-hidden pl-3 transition-all duration-300",
+                          expandedMobileItems[item.label]
+                            ? "max-h-48 opacity-100"
+                            : "max-h-0 opacity-0",
+                        )}
+                      >
                         {item.sublinks.map((sublink) => (
                           <Link
                             key={`${item.label}-${sublink.label}-mobile`}
                             href={sublink.href}
-                            onClick={() => setMobileOpen(false)}
+                            onClick={closeMobileMenu}
                             className="rounded-lg px-3 py-2 text-xs text-white/80 transition-colors duration-200 hover:bg-white/8 hover:text-white"
                           >
                             {sublink.label}
@@ -229,7 +277,7 @@ export default function Navbar() {
                   size="lg"
                   className="w-full border-none bg-linear-to-r from-brand-light via-brand to-brand-muted text-white shadow-[0_14px_36px_rgba(198,81,42,0.32),0_8px_30px_rgba(158,61,36,0.2)] hover:from-[#e8896f] hover:via-[#ce5c38] hover:to-[#a63d22]"
                 >
-                  <Link href="#contact-us" onClick={() => setMobileOpen(false)}>
+                  <Link href="#contact-us" onClick={closeMobileMenu}>
                     Book Appointment
                   </Link>
                 </Button>

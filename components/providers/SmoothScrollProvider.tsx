@@ -1,88 +1,45 @@
 "use client";
 
-import { type ReactNode, useEffect } from "react";
-import { usePathname } from "next/navigation";
+import { type ReactNode, useEffect, useRef } from "react";
 import Lenis from "lenis";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-gsap.registerPlugin(ScrollTrigger);
 
 type SmoothScrollProviderProps = {
   children: ReactNode;
 };
 
 export function SmoothScrollProvider({ children }: SmoothScrollProviderProps) {
-  const pathname = usePathname();
+  const lenisRef = useRef<Lenis | null>(null);
 
   useEffect(() => {
-    if (typeof window === "undefined") {
-      return;
-    }
-
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       return;
     }
 
     const lenis = new Lenis({
-      autoRaf: false, // We drive raf from GSAP ticker for stable sync.
-      anchors: true,
+      duration: 1.2,
+      easing: (t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+      orientation: "vertical",
+      gestureOrientation: "vertical",
       smoothWheel: true,
-      syncTouch: true,
-      lerp: 0.08,
     });
 
-    const handleScroll = () => ScrollTrigger.update();
-    lenis.on("scroll", handleScroll);
+    lenisRef.current = lenis;
+    document.documentElement.classList.add("lenis", "lenis-smooth");
 
-    const updateTicker = (time: number) => {
-      // GSAP ticker time is in seconds; Lenis expects milliseconds.
-      lenis.raf(time * 1000);
+    let raf = 0;
+    const animate = (time: number) => {
+      lenis.raf(time);
+      raf = window.requestAnimationFrame(animate);
     };
-    gsap.ticker.add(updateTicker);
-    gsap.ticker.lagSmoothing(0);
-
-    const resizeObserver = new ResizeObserver(() => {
-      lenis.resize();
-      ScrollTrigger.refresh();
-    });
-    resizeObserver.observe(document.body);
-
-    const animations = gsap.utils
-      .toArray<HTMLElement>("[data-parallax]")
-      .map((node) => {
-        const strength = node.dataset.parallax === "medium" ? 72 : 42;
-
-        return gsap.fromTo(
-          node,
-          { y: -strength * 0.2 },
-          {
-            y: strength,
-            ease: "none",
-            scrollTrigger: {
-              trigger: node,
-              start: "top bottom",
-              end: "bottom top",
-              scrub: 1,
-            },
-          },
-        );
-      });
-
-    ScrollTrigger.refresh();
+    raf = window.requestAnimationFrame(animate);
 
     return () => {
-      resizeObserver.disconnect();
-      gsap.ticker.remove(updateTicker);
-      lenis.off("scroll", handleScroll);
+      window.cancelAnimationFrame(raf);
       lenis.destroy();
-
-      animations.forEach((animation) => {
-        animation.scrollTrigger?.kill();
-        animation.kill();
-      });
+      lenisRef.current = null;
+      document.documentElement.classList.remove("lenis", "lenis-smooth");
     };
-  }, [pathname]);
+  }, []);
 
-  return <>{children}</>;
+  return <div>{children}</div>;
 }
