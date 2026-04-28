@@ -2,9 +2,11 @@
 
 import Image from "next/image";
 import { motion, useInView } from "framer-motion";
-import { CheckCircle2, Sparkles, Trophy } from "lucide-react";
+import { CheckCircle2, Sparkles } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import Navbar from "@/components/Navbar";
+import PageBanner from "@/components/PageBanner";
+import Testimonials from "@/components/Testimonials";
 
 const practiceHighlights = [
   "We believe in simplicity - Our staff will strive to make each and every appointment a breeze. We offer automated appointment reminders and free insurance validation.",
@@ -69,7 +71,12 @@ const AboutUsPage = () => {
   return (
     <>
       <Navbar />
-      <main className="relative overflow-hidden pt-32 pb-20 sm:pt-36">
+      <PageBanner
+        title="About us"
+        breadcrumbLabel="About us"
+        waveFillClassName="text-background"
+      />
+      <main className="relative overflow-hidden pt-8 pb-20 sm:pt-10">
         <div
           className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(circle_at_12%_10%,rgba(198,81,42,0.24),transparent_34%),radial-gradient(circle_at_88%_16%,rgba(0,174,239,0.26),transparent_42%),radial-gradient(circle_at_40%_92%,rgba(14,165,233,0.16),transparent_38%)]"
           aria-hidden
@@ -86,12 +93,12 @@ const AboutUsPage = () => {
                 <Sparkles className="size-3.5 text-brand-light" />
                 About Coral Springs Smiles
               </p>
-              <h1 className="mt-5 text-4xl font-semibold leading-tight text-white sm:text-5xl">
+              <h2 className="mt-5 text-4xl font-semibold leading-tight text-white sm:text-5xl">
                 Solution For Your Smile!
-              </h1>
-              <h2 className="mt-3 text-xl font-medium text-cyan-100 sm:text-2xl">
-                Welcome to Coral Springs Smiles Dentistry
               </h2>
+              <h3 className="mt-3 text-xl font-medium text-cyan-100 sm:text-2xl">
+                Welcome to Coral Springs Smiles Dentistry
+              </h3>
               <p className="mt-6 max-w-2xl text-base leading-relaxed text-white/88 sm:text-lg">
                 Dr. Payal Anand, DDS and her staff of Coral Springs dentists
                 provide comprehensive dental care for you and your family in
@@ -129,25 +136,25 @@ const AboutUsPage = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.25 }}
               transition={{ duration: 0.55 }}
-              className="rounded-3xl border border-white/12 bg-linear-to-b from-white/8 to-white/4 p-7 shadow-[0_16px_52px_rgba(0,35,52,0.34)] backdrop-blur-xl"
+              className="rounded-3xl border border-white/12 bg-linear-to-b from-white/8 to-white/4 p-7 shadow-[0_16px_52px_rgba(0,35,52,0.34)] backdrop-blur-xl flex flex-col justify-between"
             >
-              <h3 className="text-2xl font-semibold text-white">
+              <div><h3 className="text-2xl font-semibold text-white">
                 Conservative &amp; Innovative Approach to Treatment
               </h3>
-              <p className="mt-4 leading-relaxed text-white/86">
-                Her commitment to using the latest advancements in technology is
-                not the only reason you should choose Dr. Payal Anand, DDS for
-                all your family&apos;s dental needs. She uses an effective
-                combination of cutting-edge dental technology, and time-proven
-                methods to keep your smile healthy and beautiful.
-              </p>
+                <p className="mt-4 leading-relaxed text-white/86">
+                  Her commitment to using the latest advancements in technology is
+                  not the only reason you should choose Dr. Payal Anand, DDS for
+                  all your family&apos;s dental needs. She uses an effective
+                  combination of cutting-edge dental technology, and time-proven
+                  methods to keep your smile healthy and beautiful.
+                </p></div>
               <div className="mt-6 overflow-hidden rounded-2xl border border-white/10">
                 <Image
                   src="/images/about-2.png"
                   alt="Modern treatment room at Coral Springs Smiles Dentistry"
                   width={900}
                   height={620}
-                  className="h-52 w-full object-cover"
+                  className="h-60 w-full object-cover"
                 />
               </div>
             </motion.article>
@@ -157,32 +164,32 @@ const AboutUsPage = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.25 }}
               transition={{ duration: 0.55, delay: 0.08 }}
-              className="rounded-3xl border border-white/12 bg-linear-to-b from-white/8 to-white/4 p-7 shadow-[0_16px_52px_rgba(0,35,52,0.34)] backdrop-blur-xl"
+              className="rounded-3xl border border-white/12 bg-linear-to-b from-white/8 to-white/4 p-7 shadow-[0_16px_52px_rgba(0,35,52,0.34)] backdrop-blur-xl flex flex-col justify-between"
             >
-              <h3 className="flex items-center gap-2 text-2xl font-semibold text-white">
-                <Trophy className="size-5 text-brand-light" />
+              <div><h3 className="flex items-center gap-2 text-2xl font-semibold text-white">
+                {/* <Trophy className="size-5 text-brand-light" /> */}
                 What makes us the Best Dentist in Coral Springs?
               </h3>
-              <p className="mt-4 leading-relaxed text-white/86">
-                We take pride in the steps we have taken to make sure the
-                personal and professional care you receive in our office is
-                second-to-none. Here are just a few of the things that make our
-                practice unique:
-              </p>
+                <p className="mt-4 leading-relaxed text-white/86">
+                  We take pride in the steps we have taken to make sure the
+                  personal and professional care you receive in our office is
+                  second-to-none. Here are just a few of the things that make our
+                  practice unique:
+                </p></div>
               <div className="mt-6 overflow-hidden rounded-2xl border border-white/10">
                 <Image
                   src="/images/about-3.png"
                   alt="Patient care at Coral Springs Smiles Dentistry"
                   width={900}
                   height={620}
-                  className="h-52 w-full object-cover"
+                  className="h-60 w-full object-cover"
                 />
               </div>
             </motion.article>
           </div>
         </section>
 
-        <section className="mx-auto mt-16 max-w-7xl px-4 sm:px-6 lg:px-8">
+        <section className="mx-auto my-16 max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="rounded-3xl border border-white/12 bg-linear-to-b from-[#004a63]/95 via-[#003a4f]/96 to-[#002d3d]/97 p-7 shadow-[0_22px_60px_rgba(0,27,41,0.42)] backdrop-blur-xl sm:p-10">
             <div className="grid gap-8 lg:grid-cols-[1.05fr_0.95fr]">
               <motion.div
@@ -230,7 +237,7 @@ const AboutUsPage = () => {
                     alt="Friendly team helping dental patients"
                     width={900}
                     height={620}
-                    className="h-56 w-full object-cover"
+                    className="h-[320px] w-full object-cover"
                   />
                 </div>
                 <div className="grid gap-4 sm:grid-cols-2">
@@ -249,7 +256,10 @@ const AboutUsPage = () => {
               </motion.div>
             </div>
           </div>
+
         </section>
+
+        <Testimonials />
       </main>
     </>
   );

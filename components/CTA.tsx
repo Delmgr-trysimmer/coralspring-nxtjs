@@ -1,5 +1,5 @@
-import Image from "next/image";
 import { Clock3, MapPin, PhoneCall } from "lucide-react";
+import ActiveMembersSection from "@/components/ActiveMembersSection";
 import { Reveal } from "@/components/motion/Reveal";
 import { Button } from "@/components/ui/button";
 
@@ -86,20 +86,7 @@ export default function CTA() {
               })}
             </div>
 
-            <div className="mt-8 rounded-[26px] border border-white/14 bg-white px-5 py-5 shadow-[0_18px_50px_rgba(0,35,52,0.22)] sm:px-6">
-              <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-                <p className="text-base font-semibold text-slate-900 sm:text-lg">
-                  Active members of:
-                </p>
-                <Image
-                  src="/images/active-members.webp"
-                  alt="Active members badges including ADA, FDA, and Academy of General Dentistry"
-                  width={900}
-                  height={180}
-                  className="h-auto w-full max-w-[620px] object-contain"
-                />
-              </div>
-            </div>
+            <ActiveMembersSection wrap="cta-card" className="mt-8" />
           </div>
         </Reveal>
       </div>

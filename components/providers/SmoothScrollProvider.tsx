@@ -1,14 +1,31 @@
 "use client";
 
-import { type ReactNode, useEffect, useRef } from "react";
+import {
+  createContext,
+  type ReactNode,
+  type RefObject,
+  useContext,
+  useEffect,
+  useMemo,
+  useRef,
+} from "react";
 import Lenis from "lenis";
 
 type SmoothScrollProviderProps = {
   children: ReactNode;
 };
 
+type LenisRefContextValue = { lenisRef: RefObject<Lenis | null> };
+
+const LenisRefContext = createContext<LenisRefContextValue | null>(null);
+
+export function useLenisRef() {
+  return useContext(LenisRefContext);
+}
+
 export function SmoothScrollProvider({ children }: SmoothScrollProviderProps) {
   const lenisRef = useRef<Lenis | null>(null);
+  const ctx = useMemo(() => ({ lenisRef }), []);
 
   useEffect(() => {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
@@ -41,5 +58,9 @@ export function SmoothScrollProvider({ children }: SmoothScrollProviderProps) {
     };
   }, []);
 
-  return <div>{children}</div>;
+  return (
+    <LenisRefContext.Provider value={ctx}>
+      <div>{children}</div>
+    </LenisRefContext.Provider>
+  );
 }

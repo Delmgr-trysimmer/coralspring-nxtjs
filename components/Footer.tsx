@@ -30,7 +30,7 @@ const quickLinks = [
   { label: "About Us", href: "#about-us" },
   { label: "Specials", href: "#specials" },
   { label: "Our Doctor", href: "#our-doctor" },
-  { label: "Contact Us", href: "#contact-us" },
+  { label: "Contact Us", href: "/contact-us" },
   { label: "Privacy Policy", href: "/privacy-policy" },
   { label: "Review Us", href: "/review-us" },
   { label: "Financing", href: "/financing" },
@@ -39,18 +39,18 @@ const quickLinks = [
 ] as const;
 
 const serviceLinks = [
-  { label: "Dental Implants", href: "#services" },
-  { label: "Cosmetic Dentistry", href: "#services" },
-  { label: "Invisalign", href: "#services" },
-  { label: "Teeth Whitening", href: "#services" },
-  { label: "Emergency Appointment", href: "#services" },
-  { label: "Root Canal Treatment", href: "#services" },
-  { label: "Orthodontics", href: "#services" },
-  { label: "Crowns & Bridges", href: "#services" },
-  { label: "Periodontics", href: "#services" },
-  { label: "Laser Dentistry", href: "#services" },
-  { label: "Dermal Fillers", href: "#services" },
-  { label: "Botox® Cosmetics", href: "#services" },
+  { label: "Dental Implants", href: "/service" },
+  { label: "Cosmetic Dentistry", href: "/service" },
+  { label: "Invisalign", href: "/service" },
+  { label: "Teeth Whitening", href: "/service" },
+  { label: "Emergency Appointment", href: "/service" },
+  { label: "Root Canal Treatment", href: "/service" },
+  { label: "Orthodontics", href: "/service" },
+  { label: "Crowns & Bridges", href: "/service" },
+  { label: "Periodontics", href: "/service" },
+  { label: "Laser Dentistry", href: "/service" },
+  { label: "Dermal Fillers", href: "/service" },
+  { label: "Botox® Cosmetics", href: "/service" },
 ] as const;
 
 const social = [
