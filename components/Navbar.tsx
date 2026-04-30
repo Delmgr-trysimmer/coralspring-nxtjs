@@ -72,7 +72,7 @@ const navigation: NavigationItem[] = [
     ],
   },
   { label: "Location & Hours", href: "/office-hours" },
-  { label: "Blog", href: "/blog" },
+  // { label: "Blog", href: "/blog" },
   {
     label: "Success Stories", href: "/testimonials", sublinks: [
       { label: "Smile Gallery", href: "/smile-gallery" },
@@ -220,7 +220,7 @@ export default function Navbar() {
             size="default"
             className="ml-2 bg-linear-to-r from-brand-light via-brand to-brand-muted text-white shadow-[0_14px_40px_rgba(198,81,42,0.32),0_10px_34px_rgba(158,61,36,0.22)] transition-all duration-300 hover:-translate-y-0.5 hover:from-[#e8896f] hover:via-[#ce5c38] hover:to-[#a63d22] hover:shadow-[0_18px_48px_rgba(223,122,88,0.34),0_12px_40px_rgba(198,81,42,0.28)]"
           >
-            <Link href="#contact-us">Book Appointment</Link>
+            <Link href="https://ib4.me/d6lF-HX" target="_blank">Book Appointment</Link>
           </Button>
 
           <Button

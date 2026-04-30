@@ -123,7 +123,8 @@ export default function Footer() {
           {/* CTA + phone + social */}
           <div className="flex flex-col items-start lg:items-end lg:text-right">
             <Link
-              href="#contact-us"
+              href="https://ib4.me/d6lF-HX"
+              target="_blank"
               className="inline-flex items-center justify-center gap-2 rounded-full bg-[#1a2e3d] px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#243d52]"
             >
               <Calendar className="size-4 shrink-0" aria-hidden />

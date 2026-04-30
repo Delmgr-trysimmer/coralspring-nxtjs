@@ -17,9 +17,9 @@ const sora = Sora({
 });
 
 export const metadata: Metadata = {
-  title: "Dentist Coral Springs | Premium Dental Care",
+  title: "Dentist in Coral Springs | Coral Springs Dentist | Affordable Dentistry in Coral Springs | Dental Clinic",
   description:
-    "Premium dental implants, cosmetic dentistry, and gentle family care in Coral Springs.",
+    "Looking for an affordable dentist near Coral Springs, FL? Find the best dentistry led by Dr. Payal in the Coral Springs community! Our dental office is clean and hygienic, welcoming new patients.",
 };
 
 export default function RootLayout({
