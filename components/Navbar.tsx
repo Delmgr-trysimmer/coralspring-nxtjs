@@ -72,6 +72,7 @@ const navigation: NavigationItem[] = [
     ],
   },
   { label: "Location & Hours", href: "/office-hours" },
+  { label: "Blog", href: "/blog" },
   {
     label: "Success Stories", href: "/testimonials", sublinks: [
       { label: "Smile Gallery", href: "/smile-gallery" },

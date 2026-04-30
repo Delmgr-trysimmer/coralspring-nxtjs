@@ -47,7 +47,7 @@ export default function PageBanner({
   tagline,
   title,
   breadcrumbLabel,
-  homeHref = "/#home",
+  homeHref = "/",
   backgroundImageSrc = "/images/visit-a-dentist.webp",
   waveFillClassName = "text-white",
   titleClassName,
@@ -76,11 +76,7 @@ export default function PageBanner({
       </div>
 
       <div className="relative mx-auto max-w-7xl px-4 pb-12 pt-24 text-center sm:px-6 sm:pb-14 sm:pt-28 lg:px-8 lg:pb-16 lg:pt-32">
-        {tagline ? (
-          <p className="text-sm font-semibold uppercase tracking-[0.24em] text-brand-light sm:text-base">
-            {tagline}
-          </p>
-        ) : null}
+        
         <h1
           className={cn(
             "font-display text-3xl font-semibold leading-tight text-white sm:text-4xl lg:text-5xl",

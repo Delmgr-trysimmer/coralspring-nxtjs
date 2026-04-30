@@ -8,6 +8,10 @@ export type ServiceContentBlock =
   | { type: "heading"; level: 2 | 3; text: string }
   | { type: "list"; ordered?: boolean; items: string[] }
   | {
+      type: "faq";
+      items: Array<{ question: string; answer: string }>;
+    }
+  | {
       type: "image";
       src: string;
       alt: string;
@@ -35,8 +39,6 @@ export type ServicePageDoc = {
   tagline?: string;
   /** Main hero / document title. */
   title: string;
-  /** Breadcrumb label (can be shorter than `title`). */
-  breadcrumbLabel?: string;
   video?: ServiceVideo;
   content: ServiceContentBlock[];
 };

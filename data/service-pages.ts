@@ -16,8 +16,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
         "If you are looking for teeth whitening, veneers, Invisalign, or any other cosmetic dental treatments in Coral Springs, FL, visit Coral Springs Smiles, and we will provide customized treatment plans for your needs!",
     },
     tagline: "Have A Perfect Smile!",
-    title: "Cosmetic Dentist in Coral Springs",
-    breadcrumbLabel: "Cosmetic Dentistry",
+    title: "Cosmetic Dentist",
     video: { kind: "mp4", src: "/videos/cosmetic-dentistry.mp4" },
     content: [
       {
@@ -104,8 +103,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
       description:
         "Improve your smile with the best dental crowns in Coral Springs. Call (954) 757-5353 to schedule an appointment.",
     },
-    title: "Dental Crowns in Coral Springs",
-    breadcrumbLabel: "Crowns & Bridges",
+    title: "Dental Crowns",
     video: { kind: "mp4", src: "/videos/crowns-and-bridges.mp4" },
     content: [
       { type: "heading", level: 2, text: "Dental Crowns and Bridges" },
@@ -186,8 +184,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
       description:
         "Dr. Payal Anand offers the best dental implant treatments in and near Coral Springs, FL. Learn about the implant process and discover why dental implants are the right choice for you!",
     },
-    title: "Dental Implants in Coral Springs",
-    breadcrumbLabel: "Dental Implants",
+    title: "Dental Implants",
     video: { kind: "mp4", src: "/videos/dental-implant.mp4" },
     content: [
       {
@@ -376,8 +373,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
       description:
         "Looking for top-quality endodontics services in Coral Springs? Our expert team offers advanced treatments to save your teeth and improve your oral health.",
     },
-    title: "Endodontic Treatment in Coral Springs",
-    breadcrumbLabel: "Endodontics",
+    title: "Endodontic Treatment",
     video: { kind: "mp4", src: "/videos/root-canal.mp4" },
     content: [
       { type: "heading", level: 2, text: "What is endodontics?" },
@@ -421,8 +417,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
       description:
         "Book your appointment at (954) 757-5353 for best orthodontist treatment near Coral Springs, FL. Braces & Invisalign",
     },
-    title: "Orthodontist in Coral Springs",
-    breadcrumbLabel: "Orthodontics",
+    title: "Orthodontist",
     video: { kind: "mp4", src: "/videos/orthodontics.mp4" },
     content: [
       { type: "heading", level: 2, text: "Orthodontics" },
@@ -447,8 +442,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
       description:
         "Safe and gentle tooth extraction in Coral Springs. Expert dentists, advanced care, and pain-free treatment. Book your consultation today.",
     },
-    title: "Tooth Extraction in Coral Springs",
-    breadcrumbLabel: "Tooth Extraction",
+    title: "Tooth Extraction",
     video: {
       kind: "gif",
       src: "/videos/tooth-extraction.gif",
@@ -716,8 +710,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
       description:
         "Want a brighter smile? Teeth whitening at Coral Springs Smiles can remove stains and lighten your teeth, giving you a more confident, radiant smile!",
     },
-    title: "Teeth Whitening Coral Springs",
-    breadcrumbLabel: "Teeth Whitening",
+    title: "Teeth Whitening",
     video: { kind: "mp4", src: "/videos/teeth-whitening.mp4" },
     content: [
       { type: "heading", level: 2, text: "Teeth Whitening" },
@@ -775,8 +768,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
       description:
         "If you are looking for an invisalign dentist near me, then choose Coral Springs Smiles in Florida. Get the best invisalign treatment in Cora Springs, FL. Call us (954) 757-5353 for an appointment",
     },
-    title: "Invisalign in Coral Springs",
-    breadcrumbLabel: "Invisalign",
+    title: "Invisalign",
     video: { kind: "mp4", src: "/videos/invisalign.mp4" },
     content: [
       { type: "heading", level: 2, text: "Invisalign" },
@@ -832,8 +824,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
       description:
         "Achieve a more youthful look with dermal fillers in Coral Springs. Our experienced team of professionals at Coral Springs Smiles can help you enhance your natural beauty. Book an appointment now.",
     },
-    title: "Dermal Fillers in Coral Springs",
-    breadcrumbLabel: "Dermal Fillers",
+    title: "Dermal Fillers",
     video: { kind: "mp4", src: "/videos/dermal-fillers-coral-springs.mp4" },
     content: [
       { type: "heading", level: 2, text: "Dermal Fillers" },
@@ -896,8 +887,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
       description:
         "Trusted Botox specialist in Coral Springs. Visit us and transform your skin's appearance and say goodbye to wrinkles and fine lines.",
     },
-    title: "Botox in Coral Springs",
-    breadcrumbLabel: "Botox® Cosmetics",
+    title: "Botox",
     video: { kind: "mp4", src: "/videos/botox-coral-springs.mp4" },
     content: [
       { type: "heading", level: 2, text: "Botox® Cosmetic" },
@@ -953,8 +943,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
       description:
         "Looking for a pediatric dentist in Coral Springs, FL 33065? Coral Springs Smiles offers expert dental care for kids in a welcoming, child-friendly environment. Book your appointment at (954) 757-5353",
     },
-    title: "Pediatric Dentist in Coral Springs",
-    breadcrumbLabel: "Kids Dentistry",
+    title: "Pediatric Dentist",
     content: [
       {
         type: "paragraph",
@@ -1074,8 +1063,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
       description:
         "Get stunning porcelain veneers at Coral Springs Smiles in Coral Springs FL. Restore your smile with natural results. Book your consultation today.",
     },
-    title: "Porcelain Veneers in Coral Springs",
-    breadcrumbLabel: "Porcelain Veneers",
+    title: "Porcelain Veneers",
     video: { kind: "mp4", src: "/videos/veneers.mp4" },
     content: [
       { type: "heading", level: 2, text: "Porcelain Veneers" },
@@ -1142,8 +1130,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
       description:
         "Don't let gum disease ruin your smile! Our Coral Springs periodontics experts are here to help. Say hello to healthy gums and book your appointment today.",
     },
-    title: "Periodontics in Coral Springs",
-    breadcrumbLabel: "Periodontics",
+    title: "Periodontics",
     content: [
       { type: "heading", level: 2, text: "Periodontics" },
       {
@@ -1253,7 +1240,6 @@ const SERVICE_PAGES: ServicePageDoc[] = [
         "Trust our expert periodontist services in Coral Springs for effective gum disease treatment. Get relief from symptoms and prevent further damage to your teeth and gums.",
     },
     title: "Gum Disease Treatment",
-    breadcrumbLabel: "Gum Disease Treatment",
     content: [
       { type: "heading", level: 2, text: "Causes of Gum Disease" },
       {
@@ -1366,8 +1352,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
       description:
         "Get comprehensive deep cleaning services for your teeth and gums at Coral Springs Smiles. Our experienced dentists provide the best dental cleaning services in Coral Springs.",
     },
-    title: "Deep Cleaning Services in Coral Springs",
-    breadcrumbLabel: "Deep Cleaning",
+    title: "Deep Cleaning Services",
     content: [
       { type: "heading", level: 2, text: "Deep Cleaning" },
       {
@@ -1389,8 +1374,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
       description:
         "Coral Springs Smiles offers scaling and root planing treatment to treat gum disease and prevent tooth loss. Get the best dental care services in Coral Springs.",
     },
-    title: "Scaling & Root Planing in Coral Springs",
-    breadcrumbLabel: "Scaling & Root Planing",
+    title: "Scaling & Root Planing",
     content: [
       {
         type: "paragraph",
@@ -1466,8 +1450,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
       description:
         "Get the best peri-implantitis treatment in Coral Springs, FL, at Coral Springs Smiles. Our experienced dental team provides comprehensive dental care services to restore your oral health.",
     },
-    title: "Peri-Implantitis Treatment in Coral Springs",
-    breadcrumbLabel: "Peri-Implantitis",
+    title: "Peri-Implantitis Treatment",
     content: [
       { type: "heading", level: 2, text: "What is it?" },
       {
@@ -1509,8 +1492,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
       description:
         "When you need a emergency dental tretment in in coral springs, our skilled dentist team in coral springs provide a effective care. Call (954) 757-5353",
     },
-    title: "Emergency Dentist in Coral Springs",
-    breadcrumbLabel: "Emergency Dentist",
+    title: "Emergency Dentist",
     video: {
       kind: "mp4",
       src: "/videos/emergency-dentist-coral-springs.mp4",
@@ -1542,8 +1524,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
       description:
         "Coral Springs Smiles offers state-of-the-art laser dentistry services, providing a comfortable and efficient dental experience for patients. Visit us today!",
     },
-    title: "Laser Dentistry in Coral Springs",
-    breadcrumbLabel: "Laser Dentistry",
+    title: "Laser Dentistry",
     video: { kind: "youtube", videoId: "hB81VF43oWI" },
     content: [
       { type: "heading", level: 2, text: "Laser Dentistry" },
@@ -1618,8 +1599,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
       description:
         "Coral Springs Smiles offers LANAP laser gum treatment, a minimally invasive and effective procedure for treating gum disease. Schedule your appointment now!",
     },
-    title: "LANAP Laser Gum Treatment in Coral Springs",
-    breadcrumbLabel: "LANAP",
+    title: "LANAP Laser Gum Treatment",
     video: { kind: "mp4", src: "/videos/lanap.mp4" },
     content: [
       { type: "heading", level: 2, text: "LANAP Laser Treatment" },
@@ -1664,8 +1644,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
       description:
         "Coral Springs Smiles offers PIPS laser dentistry, a revolutionary and painless treatment for gum disease. Contact us today to schedule your consultation!",
     },
-    title: "PIPS Laser Dentistry in Coral Springs",
-    breadcrumbLabel: "PIPS",
+    title: "PIPS Laser Dentistry",
     video: { kind: "mp4", src: "/videos/pips.mp4" },
     content: [
       {
@@ -1730,8 +1709,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
       description:
         "Dr. Payal Anand, with over 16 years of experience, offers expert gum disease treatment at Coral Springs Smiles. We provide comprehensive solutions to restore your gum health.",
     },
-    title: "Periodontist in Coral Springs",
-    breadcrumbLabel: "Periodontist",
+    title: "Periodontist",
     video: { kind: "youtube", videoId: "HXC_1Ezywa0" },
     content: [
       {

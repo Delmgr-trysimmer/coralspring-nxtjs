@@ -124,7 +124,7 @@ export default function Hero() {
           initial={reduceMotion ? false : { opacity: 0, scale: 0.97 }}
           animate={reduceMotion ? {} : { opacity: 1, scale: 1 }}
           transition={{ duration: 0.72, ease: [0.16, 1, 0.3, 1], delay: 0.18 }}
-          className="relative isolate mx-auto w-full max-w-[560px]"
+          className="relative isolate mx-auto w-full max-w-[520px] lg:mt-6"
           data-parallax="soft"
         >
           <div className="pointer-events-none absolute inset-x-[14%] bottom-8 top-10 z-0 rounded-full bg-[rgba(0,174,239,0.22)] blur-[100px]" />
