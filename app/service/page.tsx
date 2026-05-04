@@ -25,24 +25,24 @@ const SERVICE_ITEMS: ServiceCard[] = [
     src: "/images/your-first-visit.png",
     alt: "Patient comfortable in the dental chair on a first visit",
   },
-  {
-    title: "Kids Dentist",
-    src: "/images/your-first-visit.png",
-    alt: "Child-friendly pediatric dental care in Coral Springs",
-    href: "/kids-dentist",
-  },
+  // {
+  //   title: "Kids Dentist",
+  //   src: "/images/your-first-visit.png",
+  //   alt: "Child-friendly pediatric dental care in Coral Springs",
+  //   href: "/kids-dentist",
+  // },
   {
     title: "Cosmetic Dentistry",
     src: "/images/Cosmetic-Dentistry.jpg",
     alt: "Cosmetic dentistry smile shade evaluation",
     href: "/cosmetic-dentistry",
   },
-  {
-    title: "Porcelain Veneers",
-    src: "/images/Cosmetic-Dentistry.jpg",
-    alt: "Porcelain veneers for a natural-looking smile",
-    href: "/veneers",
-  },
+  // {
+  //   title: "Porcelain Veneers",
+  //   src: "/images/Cosmetic-Dentistry.jpg",
+  //   alt: "Porcelain veneers for a natural-looking smile",
+  //   href: "/veneers",
+  // },
   {
     title: "Crowns & Bridges",
     src: "/images/Crowns-Bridges.jpg",
@@ -56,22 +56,10 @@ const SERVICE_ITEMS: ServiceCard[] = [
     href: "/dental-implant",
   },
   {
-    title: "Peri-Implantitis",
-    src: "/images/Dental-Implants.jpg",
-    alt: "Peri-implantitis treatment and dental implant care",
-    href: "/peri-implantitis",
-  },
-  {
     title: "Root Canal Treatment",
     src: "/images/Root-Canal.jpg",
     alt: "Root canal treatment care",
     href: "/endodontics",
-  },
-  {
-    title: "PIPS Laser Root Canal",
-    src: "/images/Root-Canal.jpg",
-    alt: "PIPS laser-assisted root canal treatment",
-    href: "/pips",
   },
   {
     title: "Orthodontics",
@@ -110,52 +98,16 @@ const SERVICE_ITEMS: ServiceCard[] = [
     href: "/emergency-dentist-coral-springs",
   },
   {
-    title: "Tooth Extraction",
-    src: "/images/dental-diagnostics.png",
-    alt: "Tooth extraction and dental evaluation",
-    href: "/tooth-extraction",
-  },
-  {
     title: "Laser Dentistry",
     src: "/images/Laser-Dentistry.jpg",
     alt: "Laser dentistry procedure",
     href: "/laser-dentistry",
   },
   {
-    title: "LANAP Gum Treatment",
-    src: "/images/Laser-Dentistry.jpg",
-    alt: "LANAP laser gum disease treatment",
-    href: "/lanap",
-  },
-  {
     title: "Periodontics",
     src: "/images/Periodontics.jpg",
     alt: "Periodontal gum health care",
     href: "/periodontics",
-  },
-  {
-    title: "Periodontist",
-    src: "/images/Periodontics.jpg",
-    alt: "Periodontist and gum disease care in Coral Springs",
-    href: "/periodontist",
-  },
-  {
-    title: "Gum Disease Treatment",
-    src: "/images/Periodontics.jpg",
-    alt: "Gum disease treatment and periodontal care",
-    href: "/gum-disease-treatment",
-  },
-  {
-    title: "Deep Cleaning",
-    src: "/images/dental-diagnostics.png",
-    alt: "Dental deep cleaning and scaling and root planing",
-    href: "/deep-cleaning",
-  },
-  {
-    title: "Scaling & Root Planing",
-    src: "/images/Periodontics.jpg",
-    alt: "Scaling and root planing periodontal treatment",
-    href: "/scaling-root-planing",
   },
 ];
 
@@ -216,7 +168,7 @@ export default function ServicePage() {
                   {item.href ? (
                     <Link
                       href={item.href}
-                      className="block rounded-2xl outline-offset-4 transition-opacity hover:opacity-95 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand"
+                      className="block rounded-2xl outline-offset-4 transition-opacity hover:opacity-95 focus-visible:outline-2 focus-visible:outline-brand"
                     >
                       {card}
                     </Link>
