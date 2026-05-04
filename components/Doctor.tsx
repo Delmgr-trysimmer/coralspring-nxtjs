@@ -105,7 +105,7 @@ export default function Doctor() {
 
           <Reveal delay={0.48}>
             <Button asChild variant="outline" size="lg" className="mt-8">
-              <Link href="#contact-us">
+              <Link href="/about-us">
                 Read More
                 <ArrowRight className="size-4" />
               </Link>

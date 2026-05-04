@@ -59,7 +59,7 @@ export default function WhyChoose() {
               </p>
 
               <Button asChild className="mt-8">
-                <Link href="#contact-us">Contact Us</Link>
+                <Link href="/contact-us">Contact Us</Link>
               </Button>
             </div>
           </Reveal>

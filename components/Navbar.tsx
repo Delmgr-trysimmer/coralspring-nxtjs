@@ -162,7 +162,7 @@ export default function Navbar() {
         )}
       >
         <Link
-          href="#home"
+          href="/"
           className="relative flex shrink-0 items-center justify-center rounded-2xl px-2 py-1 ring-offset-background transition-shadow hover:shadow-[0_0_36px_rgba(0,174,239,0.2),0_0_48px_rgba(198,81,42,0.14)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-light/45 focus-visible:ring-offset-2 focus-visible:ring-offset-[#003d54]"
         >
           <Image

@@ -1,0 +1,524 @@
+import Navbar from "@/components/Navbar";
+import type { Metadata } from "next";
+import Image from "next/image";
+
+type ServiceSection = {
+  title: string;
+  image: string;
+  paragraphs: string[];
+  list?: string[];
+  listAfterParagraph: number;
+};
+
+type HighlightSection = {
+  title: string;
+  image: string;
+  paragraphs: string[];
+  list?: string[];
+  listAfterParagraph: number;
+};
+
+export const metadata: Metadata = {
+  title: "Dentist in Parkland, FL | Coral Springs Smiles Dental Care",
+  description:
+    "Looking for a dentist in Parkland, FL? Coral Springs Smiles offers cosmetic dentistry, dental implants, Invisalign, and emergency dental care.",
+  alternates: {
+    canonical: "/dentist-in-parkland",
+  },
+};
+
+const introParagraphs = [
+  "If you are searching for a dentist in Parkland, FL, the team at Coral Springs Smiles provides comprehensive dental care for individuals and families.",
+  "Many patients in Parkland seeking a dentist choose our dental office for preventive care, cosmetic dentistry, and restorative treatments. Our focus is on helping patients maintain long-term oral health through modern dental technology and personalized treatment plans.",
+  "Whether you need routine dental exams, orthodontic treatment, dental implants, or gum disease therapy, our team provides comfortable, effective care for every patient.",
+];
+
+const services: ServiceSection[] = [
+  {
+    title: "Cosmetic Dentistry",
+    image: "/images/Cosmetic-Dentistry.jpg",
+    paragraphs: [
+      "Cosmetic dentistry treatments are designed to enhance the appearance of your smile while maintaining healthy teeth and gums.",
+      "Our cosmetic dental services include:",
+      "These treatments help improve tooth color, alignment, and symmetry, creating a brighter and more confident smile.",
+    ],
+    list: [
+      "Professional teeth whitening",
+      "Dental veneers",
+      "Cosmetic bonding",
+      "Smile makeover treatments",
+      "Invisalign clear aligners",
+    ],
+    listAfterParagraph: 1,
+  },
+  {
+    title: "Dental Crowns and Bridges",
+    image: "/images/Crowns-Bridges.jpg",
+    paragraphs: [
+      "Dental crowns and bridges are commonly used to restore damaged or missing teeth.",
+      "A dental crown protects and strengthens a weakened tooth while restoring its natural shape.",
+      "A dental bridge replaces missing teeth by filling the gap with a custom dental restoration supported by nearby teeth.",
+      "Both treatments help restore proper function and maintain dental alignment.",
+    ],
+    listAfterParagraph: -1,
+  },
+  {
+    title: "Dental Implants",
+    image: "/images/Dental-Implants.jpg",
+    paragraphs: [
+      "Dental implants are a long-lasting option for replacing missing teeth. The implant is placed in the jawbone and serves as a strong foundation for a dental crown.",
+      "Benefits of dental implants include:",
+      "Patients searching for a dentist in Parkland for dental implants often choose this solution because of its stability and natural results.",
+    ],
+    list: [
+      "Natural appearance",
+      "Improved chewing ability",
+      "Long-term durability",
+      "Support for jawbone health",
+    ],
+    listAfterParagraph: 1,
+  },
+  {
+    title: "Root Canal Treatment",
+    image: "/images/Root-Canal.jpg",
+    paragraphs: [
+      "Root canal therapy is performed when the inner pulp of a tooth becomes infected or inflamed.",
+      "During the procedure, the infection is removed, and the tooth is sealed to restore its function while preserving the natural tooth structure.",
+      "Modern root canal treatments are safe and effective in relieving pain and protecting oral health.",
+    ],
+    listAfterParagraph: -1,
+  },
+  {
+    title: "Orthodontics and Invisalign",
+    image: "/images/Invisalign.jpg",
+    paragraphs: [
+      "Orthodontic treatment helps correct crooked teeth and bite alignment issues.",
+      "Our dental office provides:",
+      "Invisalign uses transparent aligners to gradually move teeth into proper alignment while remaining discreet and comfortable.",
+    ],
+    list: ["Orthodontic treatment", "Invisalign clear aligners"],
+    listAfterParagraph: 1,
+  },
+  {
+    title: "Teeth Whitening",
+    image: "/images/Teeth-Whitening.jpg",
+    paragraphs: [
+      "Professional teeth whitening treatments remove stains caused by food, beverages, and natural aging.",
+      "These treatments help brighten your smile and improve its overall appearance of your smile.",
+    ],
+    listAfterParagraph: -1,
+  },
+  {
+    title: "Dental Veneers",
+    image: "/blog/dental-veneers-in-coral-springs-fl.jpg",
+    paragraphs: [
+      "Dental veneers are thin porcelain shells placed over the front surface of teeth to improve their appearance.",
+      "Veneers are commonly used to correct chipped teeth, discoloration, minor gaps, and uneven tooth shapes.",
+    ],
+    listAfterParagraph: -1,
+  },
+];
+
+const highlightSections: HighlightSection[] = [
+  {
+    title: "Periodontal Care – Gum Disease Treatment",
+    image: "/images/Periodontics.jpg",
+    paragraphs: [
+      "Healthy gums are essential for maintaining strong teeth and overall oral health.",
+      "Patients searching for periodontal care from a dentist in Parkland can receive treatment for gum disease at Coral Springs Smiles.",
+      "Our periodontal services include:",
+      "Early treatment helps protect both the teeth and the supporting bone structures.",
+    ],
+    list: [
+      "Diagnosis of gum disease",
+      "Scaling and root planing",
+      "Periodontal maintenance therapy",
+      "Treatment for gum infections",
+      "Preventive gum care programs",
+    ],
+    listAfterParagraph: 2,
+  },
+  {
+    title: "Pediatric Dentistry",
+    image: "/blog/prepare-kids-first-dental-visit.jpg",
+    paragraphs: [
+      "Our pediatric dental services provide comfortable and gentle dental care for children. Early dental visits help monitor dental development and encourage healthy oral hygiene habits.",
+    ],
+    listAfterParagraph: -1,
+  },
+  {
+    title: "Laser Dentistry",
+    image: "/images/Laser-Dentistry.jpg",
+    paragraphs: [
+      "Laser dentistry allows certain dental procedures to be performed with improved precision and minimal discomfort. This technology can also help reduce recovery time following treatment.",
+    ],
+    listAfterParagraph: -1,
+  },
+  {
+    title: "Dermal Fillers and Botox® Cosmetics",
+    image: "/images/Botox-Cosmetics.jpg",
+    paragraphs: [
+      "In addition to dental treatments, Coral Springs Smiles offers facial aesthetic services including dermal fillers and Botox® cosmetics to complement your smile and enhance facial appearance.",
+    ],
+    listAfterParagraph: -1,
+  },
+  {
+    title: "Emergency Dentist in Parkland",
+    image: "/images/Dental-Emergencies.jpg",
+    paragraphs: [
+      "Dental emergencies require prompt care to relieve pain and prevent complications.",
+      "Patients looking for an emergency dentist in Parkland can receive treatment for conditions such as:",
+      "Our dental team provides timely care to address urgent dental problems.",
+    ],
+    list: [
+      "Severe tooth pain",
+      "Broken or chipped teeth",
+      "Knocked-out teeth",
+      "Dental infections",
+      "Swelling or oral injuries",
+    ],
+    listAfterParagraph: 1,
+  },
+];
+
+const reasons = [
+  {
+    title: "Experienced Dental Team",
+    text: "Our dental professionals provide preventive, cosmetic, restorative, and periodontal treatments.",
+  },
+  {
+    title: "Advanced Dental Technology",
+    text: "Modern equipment and diagnostic tools help improve treatment accuracy and patient comfort.",
+  },
+  {
+    title: "Personalized Dental Care",
+    text: "Every treatment plan is customized according to the patient’s individual oral health needs.",
+  },
+  {
+    title: "Comfortable Dental Environment",
+    text: "Our office is designed to create a welcoming and relaxing experience for every patient.",
+  },
+];
+
+const faqs = [
+  {
+    question: "Do you accept new patients from Parkland?",
+    answer:
+      "Yes. Coral Springs Smiles welcomes new patients searching for a dentist in Parkland and nearby communities.",
+  },
+  {
+    question: "Do you provide gum disease treatment?",
+    answer:
+      "Yes. We offer periodontal care, including scaling and root planing, periodontal maintenance, and preventive gum treatments.",
+  },
+  {
+    question: "What dental services do you offer?",
+    answer:
+      "Our services include cosmetic dentistry, dental implants, crowns and bridges, root canal treatment, orthodontics, Invisalign, teeth whitening, veneers, pediatric dentistry, periodontal care, and emergency dental services.",
+  },
+  {
+    question: "Do you provide emergency dental appointments?",
+    answer:
+      "Yes. Our dental team provides prompt care for dental emergencies, including severe tooth pain, dental trauma, and infections.",
+  },
+];
+
+function TextList({ items }: { items: string[] }) {
+  return (
+    <ul className="mt-4 grid gap-2 text-sm leading-relaxed text-slate-600 sm:grid-cols-2">
+      {items.map((item) => (
+        <li key={item} className="flex gap-2">
+          <span
+            className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-brand"
+            aria-hidden
+          />
+          <span>{item}</span>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+function ServiceCard({ service }: { service: ServiceSection }) {
+  return (
+    <article className="overflow-hidden rounded-xl border border-slate-200 bg-white shadow-[0_18px_45px_rgba(15,23,42,0.08)]">
+      <div className="relative h-48 bg-slate-100">
+        <Image
+          src={service.image}
+          alt=""
+          fill
+          className="object-cover"
+          sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+        />
+        <div
+          className="absolute inset-0 bg-linear-to-t from-[#003d54]/55 to-transparent"
+          aria-hidden
+        />
+      </div>
+      <div className="p-5">
+        <h3 className="font-display text-xl font-semibold text-slate-950">
+          {service.title}
+        </h3>
+        <div className="mt-4 space-y-3 text-sm leading-relaxed text-slate-600">
+          {service.paragraphs.map((paragraph, index) => (
+            <div key={paragraph}>
+              <p>{paragraph}</p>
+              {service.list && service.listAfterParagraph === index ? (
+                <TextList items={service.list} />
+              ) : null}
+            </div>
+          ))}
+        </div>
+      </div>
+    </article>
+  );
+}
+
+function HighlightBlock({
+  section,
+  index,
+}: {
+  section: HighlightSection;
+  index: number;
+}) {
+  const image = (
+    <div className="relative min-h-72 overflow-hidden rounded-xl bg-slate-100 shadow-[0_18px_45px_rgba(15,23,42,0.12)]">
+      <Image
+        src={section.image}
+        alt=""
+        fill
+        className="object-cover"
+        sizes="(min-width: 1024px) 42vw, 100vw"
+      />
+    </div>
+  );
+
+  const copy = (
+    <div>
+      <h2 className="font-display text-2xl font-semibold tracking-tight text-slate-950 sm:text-3xl">
+        {section.title}
+      </h2>
+      <div className="mt-5 space-y-4 text-base leading-relaxed text-slate-600">
+        {section.paragraphs.map((paragraph, paragraphIndex) => (
+          <div key={paragraph}>
+            <p>{paragraph}</p>
+            {section.list && section.listAfterParagraph === paragraphIndex ? (
+              <TextList items={section.list} />
+            ) : null}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+
+  return (
+    <section className="grid gap-8 lg:grid-cols-2 lg:items-center">
+      {index % 2 === 0 ? (
+        <>
+          {copy}
+          {image}
+        </>
+      ) : (
+        <>
+          <div className="lg:order-2">{copy}</div>
+          <div className="lg:order-1">{image}</div>
+        </>
+      )}
+    </section>
+  );
+}
+
+export default function DentistInParklandPage() {
+  return (
+    <>
+      <Navbar />
+      <main className="bg-white text-slate-900">
+        <section className="relative isolate overflow-hidden bg-[#003d54] pt-24">
+          <Image
+            src="/images/dental-care.webp"
+            alt=""
+            fill
+            priority
+            className="z-0 object-cover opacity-30"
+            sizes="100vw"
+          />
+          <div className="absolute inset-0 z-0 bg-linear-to-br from-[#003d54]/96 via-[#005f82]/88 to-[#003d54]/94" />
+          <div className="relative z-10 mx-auto grid max-w-7xl gap-10 px-4 pb-16 pt-20 sm:px-6 sm:pb-20 sm:pt-24 lg:grid-cols-[minmax(0,1fr)_420px] lg:items-center lg:px-8 lg:pt-28">
+            <div>
+              <h1 className="font-display text-3xl font-semibold leading-tight tracking-tight text-white sm:text-4xl lg:text-5xl">
+                Dentist in Parkland, FL – Trusted Dental Care for Healthy Smiles
+              </h1>
+              <div className="mt-7 space-y-5 text-base leading-relaxed text-white/88 sm:text-lg">
+                {introParagraphs.map((paragraph) => (
+                  <p key={paragraph}>{paragraph}</p>
+                ))}
+              </div>
+            </div>
+            <div className="relative overflow-hidden rounded-xl border border-white/15 bg-white/10 p-2 shadow-[0_24px_70px_rgba(0,23,35,0.35)] backdrop-blur">
+              <Image
+                src="/images/your-first-visit.png"
+                alt=""
+                width={640}
+                height={720}
+                className="h-[420px] w-full rounded-lg object-cover"
+                priority
+              />
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-[linear-gradient(180deg,#ffffff_0%,#eef8fb_55%,#ffffff_100%)] py-16 sm:py-20">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="mx-auto max-w-3xl rounded-2xl border border-slate-200/80 bg-white/90 p-6 text-center shadow-[0_20px_60px_rgba(15,23,42,0.08)] backdrop-blur sm:p-8">
+              <h2 className="font-display text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl">
+                Dental Services Available for Patients from Parkland
+              </h2>
+              <div className="mt-5 flex justify-center" aria-hidden>
+                <span className="h-1 w-20 rounded-full bg-brand" />
+              </div>
+              <p className="mt-6 text-lg leading-relaxed text-slate-600">
+                At Coral Springs Smiles, we offer a wide range of dental
+                treatments designed to protect oral health, restore damaged
+                teeth, and improve the appearance of your smile.
+              </p>
+            </div>
+
+            <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {services.map((service) => (
+                <ServiceCard key={service.title} service={service} />
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <div className="bg-[linear-gradient(180deg,#f3fbfd_0%,#ffffff_100%)] py-16 sm:py-20">
+          <div className="mx-auto grid max-w-7xl gap-14 px-4 sm:px-6 lg:px-8">
+            {highlightSections.map((section, index) => (
+              <HighlightBlock key={section.title} section={section} index={index} />
+            ))}
+          </div>
+        </div>
+
+        <section className="py-16 sm:py-20">
+          <div className="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 lg:grid-cols-[420px_minmax(0,1fr)] lg:items-center lg:px-8">
+            <div className="relative overflow-hidden rounded-xl bg-slate-100 shadow-[0_18px_45px_rgba(15,23,42,0.12)]">
+              <Image
+                src="/payal-anand.webp"
+                alt=""
+                width={640}
+                height={760}
+                className="h-[420px] w-full object-cover object-top"
+              />
+            </div>
+            <div>
+              <h2 className="font-display text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl">
+                Meet Dr. Payal Anand, DDS
+              </h2>
+              <div className="mt-6 space-y-4 text-lg leading-relaxed text-slate-600">
+                <p>
+                  Dr. Payal Anand is an experienced dentist with more than 16
+                  years of clinical experience.
+                </p>
+                <p>
+                  She focuses on providing personalized dental care using modern
+                  techniques and advanced dental technology to help patients
+                  maintain healthy smiles.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-[#003d54] py-16 text-white sm:py-20">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
+              <div>
+                <h2 className="font-display text-3xl font-semibold tracking-tight sm:text-4xl">
+                  Why Patients Choose Our Dentist in Parkland
+                </h2>
+                <p className="mt-6 text-lg leading-relaxed text-white/82">
+                  Patients searching for a dentist in Parkland choose Coral
+                  Springs Smiles for quality dental care and a patient-focused
+                  approach.
+                </p>
+              </div>
+              <div className="grid gap-4 sm:grid-cols-2">
+                {reasons.map((reason) => (
+                  <article
+                    key={reason.title}
+                    className="rounded-xl border border-white/12 bg-white/8 p-5 shadow-[0_18px_45px_rgba(0,23,35,0.16)]"
+                  >
+                    <h3 className="font-display text-lg font-semibold text-white">
+                      {reason.title}
+                    </h3>
+                    <p className="mt-3 text-sm leading-relaxed text-white/78">
+                      {reason.text}
+                    </p>
+                  </article>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 sm:py-20">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="grid gap-10 rounded-2xl border border-slate-200 bg-[linear-gradient(135deg,#ffffff_0%,#f4fbfd_100%)] p-6 shadow-[0_20px_60px_rgba(15,23,42,0.08)] sm:p-8 lg:grid-cols-[1fr_360px] lg:items-center">
+              <div>
+                <h2 className="font-display text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl">
+                  Schedule Your Appointment with a Dentist in Parkland
+                </h2>
+                <div className="mt-6 space-y-4 text-lg leading-relaxed text-slate-600">
+                  <p>
+                    If you are looking for a dentist in Parkland, FL, Coral
+                    Springs Smiles provides dental care focused on maintaining
+                    healthy teeth and confident smiles.
+                  </p>
+                  <p>
+                    Contact our office today to schedule your dental
+                    appointment.
+                  </p>
+                </div>
+              </div>
+              <div className="relative min-h-72 overflow-hidden rounded-xl bg-slate-100">
+                <Image
+                  src="/images/Emergency-Appointment.png"
+                  alt=""
+                  fill
+                  className="object-cover"
+                  sizes="(min-width: 1024px) 360px, 100vw"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-slate-50 py-16 sm:py-20">
+          <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+            <h2 className="text-center font-display text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl">
+              Frequently Asked Questions
+            </h2>
+            <div className="mt-10 space-y-4">
+              {faqs.map((faq) => (
+                <details
+                  key={faq.question}
+                  className="group rounded-xl border border-slate-200 bg-white px-5 py-4 shadow-sm open:border-brand/40 open:shadow-[0_10px_30px_rgba(15,23,42,0.08)]"
+                >
+                  <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-display text-lg font-semibold text-slate-950 marker:content-none">
+                    <span>{faq.question}</span>
+                    <span className="shrink-0 text-2xl leading-none text-brand transition-transform duration-200 group-open:rotate-45">
+                      +
+                    </span>
+                  </summary>
+                  <p className="mt-3 leading-relaxed text-slate-600">
+                    {faq.answer}
+                  </p>
+                </details>
+              ))}
+            </div>
+          </div>
+        </section>
+      </main>
+    </>
+  );
+}

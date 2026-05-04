@@ -33,7 +33,7 @@ const SERVICE_ITEMS: ServiceCard[] = [
   // },
   {
     title: "Cosmetic Dentistry",
-    src: "/images/Cosmetic-Dentistry.jpg",
+    src: "/images/Cosmetic-dentistry.jpg",
     alt: "Cosmetic dentistry smile shade evaluation",
     href: "/cosmetic-dentistry",
   },

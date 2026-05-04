@@ -8,25 +8,53 @@ import { Reveal } from "@/components/motion/Reveal";
 
 const testimonials = [
   {
-    name: "Bruce",
+    name: "Helen Maldonado",
     source: "Google",
     avatar: "/images/blog-1.jpg",
     quote:
-      "I found the entire staff to be friendly and professional and will let Coral Springs Smiles take care of all my family's dental needs.",
+      "Excellent Staff, great beautiful location. Lismary did my routine dental cleaning & did a superb job removing my plaque etc. The Dr is a sweetheart & very professional & knowledgeable. Love this clinic.",
   },
   {
-    name: "Martha",
+    name: "Noemi Castro",
     source: "Google",
     avatar: "/images/blog-2.jpg",
     quote:
-      "Excellent dental office with caring staff, smooth appointments, and thoughtful treatment recommendations. The entire experience felt easy and comfortable.",
+      "It's an office with an outstanding team of professionals. From the doctor to her assistants and secretaries, they treat you like family, and their work is excellent. They are truly special people. If you go, you won't regret it; they will do an exceptional job.",
   },
   {
-    name: "Daniel",
+    name: "Kay “Kay” Smith",
     source: "Google",
     avatar: "/images/blog-3.jpg",
     quote:
-      "From consultation to treatment, Dr. Payal Anand and her team were attentive, patient, and genuinely invested in my long-term dental health.",
+      "My mom always have good experience when she goes",
+  },
+  {
+    name: "Leford Hunt",
+    source: "Google",
+    avatar: "/images/blog-3.jpg",
+    quote:
+      "I had my dental work done including periodontal surgery, dental implants and crown and bridge work. It all came out very nice. I like her very much and are very professional. Her work is excellent. Everyone is super nice including Nicole. I highly recommend coming to coral springs smiles and come check it out.",
+  },
+  {
+    name: "Vera Roundtree",
+    source: "Google",
+    avatar: "/images/blog-3.jpg",
+    quote:
+      "Had implants done four actually and they are excellent!! I highly recommend Dr Anand! she did such a great job! Thank you very, very much! Go and check her out!",
+  },
+  {
+    name: "Herb Drake",
+    source: "Google",
+    avatar: "/images/blog-3.jpg",
+    quote:
+      "i like coming here all the times. Amazing service. I had my extraction and crowns done. all good, no pain. i give my thumbs up and highly recommend this place.",
+  },
+  {
+    name: "Wisney Jean",
+    source: "Google",
+    avatar: "/images/blog-3.jpg",
+    quote:
+      "I had a great experience coming here at this office. The dr is very good, gentle and I had my emergency extractions done at a great price. The staff is great as well. They explained everything to me before starting the procedure and answered all my questions. I highly recommend this place.",
   },
 ];
 

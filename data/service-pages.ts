@@ -657,49 +657,35 @@ const SERVICE_PAGES: ServicePageDoc[] = [
         text: "FAQs About Tooth Extraction",
       },
       {
-        type: "heading",
-        level: 3,
-        text: "1. Is tooth extraction painful?",
-      },
-      {
-        type: "paragraph",
-        text: "No. The procedure is performed under local anesthesia, so you will not feel pain during the extraction.",
-      },
-      {
-        type: "heading",
-        level: 3,
-        text: "2. How long does a tooth extraction take?",
-      },
-      {
-        type: "paragraph",
-        text: "A simple extraction typically takes about 20–40 minutes, depending on the condition of the tooth.",
-      },
-      {
-        type: "heading",
-        level: 3,
-        text: "3. How long does it take to heal after a tooth extraction?",
-      },
-      {
-        type: "paragraph",
-        text: "Initial healing usually takes a few days, while complete healing may take one to two weeks.",
-      },
-      {
-        type: "heading",
-        level: 3,
-        text: "4. Can I eat after a tooth extraction?",
-      },
-      {
-        type: "paragraph",
-        text: "Yes, but it’s recommended to eat soft foods such as yogurt, soup, or mashed potatoes for the first day.",
-      },
-      {
-        type: "heading",
-        level: 3,
-        text: "5. Do I need to replace an extracted tooth?",
-      },
-      {
-        type: "paragraph",
-        text: "In many cases, replacing a missing tooth with a dental implant, bridge, or denture helps maintain proper bite and oral health.",
+        type: "faq",
+        items: [
+          {
+            question: "1. Is tooth extraction painful?",
+            answer:
+              "No. The procedure is performed under local anesthesia, so you will not feel pain during the extraction.",
+          },
+          {
+            question: "2. How long does a tooth extraction take?",
+            answer:
+              "A simple extraction typically takes about 20–40 minutes, depending on the condition of the tooth.",
+          },
+          {
+            question:
+              "3. How long does it take to heal after a tooth extraction?",
+            answer:
+              "Initial healing usually takes a few days, while complete healing may take one to two weeks.",
+          },
+          {
+            question: "4. Can I eat after a tooth extraction?",
+            answer:
+              "Yes, but it’s recommended to eat soft foods such as yogurt, soup, or mashed potatoes for the first day.",
+          },
+          {
+            question: "5. Do I need to replace an extracted tooth?",
+            answer:
+              "In many cases, replacing a missing tooth with a dental implant, bridge, or denture helps maintain proper bite and oral health.",
+          },
+        ],
       },
     ],
   },

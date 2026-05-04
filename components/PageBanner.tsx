@@ -75,7 +75,7 @@ export default function PageBanner({
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_90%_60%_at_50%_-10%,rgb(0_174_239/0.35),transparent_55%),radial-gradient(ellipse_70%_50%_at_100%_50%,rgb(198_81_42/0.12),transparent_45%)]" />
       </div>
 
-      <div className="relative mx-auto max-w-7xl px-4 pb-12 pt-24 text-center sm:px-6 sm:pb-14 sm:pt-28 lg:px-8 lg:pb-16 lg:pt-32">
+      <div className="relative mx-auto max-w-7xl px-4 pb-10 pt-24 text-center sm:px-6 sm:pt-28 lg:px-8 lg:pt-40">
         
         <h1
           className={cn(
