@@ -87,7 +87,7 @@ export default function Hero() {
           >
             <motion.div whileHover={reduceMotion ? undefined : { y: -2 }}>
               <Button asChild size="lg" className="w-full sm:w-auto">
-                <Link href="#contact-us">
+                <Link href="https://ib4.me/d6lF-HX" target="_blank">
                   Make Appointment
                   <ArrowRight className="size-4" />
                 </Link>
@@ -96,7 +96,7 @@ export default function Hero() {
 
             <motion.div whileHover={reduceMotion ? undefined : { y: -2 }}>
               <Button asChild variant="outline" size="lg" className="w-full sm:w-auto">
-                <Link href="#specials">Special Offers</Link>
+                <Link href="/specials">Special Offers</Link>
               </Button>
             </motion.div>
           </motion.div>
