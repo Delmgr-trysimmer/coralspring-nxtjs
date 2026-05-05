@@ -37,7 +37,7 @@ export default function SpecialsPage() {
             New Patient Online Specials
           </p>
           <h2 className="mx-auto mt-4 max-w-4xl text-center font-display text-2xl font-semibold leading-tight text-slate-900 sm:text-3xl lg:text-4xl">
-            Coral Springs Smiles&apos; Promotions will save you money!
+            Coral Springs Smiles Promotions will save you money!
           </h2>
           <p className="mx-auto mt-6 max-w-3xl text-center text-base leading-relaxed text-slate-600 sm:text-lg">
             At Coral Springs Smiles, we offer competitive pricing and special

@@ -27,9 +27,9 @@ function IconYoutube({ className }: { className?: string }) {
 }
 
 const quickLinks = [
-  { label: "About Us", href: "#about-us" },
-  { label: "Specials", href: "#specials" },
-  { label: "Our Doctor", href: "#our-doctor" },
+  { label: "About Us", href: "/about-us" },
+  { label: "Specials", href: "/specials" },
+  { label: "Our Doctor", href: "/our-doctor" },
   { label: "Contact Us", href: "/contact-us" },
   { label: "Privacy Policy", href: "/privacy-policy" },
   { label: "Review Us", href: "/review-us" },
@@ -39,24 +39,24 @@ const quickLinks = [
 ] as const;
 
 const serviceLinks = [
-  { label: "Dental Implants", href: "/service" },
-  { label: "Cosmetic Dentistry", href: "/service" },
-  { label: "Invisalign", href: "/service" },
-  { label: "Teeth Whitening", href: "/service" },
-  { label: "Emergency Appointment", href: "/service" },
-  { label: "Root Canal Treatment", href: "/service" },
-  { label: "Orthodontics", href: "/service" },
-  { label: "Crowns & Bridges", href: "/service" },
-  { label: "Periodontics", href: "/service" },
-  { label: "Laser Dentistry", href: "/service" },
-  { label: "Dermal Fillers", href: "/service" },
-  { label: "Botox® Cosmetics", href: "/service" },
+  { label: "Dental Implants", href: "/dental-implant" },
+  { label: "Cosmetic Dentistry", href: "/cosmetic-dentistry" },
+  { label: "Invisalign", href: "/invisalign" },
+  { label: "Teeth Whitening", href: "/teeth-whitening" },
+  { label: "Emergency Appointment", href: "/emergency-dentist-coral-springs" },
+  { label: "Root Canal Treatment", href: "/endodontics" },
+  { label: "Orthodontics", href: "/orthodontics" },
+  { label: "Crowns & Bridges", href: "/crowns" },
+  { label: "Periodontics", href: "/periodontics" },
+  { label: "Laser Dentistry", href: "/laser-dentistry" },
+  { label: "Dermal Fillers", href: "/dermal-fillers-coral-springs" },
+  { label: "Botox® Cosmetics", href: "/botox-coral-springs" },
 ] as const;
 
 const social = [
-  { label: "Facebook", href: "https://www.facebook.com/", Icon: IconFacebook },
-  { label: "Instagram", href: "https://www.instagram.com/", Icon: IconInstagram },
-  { label: "YouTube", href: "https://www.youtube.com/", Icon: IconYoutube },
+  { label: "Facebook", href: "https://www.facebook.com/CoralSpringSmilesDentistryFlorida/", Icon: IconFacebook },
+  { label: "Instagram", href: "https://www.instagram.com/cssmiles.pa/", Icon: IconInstagram },
+  { label: "YouTube", href: "https://www.youtube.com/@coralspringssmiles", Icon: IconYoutube },
 ] as const;
 
 export default function Footer() {

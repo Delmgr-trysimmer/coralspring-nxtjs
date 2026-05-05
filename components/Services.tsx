@@ -14,18 +14,18 @@ import { Reveal } from "@/components/motion/Reveal";
 import SectionHeading from "@/components/SectionHeading";
 
 const services = [
-  { title: "Botox Cosmetic",         image: "/images/botox.png",                    description: "Soft facial balancing treatments with a natural, refreshed finish."                     },
-  { title: "Cosmetic Dentistry",     image: "/images/Cosmetic-Dentistry.png",        description: "Smile-enhancing veneers and contouring tailored to your features."                      },
-  { title: "Crowns & Bridges",       image: "/images/Crowns-Bridges.png",            description: "Durable restorations crafted for ideal bite alignment and aesthetics."                  },
-  { title: "Dental Implants",        image: "/images/Dental-Implants.png",           description: "Precision-guided implant solutions for stability and long-term confidence."             },
-  { title: "Dermal Fillers",         image: "/images/Dermal-Fillers.png",            description: "Volume-restoring enhancements designed for subtle facial harmony."                      },
-  { title: "Emergency Appointment",  image: "/images/Emergency-Appointment.png",     description: "Same-day urgent care support when comfort and fast relief matter most."                 },
-  { title: "Invisalign",             image: "/images/Invisalign.png",                description: "Clear aligner plans that straighten your smile with daily convenience."                 },
-  { title: "Laser Dentistry",        image: "/images/Laser-Dentistry.png",           description: "Minimally invasive procedures with better comfort and faster healing."                  },
-  { title: "Orthodontics",           image: "/images/Orthodontics.png",              description: "Comprehensive bite correction for healthy function and balanced aesthetics."             },
-  { title: "Periodontics",           image: "/images/Periodontics.png",              description: "Gum health therapies focused on prevention, restoration, and longevity."                },
-  { title: "Root Canal Treatment",   image: "/images/Root-Canal-Treatment.png",      description: "Advanced infection treatment to save natural teeth and reduce discomfort."              },
-  { title: "Teeth Whitening",        image: "/images/Teeth-Whitening.png",           description: "Professional whitening protocols for noticeably brighter, even-toned teeth."           },
+  { title: "Botox Cosmetic", image: "/images/botox.png", description: "Soft facial balancing treatments with a natural, refreshed finish.", href: "/botox-coral-springs" },
+  { title: "Cosmetic Dentistry", image: "/images/Cosmetic-Dentistry.png", description: "Smile-enhancing veneers and contouring tailored to your features.", href: "/cosmetic-dentistry" },
+  { title: "Crowns & Bridges", image: "/images/Crowns-Bridges.png", description: "Durable restorations crafted for ideal bite alignment and aesthetics.", href: "/crowns" },
+  { title: "Dental Implants", image: "/images/Dental-Implants.png", description: "Precision-guided implant solutions for stability and long-term confidence.", href: "/dental-implant" },
+  { title: "Dermal Fillers", image: "/images/Dermal-Fillers.png", description: "Volume-restoring enhancements designed for subtle facial harmony.", href: "/dermal-fillers-coral-springs" },
+  { title: "Emergency Appointment", image: "/images/Emergency-Appointment.png", description: "Same-day urgent care support when comfort and fast relief matter most.", href: "/emergency-dentist-coral-springs" },
+  { title: "Invisalign", image: "/images/Invisalign.png", description: "Clear aligner plans that straighten your smile with daily convenience.", href: "/invisalign" },
+  { title: "Laser Dentistry", image: "/images/Laser-Dentistry.png", description: "Minimally invasive procedures with better comfort and faster healing.", href: "/laser-dentistry" },
+  { title: "Orthodontics", image: "/images/Orthodontics.png", description: "Comprehensive bite correction for healthy function and balanced aesthetics.", href: "/orthodontics" },
+  { title: "Periodontics", image: "/images/Periodontics.png", description: "Gum health therapies focused on prevention, restoration, and longevity.", href: "/periodontics" },
+  { title: "Root Canal Treatment", image: "/images/Root-Canal-Treatment.png", description: "Advanced infection treatment to save natural teeth and reduce discomfort.", href: "/endodontics" },
+  { title: "Teeth Whitening", image: "/images/Teeth-Whitening.png", description: "Professional whitening protocols for noticeably brighter, even-toned teeth.", href: "/teeth-whitening" },
 ];
 
 /* Distribute across 4 columns for alternating parallax depth */
@@ -43,22 +43,22 @@ export default function Services() {
   });
 
   /* Background orbs — each drifts at a distinct speed + axis */
-  const orb1Y = useTransform(scrollYProgress, [0, 1], reduceMotion ? [0, 0] : [-70,  90]);
-  const orb2Y = useTransform(scrollYProgress, [0, 1], reduceMotion ? [0, 0] : [ 50, -90]);
+  const orb1Y = useTransform(scrollYProgress, [0, 1], reduceMotion ? [0, 0] : [-70, 90]);
+  const orb2Y = useTransform(scrollYProgress, [0, 1], reduceMotion ? [0, 0] : [50, -90]);
   const orb3Y = useTransform(scrollYProgress, [0, 1], reduceMotion ? [0, 0] : [-30, 100]);
-  const orb1X = useTransform(scrollYProgress, [0, 1], reduceMotion ? [0, 0] : [  0,  28]);
-  const orb2X = useTransform(scrollYProgress, [0, 1], reduceMotion ? [0, 0] : [  0, -20]);
+  const orb1X = useTransform(scrollYProgress, [0, 1], reduceMotion ? [0, 0] : [0, 28]);
+  const orb2X = useTransform(scrollYProgress, [0, 1], reduceMotion ? [0, 0] : [0, -20]);
 
   /* Heading drifts up slowly */
-  const headingY       = useTransform(scrollYProgress, [0, 0.55], reduceMotion ? [0, 0] : [0, -28]);
+  const headingY = useTransform(scrollYProgress, [0, 0.55], reduceMotion ? [0, 0] : [0, -28]);
   const headingOpacity = useTransform(scrollYProgress, [0, 0.08, 0.65, 1], [0.5, 1, 1, 0.4]);
 
   /* Alternating column parallax — cols 0 & 2 rise, cols 1 & 3 sink */
   const colY = [
-    useTransform(scrollYProgress, [0, 1], reduceMotion ? [0, 0] : [ 28, -48]),
-    useTransform(scrollYProgress, [0, 1], reduceMotion ? [0, 0] : [-18,  56]),
-    useTransform(scrollYProgress, [0, 1], reduceMotion ? [0, 0] : [ 18, -36]),
-    useTransform(scrollYProgress, [0, 1], reduceMotion ? [0, 0] : [-26,  46]),
+    useTransform(scrollYProgress, [0, 1], reduceMotion ? [0, 0] : [28, -48]),
+    useTransform(scrollYProgress, [0, 1], reduceMotion ? [0, 0] : [-18, 56]),
+    useTransform(scrollYProgress, [0, 1], reduceMotion ? [0, 0] : [18, -36]),
+    useTransform(scrollYProgress, [0, 1], reduceMotion ? [0, 0] : [-26, 46]),
   ];
 
   return (
@@ -125,7 +125,7 @@ export default function Services() {
 
 /* ─── Card ─────────────────────────────────────────────────────────────── */
 
-type Service = { title: string; image: string; description: string };
+type Service = { title: string; image: string; description: string; href: string };
 
 function ServiceCard({ service, index }: { service: Service; index: number }) {
   const num = String(index + 1).padStart(2, "0");
@@ -173,7 +173,7 @@ function ServiceCard({ service, index }: { service: Service; index: number }) {
           {/* CTA */}
           <div className="mt-6 flex items-center gap-2">
             <Link
-              href="#contact-us"
+              href={service.href}
               className="group/link inline-flex items-center gap-1.5 text-[0.72rem] font-semibold uppercase tracking-[0.18em] text-brand transition-all duration-300 hover:text-brand-muted"
             >
               Learn More

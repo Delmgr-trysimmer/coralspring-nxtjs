@@ -1,0 +1,53 @@
+User-agent: *
+
+# Allow full access to all public pages
+
+Allow: /
+
+# Block only sensitive/system endpoints
+
+Disallow: /api/
+Disallow: /admin/
+Disallow: /login/
+Disallow: /dashboard/
+
+# Allow Next.js assets for proper rendering
+
+Allow: /_next/static/
+Allow: /_next/image/
+
+# Block unnecessary system files (optional)
+
+Disallow: /xmlrpc.php
+Disallow: /readme.html
+Disallow: /license.txt
+
+# Allow major AI crawlers
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Sitemap
+
+Sitemap: https://www.coralspringsmiles.com/sitemap.xml
