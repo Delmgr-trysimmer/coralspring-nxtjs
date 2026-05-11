@@ -24,6 +24,7 @@ const navigation: NavigationItem[] = [
     label: "About Us",
     href: "/about-us",
     sublinks: [
+      { label: "About Us", href: "/about-us" },
       { label: "Tour Our Office", href: "/tour-our-office" },
 
     ],
@@ -68,6 +69,7 @@ const navigation: NavigationItem[] = [
     label: "Our Doctor",
     href: "/our-doctor",
     sublinks: [
+      { label: "Our Doctor", href: "/our-doctor" },
       { label: "Meet the Team", href: "/meet-the-team" },
     ],
   },

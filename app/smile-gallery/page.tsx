@@ -15,6 +15,21 @@ const GALLERY_IMAGES = [
   "/images/smile-gallery-8.jpg",
   "/images/smile-gallery-9.jpg",
   "/images/smile-gallery-10.jpg",
+  "/images/smile-gallery-11.jpg",
+  "/images/smile-gallery-12.jpg",
+  "/images/smile-gallery-13.jpg",
+  "/images/smile-gallery-14.jpg",
+  "/images/smile-gallery-15.jpg",
+  "/images/smile-gallery-16.jpg",
+  "/images/smile-gallery-17.jpg",
+  "/images/smile-gallery-18.jpg",
+  "/images/smile-gallery-19.jpg",
+  "/images/smile-gallery-20.jpg",
+  "/images/smile-gallery-21.jpg",
+  "/images/smile-gallery-22.jpg",
+  "/images/smile-gallery-23.jpg",
+  "/images/smile-gallery-24.jpg",
+  "/images/smile-gallery-25.jpg",
 ] as const;
 
 export const metadata: Metadata = {

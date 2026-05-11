@@ -34,7 +34,7 @@ const quickLinks = [
   { label: "Privacy Policy", href: "/privacy-policy" },
   { label: "Review Us", href: "/review-us" },
   { label: "Financing", href: "/financing" },
-  { label: "Sitemap", href: "/sitemap" },
+  { label: "Sitemap", href: "/sitemap.xml" },
   { label: "Blog", href: "/blog" },
 ] as const;
 
