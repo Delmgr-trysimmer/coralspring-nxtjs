@@ -238,7 +238,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     title: "The Pros and Cons of Immediate vs. Delayed Dental Implant Placement",
     excerpt:
       "Explore the pros and cons of immediate vs. delayed dental implant placement. Coral Springs Smiles offers personalized guidance to help you choose the best option for restoring your smile effectively and confidently",
-    publishedAt: "2024-10-30",
+    publishedAt: "2024-10-19",
     cardImage: {
       src: "/blog/immediate-vs-delayed-dental-implant.jpg",
       alt: "Immediate vs. delayed dental implant placement",
@@ -401,7 +401,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     title: "Gum Disease Prevention and Treatment",
     excerpt:
       "Learn how to prevent and treat gum disease at Coral Springs Smiles. Our expert team offers personalized care, from routine cleanings to advanced periodontal treatments, to help you achieve a healthy smile and strong gums.",
-    publishedAt: "2024-10-30",
+    publishedAt: "2024-10-11",
     cardImage: {
       src: "/blog/gum-disease.jpg",
       alt: "Gum disease prevention and treatment",
@@ -2453,7 +2453,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     title: "Why Invisalign in Coral Springs Is the Best Way to Get a Straighter Smile",
     excerpt:
       "A straight, confident smile can make all the difference in your appearance and self-esteem. If you’re looking for an effective and discreet way to straighten your teeth, Invisalign is the perfect solution.",
-    publishedAt: "2025-03-17",
+    publishedAt: "2025-03-13",
     cardImage: {
       src: "/blog/invisalign-in-coral-springs.jpg",
       alt: "Invisalign in Coral Springs",
@@ -5598,7 +5598,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Tooth Extraction Cost in Coral Springs: What You Should Expect in 2026",
     excerpt:
       "Tooth extraction is sometimes necessary to protect your overall oral health, especially when a tooth is severely damaged, infected, or causing crowding. One of the most common concerns patients have is: what does tooth extraction cost in Coral Springs?",
-    publishedAt: "2025-04-07",
+    publishedAt: "2026-04-17",
     cardImage: {
       src: "/blog/tooth-extraction-cost-coral-springs-2026-price-guide.jpg",
       alt: "Tooth extraction pricing and care in Coral Springs",
@@ -7239,7 +7239,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Severe Tooth Pain at Night? Visit an Emergency Dentist in Coral Springs",
     excerpt:
       "Tooth pain that strikes at night can be one of the most uncomfortable and stressful experiences. It often starts suddenly, making it difficult to sleep, eat, or even think clearly. While some mild discomfort may go away, severe tooth pain at night is usually a sign of an underlying dental problem that needs immediate attention.",
-    publishedAt: "2025-03-23",
+    publishedAt: "2026-03-25",
     cardImage: {
       src: "/blog/severe-tooth-pain-night-emergency-dentist-coral-springs.jpg",
       alt: "Emergency dentist in Coral Springs for severe tooth pain at night",
@@ -7477,7 +7477,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Bleeding Gums Won't Stop? When to See a Periodontist in Coral Springs",
     excerpt:
       "Bleeding gums may seem like a minor issue, but if it happens frequently, it could be a warning sign of a more serious dental problem. Many people ignore this symptom, assuming it's caused by brushing too hard or temporary irritation. However, persistent gum bleeding often indicates underlying gum disease that requires professional care.",
-    publishedAt: "2025-03-23",
+    publishedAt: "2026-03-25",
     cardImage: {
       src: "/blog/bleeding-gums-periodontist-coral-springs.jpg",
       alt: "Periodontist care for bleeding gums and gum disease in Coral Springs",
@@ -7875,7 +7875,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     title: "Gum Disease Treatment in Coral Springs",
     excerpt:
       "Losing a tooth can affect more than just your appearance. A missing tooth can make chewing difficult, impact your speech, cause nearby teeth to shift, and even lead to bone loss in the jaw over time. If you are searching for the best way to replace a missing tooth in Coral Springs, modern dentistry offers a reliable and long-lasting solution - Dental Implants.",
-    publishedAt: "2025-02-28",
+    publishedAt: "2026-02-26",
     cardImage: {
       src: "/blog/best-way-to-replace-missing-tooth-coral-springs.jpg",
       alt: "Dental implants and options to replace a missing tooth in Coral Springs",
@@ -8042,7 +8042,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     title: "Gum Disease Treatment in Coral Springs",
     excerpt:
       "Healthy gums are essential for a healthy smile.Gum disease treatment in Coral Springs helps prevent tooth loss, control infection, and restore overall oral health. Gum disease is common, but with early diagnosis and professional dental care, it can be effectively managed.",
-    publishedAt: "2025-01-30",
+    publishedAt: "2026-01-30",
     cardImage: {
       src: "/blog/gum-disease-treatment-in-coral-springs.jpg",
       alt: "Professional gum disease treatment in Coral Springs",
@@ -8236,7 +8236,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     title: "Laser Teeth Whitening in Coral Springs",
     excerpt:
       "A bright, confident smile can make a lasting impression. Laser teeth whitening in Coral Springs is one of the most effective ways to remove stains and discoloration quickly and safely. This professional treatment is designed to deliver noticeable results in a single visit while protecting your teeth and gums. If you are looking for a fast and reliable way to improve your smile, laser teeth whitening is a popular cosmetic dental solution.",
-    publishedAt: "2025-01-30",
+    publishedAt: "2026-01-30",
     cardImage: {
       src: "/blog/laser-teeth-whitening-in-coral-springs.jpg",
       alt: "Professional laser teeth whitening in Coral Springs",
@@ -10497,7 +10497,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     title: "All You Need to Know About Root Canal Treatment in Coral Springs",
     excerpt:
       "Root canal treatment is a dental procedure that involves removing the infected or damaged pulp from the tooth’s root canal. This treatment can save a damaged or infected tooth and prevent the need for extraction. In this blog post, we will discuss everything you need to know about root canal treatment in Coral Springs.",
-    publishedAt: "2025-02-28",
+    publishedAt: "2025-02-26",
     cardImage: {
       src: "/blog/all-you-need-to-know-about-root-canal-treatment-in-coral-springs.png",
       alt: "Root canal treatment in Coral Springs",
@@ -12018,7 +12018,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     title: "How Flossing Improves Gum Health",
     excerpt:
       "1. Removes Plaque and Food Particles, 2. Prevents Gum Disease, 3. Reduces Inflammation, 4. Improves Blood Circulation, 5. Freshens Breath",
-    publishedAt: "2024-07-30",
+    publishedAt: "2024-07-26",
     cardImage: {
       src: "/blog/how-flossing-improves-gum-health.jpg",
       alt: "How Flossing Improves Gum Health",
@@ -12132,7 +12132,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     title: "How Do Dental Implants Work?",
     excerpt:
       "Dental implants replace missing teeth with durable, natural-looking alternatives. They restore function and appearance, improving your smile and confidence.",
-    publishedAt: "2024-06-28",
+    publishedAt: "2025-07-30",
     cardImage: {
       src: "/blog/dental-implants-works.jpg",
       alt: "How Do Dental Implants Work?",
