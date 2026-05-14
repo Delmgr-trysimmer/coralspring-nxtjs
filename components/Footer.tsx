@@ -45,7 +45,7 @@ const serviceLinks = [
   { label: "Teeth Whitening", href: "/teeth-whitening" },
   { label: "Emergency Appointment", href: "/emergency-dentist-coral-springs" },
   { label: "Root Canal Treatment", href: "/endodontics" },
-  { label: "Orthodontist", href: "/orthodontics" },
+  { label: "Orthodontist", href: "/orthodontist" },
   { label: "Crowns & Bridges", href: "/crowns" },
   { label: "Periodontics", href: "/periodontics" },
   { label: "Laser Dentistry", href: "/laser-dentistry" },
