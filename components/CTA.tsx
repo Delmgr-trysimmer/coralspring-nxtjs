@@ -19,8 +19,15 @@ const detailCards = [
   {
     icon: PhoneCall,
     title: "Contact",
-    description:
-      "Call (954) 266-8755 to reserve a visit for implants, cosmetic care, or routine dentistry.",
+    description: (
+      <>
+        Call{" "}
+        <a href="tel:9542668755" className="font-semibold text-accent-light hover:underline">
+          (954) 266-8755
+        </a>{" "}
+        to reserve a visit for implants, cosmetic care, or routine dentistry.
+      </>
+    ),
   },
 ];
 

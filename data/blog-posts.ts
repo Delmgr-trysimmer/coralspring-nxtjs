@@ -35,7 +35,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     content: [
       {
         type: "paragraph",
-        text: "[Dental implants](/dental-implant) are a popular, reliable solution for missing teeth.",
+        text: "[Dental implants](/dental-implants) are a popular, reliable solution for missing teeth.",
       },
       {
         type: "paragraph",
@@ -251,7 +251,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     content: [
       {
         type: "paragraph",
-        text: "When it comes to replacing missing teeth, [dental implants](/dental-implant) are one of the most effective and long-lasting solutions available today. At Coral Springs Smiles, we understand that choosing the right time for implant placement is a crucial decision for our patients.",
+        text: "When it comes to replacing missing teeth, [dental implants](/dental-implants) are one of the most effective and long-lasting solutions available today. At Coral Springs Smiles, we understand that choosing the right time for implant placement is a crucial decision for our patients.",
       },
       {
         type: "paragraph",
@@ -1066,7 +1066,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       },
       {
         type: "paragraph",
-        text: "Call us today at (954) 266-8755 or book online with [Coral Springs Smiles](/) to take the first step toward pain-free, healthy teeth.",
+        text: "Call us today at [(954) 266-8755](tel:9542668755) or book online with [Coral Springs Smiles](/) to take the first step toward pain-free, healthy teeth.",
       },
     ],
   },
@@ -1199,11 +1199,11 @@ const BLOG_POSTS: BlogPostDoc[] = [
       },
       {
         type: "paragraph",
-        text: "At Coral Springs Smiles, we specialize in restoring smiles with [dental implants](/dental-implant) in a friendly, no-pressure environment. If you’re asking, “How do teeth implants work?” or “Is this right for me?”-you’re in the right place.",
+        text: "At Coral Springs Smiles, we specialize in restoring smiles with [dental implants](/dental-implants) in a friendly, no-pressure environment. If you’re asking, “How do teeth implants work?” or “Is this right for me?”-you’re in the right place.",
       },
       {
         type: "paragraph",
-        text: "**Call us at (954) 266-8755** to schedule a consultation or get answers to your questions.",
+        text: "**Call us at [(954) 266-8755](tel:9542668755)** to schedule a consultation or get answers to your questions.",
       },
       {
         type: "paragraph",
@@ -1314,7 +1314,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       },
       {
         type: "paragraph",
-        text: "Call us at (954) 266-8755 to learn more or to schedule a visit.",
+        text: "Call us at [(954) 266-8755](tel:9542668755) to learn more or to schedule a visit.",
       },
       {
         type: "paragraph",
@@ -1363,7 +1363,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       },
       {
         type: "paragraph",
-        text: "At Coral Springs Smiles, we’ve helped countless patients rediscover the joy of smiling, eating, and speaking with ease thanks to [dental implants Coral Springs](/dental-implant/) residents trust. Here’s why dental implants are considered the gold standard in tooth replacement:",
+        text: "At Coral Springs Smiles, we’ve helped countless patients rediscover the joy of smiling, eating, and speaking with ease thanks to [dental implants Coral Springs](/dental-implants/) residents trust. Here’s why dental implants are considered the gold standard in tooth replacement:",
       },
       {
         type: "list",
@@ -1757,8 +1757,8 @@ const BLOG_POSTS: BlogPostDoc[] = [
           "**Severe Toothaches** - Persistent pain may indicate an infection or deep cavity that needs immediate attention.",
           "[Root Canal Treatment](/endodontics/) - When decay or infection reaches the tooth’s pulp, a root canal can help save the tooth and relieve pain.",
           "[Crowns & Bridge Issues](/crowns) - If a crown or bridge becomes loose or damaged, we provide quick solutions to restore functionality.",
-          "[Dental Implants](/dental-implant) - If you experience pain or complications with a dental implant, we can assess and provide appropriate treatment.",
-          "[Orthodontic Discomfort](/orthodontics/) - Invisalign users or those with orthodontic treatments experiencing pain or broken aligners can get urgent adjustments.",
+          "[Dental Implants](/dental-implants) - If you experience pain or complications with a dental implant, we can assess and provide appropriate treatment.",
+          "[Orthodontic Discomfort](/orthodontist/) - Invisalign users or those with orthodontic treatments experiencing pain or broken aligners can get urgent adjustments.",
           "[Pediatric Dentistry Emergencies](/kids-dentist/) - We provide specialized care for children facing urgent dental concerns.",
           "[Laser Dentistry for Gum Infections](/laser-dentistry/) - Advanced laser technology can treat soft tissue infections and gum-related emergencies effectively.",
           "**Emergency Appointments Available** - We prioritize urgent cases, ensuring quick relief and expert treatment.",
@@ -1929,7 +1929,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     content: [
       {
         type: "paragraph",
-        text: "Are you missing one or more teeth and looking for a permanent solution to restore your smile? At Coral Springs Smiles, we offer top-quality [dental implants in Coral Springs](/dental-implant) to restore your confidence and enhance your oral health. Our experienced team specializes in implant dentistry, providing patients with natural-looking and long-lasting tooth replacements.",
+        text: "Are you missing one or more teeth and looking for a permanent solution to restore your smile? At Coral Springs Smiles, we offer top-quality [dental implants in Coral Springs](/dental-implants) to restore your confidence and enhance your oral health. Our experienced team specializes in implant dentistry, providing patients with natural-looking and long-lasting tooth replacements.",
       },
       {
         type: "heading",
@@ -1985,7 +1985,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       },
       {
         type: "paragraph",
-        text: "If you are searching for [dental implants near me](/dental-implant) in Coral Springs, look no further than Coral Springs Smiles. We are dedicated to providing high-quality, patient-centered care to restore your smile and improve your quality of life. Contact us today to schedule a consultation and take the first step toward a confident, healthy smile!",
+        text: "If you are searching for [dental implants near me](/dental-implants) in Coral Springs, look no further than Coral Springs Smiles. We are dedicated to providing high-quality, patient-centered care to restore your smile and improve your quality of life. Contact us today to schedule a consultation and take the first step toward a confident, healthy smile!",
       },
     ],
   },
@@ -2395,7 +2395,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       },
       {
         type: "paragraph",
-        text: "A reputable [orthodontist in Coral Springs](/orthodontics/) will have positive reviews from satisfied patients. Check Google reviews, social media testimonials, and before-and-after photos to get a sense of their expertise and patient satisfaction. A trusted orthodontist will have a track record of happy patients with successful treatment outcomes.",
+        text: "A reputable [orthodontist in Coral Springs](/orthodontist/) will have positive reviews from satisfied patients. Check Google reviews, social media testimonials, and before-and-after photos to get a sense of their expertise and patient satisfaction. A trusted orthodontist will have a track record of happy patients with successful treatment outcomes.",
       },
       {
         type: "heading",
@@ -2461,7 +2461,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     meta: {
       title: "Invisalign in Coral Springs ,FL",
       description:
-        "Looking for Invisalign in Coral Springs? Coral Springs Smiles offers clear aligners for a straighter, confident smile. Call (954) 757-5353 today!",
+        "Looking for Invisalign in Coral Springs? Coral Springs Smiles offers clear aligners for a straighter, confident smile. Call [(954) 757-5353](tel:9547575353) today!",
     },
     content: [
       {
@@ -2995,7 +2995,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Cavities or Damaged Teeth? Dental Fillings in Coral Springs Explained",
     excerpt:
       "Cavities and minor tooth damage are among the most common dental problems, but they are also the easiest to treat when detected early. If you're looking for dental fillings in Coral Springs, here's what to expect.",
-    publishedAt: "2026-03-31",
+    publishedAt: "2025-03-31",
     cardImage: {
       src: "/blog/dental-fillings-coral-springs-cavities-damaged-teeth.jpg",
       alt: "Patient receiving gentle dental care in the treatment chair",
@@ -3281,7 +3281,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Jaw Pain or Bite Problems? Orthodontic Treatment in Coral Springs Can Fix Your Smile & Comfort",
     excerpt:
       "If you're experiencing jaw pain, frequent headaches, or difficulty chewing in Coral Springs, the real issue might be your bite-not just stress or temporary discomfort. Misaligned teeth can place excess pressure on your jaw joints, leading to ongoing pain and functional problems.",
-    publishedAt: "2026-04-29",
+    publishedAt: "2025-04-29",
     cardImage: {
       src: "/blog/orthodontic-treatment-coral-springs-jaw-pain-bite-problems.jpg",
       alt: "Orthodontic treatment for bite alignment and jaw comfort",
@@ -3528,7 +3528,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Chipped or Uneven Teeth? Veneers in Coral Springs Can Instantly Upgrade Your Smile",
     excerpt:
       "A chipped tooth. Slightly uneven edges. Stains that won't go away. These small issues can have a big impact on your confidence. If you're in Coral Springs and looking for a fast, reliable way to improve your smile, dental veneers offer one of the most effective cosmetic solutions available today.",
-    publishedAt: "2026-04-30",
+    publishedAt: "2025-04-30",
     cardImage: {
       src: "/blog/veneers-coral-springs-chipped-uneven-teeth-smile-makeover.jpg",
       alt: "Cosmetic dental veneers for a natural-looking smile upgrade",
@@ -3772,7 +3772,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Severely Damaged Tooth? Tooth Extraction in Coral Springs: When Removal Is the Best Option",
     excerpt:
       "A severely damaged tooth isn't just painful-it can affect your entire oral health. Whether it's due to deep decay, trauma, or infection, sometimes saving the tooth isn't possible.",
-    publishedAt: "2026-04-29",
+    publishedAt: "2025-04-29",
     cardImage: {
       src: "/blog/tooth-extraction-coral-springs-damaged-tooth-removal.jpg",
       alt: "Gentle tooth extraction care for damaged or infected teeth in Coral Springs",
@@ -4009,7 +4009,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Best Periodontist in Coral Springs for Gum Recession Treatment & Gum Grafting",
     excerpt:
       "Gum recession often starts quietly-slight sensitivity, teeth appearing longer, or minor discomfort while brushing. But over time, it can expose tooth roots, increase decay risk, and affect overall oral health.",
-    publishedAt: "2026-04-01",
+    publishedAt: "2025-04-01",
     cardImage: {
       src: "/blog/best-periodontist-coral-springs-gum-recession-gum-grafting.jpg",
       alt: "Periodontal care and gum grafting for gum recession in Coral Springs",
@@ -4243,7 +4243,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Periodontist in Coral Springs: Gum Disease Treatment Options Explained",
     excerpt:
       "Gum disease doesn't usually start with pain. It begins quietly-slight bleeding while brushing, mild gum swelling, or persistent bad breath. Because the symptoms seem minor, many people ignore them until the condition progresses.",
-    publishedAt: "2026-04-02",
+    publishedAt: "2025-04-02",
     cardImage: {
       src: "/blog/periodontist-coral-springs-gum-disease-treatment-options.jpg",
       alt: "Gum disease evaluation and treatment with a periodontist in Coral Springs",
@@ -4544,7 +4544,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "How Stress Can Affect Your Gum Health and What to Do About It",
     excerpt:
       "Stress is a common part of modern life, but many people don't realize that it can have a direct impact on their oral health. If you've noticed symptoms like bleeding gums, inflammation, or sensitivity, stress could be a contributing factor.",
-    publishedAt: "2026-04-03",
+    publishedAt: "2025-04-03",
     cardImage: {
       src: "/blog/stress-and-gum-health-bleeding-gums-recession-causes-prevention.jpg",
       alt: "Stress, gum health, and preventive dental care in Coral Springs",
@@ -4806,7 +4806,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "When Is the Best Time to Brush Your Teeth? Dentist-Recommended Guide",
     excerpt:
       "Brushing your teeth is one of the most important habits for maintaining a healthy smile. However, many people still wonder when is the best time to brush your teeth and whether timing really makes a difference.",
-    publishedAt: "2026-04-04",
+    publishedAt: "2025-04-04",
     cardImage: {
       src: "/blog/best-time-to-brush-your-teeth-dentist-recommended-guide.jpg",
       alt: "Dentist-recommended brushing timing and oral hygiene guidance",
@@ -4968,7 +4968,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Teeth Whitening Cost in Coral Springs (2026): Complete Price Guide",
     excerpt:
       "Teeth whitening is one of the most popular cosmetic dental treatments for achieving a brighter, more confident smile. If you're considering this procedure, one of the first questions you may ask is: how much does teeth whitening cost in Coral Springs?",
-    publishedAt: "2026-04-05",
+    publishedAt: "2025-04-05",
     cardImage: {
       src: "/blog/teeth-whitening-cost-coral-springs-2026-price-guide.jpg",
       alt: "Teeth whitening pricing and professional smile brightening in Coral Springs",
@@ -5270,7 +5270,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Dental Crown Cost in Coral Springs (2026): Types, Materials & Price Guide",
     excerpt:
       "Dental crowns are a common restorative solution used to repair damaged, decayed, or weakened teeth. If your dentist has recommended a crown, one of your first questions may be: how much does a dental crown cost in Coral Springs?",
-    publishedAt: "2026-04-06",
+    publishedAt: "2025-04-06",
     cardImage: {
       src: "/blog/dental-crown-cost-coral-springs-2026-types-materials-price-guide.jpg",
       alt: "Dental crown types, materials, and pricing in Coral Springs",
@@ -5598,7 +5598,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Tooth Extraction Cost in Coral Springs: What You Should Expect in 2026",
     excerpt:
       "Tooth extraction is sometimes necessary to protect your overall oral health, especially when a tooth is severely damaged, infected, or causing crowding. One of the most common concerns patients have is: what does tooth extraction cost in Coral Springs?",
-    publishedAt: "2026-04-07",
+    publishedAt: "2025-04-07",
     cardImage: {
       src: "/blog/tooth-extraction-cost-coral-springs-2026-price-guide.jpg",
       alt: "Tooth extraction pricing and care in Coral Springs",
@@ -5888,7 +5888,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Apicoectomy in Coral Springs: When You Need This Advanced Root-End Surgery",
     excerpt:
       "When a root canal alone isn't enough to save a tooth, an advanced procedure called an apicoectomy may be required. If you're searching for apicoectomy near me, understanding this treatment can help you make informed decisions about your dental health.",
-    publishedAt: "2026-03-31",
+    publishedAt: "2025-03-31",
     cardImage: {
       src: "/blog/apicoectomy-coral-springs-root-end-surgery-save-tooth.jpg",
       alt: "Apicoectomy and root-end surgery to save a tooth in Coral Springs",
@@ -6152,7 +6152,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "How to Fix Missing Teeth Permanently: Dental Implants in Coral Springs Explained",
     excerpt:
       "Missing teeth can affect your smile, confidence, and overall oral health. If you're searching for a long-lasting solution, dental implants in Coral Springs are one of the most effective and permanent options available today.",
-    publishedAt: "2026-03-31",
+    publishedAt: "2025-03-31",
     cardImage: {
       src: "/blog/dental-implants-coral-springs.jpg",
       alt: "Dental implants for a permanent, natural-looking smile in Coral Springs",
@@ -6166,7 +6166,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     content: [
       {
         type: "paragraph",
-        text: "Missing teeth can affect your smile, confidence, and overall oral health. If you're searching for a long-lasting solution, [dental implants in Coral Springs](/dental-implant) are one of the most effective and permanent options available today.",
+        text: "Missing teeth can affect your smile, confidence, and overall oral health. If you're searching for a long-lasting solution, [dental implants in Coral Springs](/dental-implants) are one of the most effective and permanent options available today.",
       },
       {
         type: "paragraph",
@@ -6179,7 +6179,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       },
       {
         type: "paragraph",
-        text: "[Dental implants](/dental-implant) are artificial tooth roots made of biocompatible materials, typically titanium, that are placed into the jawbone to support replacement teeth. They act as a strong foundation for crowns, bridges, or dentures.",
+        text: "[Dental implants](/dental-implants) are artificial tooth roots made of biocompatible materials, typically titanium, that are placed into the jawbone to support replacement teeth. They act as a strong foundation for crowns, bridges, or dentures.",
       },
       {
         type: "paragraph",
@@ -6360,7 +6360,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       },
       {
         type: "paragraph",
-        text: "If you're searching for a permanent solution for missing teeth or looking for [dental implants near me](/dental-implant), choosing the right dental provider is essential. At Coral Springs Smiles, advanced implant treatments are designed to restore your smile with precision, comfort, and long-lasting results, helping you regain confidence and oral health.",
+        text: "If you're searching for a permanent solution for missing teeth or looking for [dental implants near me](/dental-implants), choosing the right dental provider is essential. At Coral Springs Smiles, advanced implant treatments are designed to restore your smile with precision, comfort, and long-lasting results, helping you regain confidence and oral health.",
       },
       {
         type: "heading",
@@ -6405,7 +6405,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Yellow Teeth? Best Teeth Whitening Solutions in Coral Springs for a Brighter Smile",
     excerpt:
       "Yellow or stained teeth can affect your confidence and overall appearance. If you're searching for teeth whitening near me, you're not alone. Many people are now choosing teeth whitening in Coral Springs to achieve a brighter, more confident smile.",
-    publishedAt: "2026-03-31",
+    publishedAt: "2025-03-31",
     cardImage: {
       src: "/blog/teeth-whitening-coral-springs-yellow-teeth-solutions.jpg",
       alt: "Teeth whitening solutions for a brighter smile in Coral Springs",
@@ -6637,7 +6637,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Severe Tooth Pain: How Root Canal Treatment Can Save Your Natural Tooth",
     excerpt:
       "Severe tooth pain can affect your daily life, making it difficult to eat, speak, or concentrate. While temporary remedies may ease discomfort, persistent pain often indicates a deeper issue within the tooth. In many cases, the underlying cause is an infection that requires professional dental care.",
-    publishedAt: "2026-03-27",
+    publishedAt: "2025-03-27",
     cardImage: {
       src: "/blog/severe-tooth-pain-how-root-canal-treatment-can-save-your-natural-tooth.jpg",
       alt: "Root canal treatment for severe tooth pain in Coral Springs",
@@ -6909,7 +6909,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Tooth Extraction: Pros, Cons, and What You Need to Know Before Removing a Tooth",
     excerpt:
       "Tooth extraction is a common dental procedure, but deciding whether to remove a tooth isn't always easy. While it can relieve pain and prevent serious oral health issues, it also has long-term implications if not managed properly.",
-    publishedAt: "2026-03-27",
+    publishedAt: "2025-03-27",
     cardImage: {
       src: "/blog/tooth-extraction-pros-cons-bone-graft-benefits.jpg",
       alt: "Tooth extraction, bone grafting, and oral health in Coral Springs",
@@ -7239,7 +7239,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Severe Tooth Pain at Night? Visit an Emergency Dentist in Coral Springs",
     excerpt:
       "Tooth pain that strikes at night can be one of the most uncomfortable and stressful experiences. It often starts suddenly, making it difficult to sleep, eat, or even think clearly. While some mild discomfort may go away, severe tooth pain at night is usually a sign of an underlying dental problem that needs immediate attention.",
-    publishedAt: "2026-03-23",
+    publishedAt: "2025-03-23",
     cardImage: {
       src: "/blog/severe-tooth-pain-night-emergency-dentist-coral-springs.jpg",
       alt: "Emergency dentist in Coral Springs for severe tooth pain at night",
@@ -7477,7 +7477,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Bleeding Gums Won't Stop? When to See a Periodontist in Coral Springs",
     excerpt:
       "Bleeding gums may seem like a minor issue, but if it happens frequently, it could be a warning sign of a more serious dental problem. Many people ignore this symptom, assuming it's caused by brushing too hard or temporary irritation. However, persistent gum bleeding often indicates underlying gum disease that requires professional care.",
-    publishedAt: "2026-03-23",
+    publishedAt: "2025-03-23",
     cardImage: {
       src: "/blog/bleeding-gums-periodontist-coral-springs.jpg",
       alt: "Periodontist care for bleeding gums and gum disease in Coral Springs",
@@ -7686,7 +7686,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "How to Fix Crooked Teeth Without Braces – Invisalign Options in Coral Springs",
     excerpt:
       "Crooked teeth can affect both your confidence and your oral health. Many adults and teens want straighter teeth but prefer to avoid traditional metal braces. If you're looking for a discreet and modern solution, Invisalign may be the perfect option.",
-    publishedAt: "2026-02-28",
+    publishedAt: "2025-02-28",
     cardImage: {
       src: "/blog/fix-crooked-teeth-without-braces-coral-springs.jpg",
       alt: "Invisalign clear aligners to fix crooked teeth without braces in Coral Springs",
@@ -7875,7 +7875,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     title: "Gum Disease Treatment in Coral Springs",
     excerpt:
       "Losing a tooth can affect more than just your appearance. A missing tooth can make chewing difficult, impact your speech, cause nearby teeth to shift, and even lead to bone loss in the jaw over time. If you are searching for the best way to replace a missing tooth in Coral Springs, modern dentistry offers a reliable and long-lasting solution - Dental Implants.",
-    publishedAt: "2026-02-28",
+    publishedAt: "2025-02-28",
     cardImage: {
       src: "/blog/best-way-to-replace-missing-tooth-coral-springs.jpg",
       alt: "Dental implants and options to replace a missing tooth in Coral Springs",
@@ -7889,7 +7889,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     content: [
       {
         type: "paragraph",
-        text: "Losing a tooth can affect more than just your appearance. A missing tooth can make chewing difficult, impact your speech, cause nearby teeth to shift, and even lead to bone loss in the jaw over time. If you are searching for the best way to replace a missing tooth in Coral Springs, modern dentistry offers a reliable and long-lasting solution - [Dental Implants](/dental-implant).",
+        text: "Losing a tooth can affect more than just your appearance. A missing tooth can make chewing difficult, impact your speech, cause nearby teeth to shift, and even lead to bone loss in the jaw over time. If you are searching for the best way to replace a missing tooth in Coral Springs, modern dentistry offers a reliable and long-lasting solution - [Dental Implants](/dental-implants).",
       },
       {
         type: "paragraph",
@@ -7930,7 +7930,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       },
       {
         type: "paragraph",
-        text: "[Dental implants](/dental-implant) are widely considered the best long-term solution for replacing a missing tooth because they restore both the root and crown.",
+        text: "[Dental implants](/dental-implants) are widely considered the best long-term solution for replacing a missing tooth because they restore both the root and crown.",
       },
       {
         type: "paragraph",
@@ -7999,7 +7999,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       },
       {
         type: "paragraph",
-        text: "Replacing a missing tooth is an important step toward protecting your long-term oral health. [Dental implants](/dental-implant) provide strength, stability, and a natural appearance that allows you to smile, eat, and speak with confidence again.",
+        text: "Replacing a missing tooth is an important step toward protecting your long-term oral health. [Dental implants](/dental-implants) provide strength, stability, and a natural appearance that allows you to smile, eat, and speak with confidence again.",
       },
       {
         type: "paragraph",
@@ -8042,7 +8042,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     title: "Gum Disease Treatment in Coral Springs",
     excerpt:
       "Healthy gums are essential for a healthy smile.Gum disease treatment in Coral Springs helps prevent tooth loss, control infection, and restore overall oral health. Gum disease is common, but with early diagnosis and professional dental care, it can be effectively managed.",
-    publishedAt: "2026-01-30",
+    publishedAt: "2025-01-30",
     cardImage: {
       src: "/blog/gum-disease-treatment-in-coral-springs.jpg",
       alt: "Professional gum disease treatment in Coral Springs",
@@ -8236,7 +8236,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     title: "Laser Teeth Whitening in Coral Springs",
     excerpt:
       "A bright, confident smile can make a lasting impression. Laser teeth whitening in Coral Springs is one of the most effective ways to remove stains and discoloration quickly and safely. This professional treatment is designed to deliver noticeable results in a single visit while protecting your teeth and gums. If you are looking for a fast and reliable way to improve your smile, laser teeth whitening is a popular cosmetic dental solution.",
-    publishedAt: "2026-01-30",
+    publishedAt: "2025-01-30",
     cardImage: {
       src: "/blog/laser-teeth-whitening-in-coral-springs.jpg",
       alt: "Professional laser teeth whitening in Coral Springs",
@@ -8431,7 +8431,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Best Cosmetic Dentist in Coral Springs: How to Fix Smile Imperfections Permanently",
     excerpt:
       "Your smile should make you feel confident-not self-conscious. Yet many people hide their smiles due to visible dental issues like stains, chips, gaps, or uneven teeth.",
-    publishedAt: "2026-04-30",
+    publishedAt: "2025-04-30",
     cardImage: {
       src: "/blog/best-cosmetic-dentist-coral-springs-smile-imperfections.jpg",
       alt: "Cosmetic dentistry for a confident, natural-looking smile",
@@ -8747,7 +8747,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Veneers Near Me: Transform Your Smile with Veneers in Coral Springs",
     excerpt:
       "If you've been searching for veneers near me, you're likely looking for a fast, effective way to improve your smile. Dental veneers are one of the most popular cosmetic dentistry solutions, helping patients achieve brighter, straighter, and more confident smiles without extensive procedures.",
-    publishedAt: "2026-04-30",
+    publishedAt: "2025-04-30",
     cardImage: {
       src: "/blog/veneers-near-me-coral-springs.jpg",
       alt: "Dental veneers for a natural-looking smile transformation",
@@ -9032,7 +9032,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Smile Makeover Near Me: Get a Perfect Smile Makeover in Coral Springs",
     excerpt:
       "Your smile is one of the first things people notice. If you're searching for a smile makeover near me, you're likely looking for a complete transformation-not just a small fix. A smile makeover combines advanced cosmetic dentistry treatments to improve the appearance, symmetry, and overall health of your smile.",
-    publishedAt: "2026-04-30",
+    publishedAt: "2025-04-30",
     cardImage: {
       src: "/blog/smile-makeover-near-me-coral-springs.jpg",
       alt: "Complete smile makeover for a balanced, natural-looking smile",
@@ -9307,11 +9307,11 @@ const BLOG_POSTS: BlogPostDoc[] = [
     content: [
       {
         type: "paragraph",
-        text: "If you're searching online for an [orthodontist near me](/orthodontics), you're likely looking to straighten your teeth, fix bite issues, or improve your smile's appearance and function. Choosing the right orthodontist in Coral Springs is an important step toward achieving long-term oral health and confidence.",
+        text: "If you're searching online for an [orthodontist near me](/orthodontist), you're likely looking to straighten your teeth, fix bite issues, or improve your smile's appearance and function. Choosing the right orthodontist in Coral Springs is an important step toward achieving long-term oral health and confidence.",
       },
       {
         type: "paragraph",
-        text: "This guide explains what to know before choosing an [orthodontist in Coral Springs](/orthodontics), available treatment options, and when orthodontic care may be right for you or your child.",
+        text: "This guide explains what to know before choosing an [orthodontist in Coral Springs](/orthodontist), available treatment options, and when orthodontic care may be right for you or your child.",
       },
       {
         type: "heading",
@@ -9370,7 +9370,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       },
       {
         type: "paragraph",
-        text: "When searching for an [orthodontist near me](/orthodontics), it's helpful to understand the most common treatment options.",
+        text: "When searching for an [orthodontist near me](/orthodontist), it's helpful to understand the most common treatment options.",
       },
       {
         type: "heading",
@@ -9424,7 +9424,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       },
       {
         type: "paragraph",
-        text: "When selecting an [orthodontist in Coral Springs](/orthodontics), consider the following factors:",
+        text: "When selecting an [orthodontist in Coral Springs](/orthodontist), consider the following factors:",
       },
       {
         type: "heading",
@@ -10497,7 +10497,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     title: "All You Need to Know About Root Canal Treatment in Coral Springs",
     excerpt:
       "Root canal treatment is a dental procedure that involves removing the infected or damaged pulp from the tooth’s root canal. This treatment can save a damaged or infected tooth and prevent the need for extraction. In this blog post, we will discuss everything you need to know about root canal treatment in Coral Springs.",
-    publishedAt: "2026-05-11",
+    publishedAt: "2025-02-28",
     cardImage: {
       src: "/blog/all-you-need-to-know-about-root-canal-treatment-in-coral-springs.png",
       alt: "Root canal treatment in Coral Springs",
@@ -11051,7 +11051,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       },
       {
         type: "paragraph",
-        text: "Don't ignore signs of gum disease. Early treatment is key to protecting your teeth and gums. Call [Coral Springs Smiles](/) today at (954) 266-8755 to schedule your consultation and start your path to healthier gums and a confident smile.",
+        text: "Don't ignore signs of gum disease. Early treatment is key to protecting your teeth and gums. Call [Coral Springs Smiles](/) today at [(954) 266-8755](tel:9542668755) to schedule your consultation and start your path to healthier gums and a confident smile.",
       },
     ],
   },
@@ -11060,7 +11060,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     title: "Reasons Why You Should Consider Teeth Whitening",
     excerpt:
       "A bright, white smile can greatly enhance your appearance and boost your confidence. If you’re looking to achieve a dazzling smile, teeth whitening is a popular and effective solution.",
-    publishedAt: "2026-05-11",
+    publishedAt: "2025-02-21",
     cardImage: {
       src: "/blog/reasons-why-you-should-consider-teeth-whitening.png",
       alt: "Professional teeth whitening consultation",
@@ -11161,7 +11161,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     title: "Understanding the issues with root canal treatment in Coral Springs",
     excerpt:
       "Root canal treatment fails at times. The frontier reason for endodontic failure is that infection persists. It is also a fact that many a time the issues of failing root canal therapy are the same as those which called for root canal treatment in the first place.",
-    publishedAt: "2026-05-11",
+    publishedAt: "2025-02-14",
     cardImage: {
       src: "/blog/understanding-the-issues-with-root-canal-treatment-in-coral-springs.png",
       alt: "Root canal treatment follow-up in Coral Springs",
@@ -11217,7 +11217,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     title: "Dental Implants: The Best Option for Replacing Missing Teeth",
     excerpt:
       "At Coral Springs Smiles, we understand that losing a tooth can be a difficult and often traumatic experience. Missing teeth can have a negative impact on your oral health, your confidence, and your ability to chew and speak properly.",
-    publishedAt: "2026-05-11",
+    publishedAt: "2025-02-07",
     cardImage: {
       src: "/blog/dental-implants-the-best-option-for-replacing-missing-teeth.png",
       alt: "Dental implants for replacing missing teeth",
@@ -11235,7 +11235,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       {
         type: "heading",
         level: 2,
-        text: "What Are [Dental Implants](/dental-implant)?",
+        text: "What Are [Dental Implants](/dental-implants)?",
       },
       {
         type: "paragraph",
@@ -11244,7 +11244,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       {
         type: "heading",
         level: 2,
-        text: "Why Choose [Dental Implants](/dental-implant)?",
+        text: "Why Choose [Dental Implants](/dental-implants)?",
       },
       {
         type: "paragraph",
@@ -11297,7 +11297,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     title: "Guide to General Dentistry: Your Path to Oral Health",
     excerpt:
       "Maintaining good oral health is not only essential for a sparkling smile but also for overall well-being. General dentistry plays a crucial role in preventing, diagnosing, and treating various dental issues.",
-    publishedAt: "2026-05-11",
+    publishedAt: "2025-01-31",
     cardImage: {
       src: "/blog/general-dentistry.png",
       alt: "General dentistry check-up in Coral Springs",
@@ -11305,7 +11305,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     meta: {
       title: "General Dentistry Near Me in Coral Springs Smiles",
       description:
-        "Find the best dentist near you in Coral Springs, Florida for routine check-ups and cosmetic procedures. Book now at (954) 715-6840 for a general dentistry appointment",
+        "Find the best dentist near you in Coral Springs, Florida for routine check-ups and cosmetic procedures. Book now at [(954) 715-6840](tel:9547156840) for a general dentistry appointment",
     },
     content: [
       {
@@ -11404,7 +11404,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     title: "Osseous Surgery: Everything You Need to Know",
     excerpt:
       "Osseous surgery is a dental procedure performed to treat gum disease, specifically focusing on bone irregularities in the jaw. It’s often part of a comprehensive gum pocket reduction surgery, which tackles gum disease by removing harmful bacteria and infected tissue.",
-    publishedAt: "2026-05-11",
+    publishedAt: "2025-01-24",
     cardImage: {
       src: "/blog/osseous-surgery.png",
       alt: "Osseous surgery for gum disease treatment",
@@ -11507,7 +11507,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     title: "Can Invisalign Fix Your Crossbite?",
     excerpt:
       "A misaligned bite, technically called a malocclusion, can cause various problems beyond just affecting your smile. One such misalignment is a crossbite, where your upper and lower teeth don’t meet properly when you bite down.",
-    publishedAt: "2026-05-11",
+    publishedAt: "2025-02-15",
     cardImage: {
       src: "/blog/invisalign-fix-crossbite.png",
       alt: "Invisalign clear aligner for crossbite correction",
@@ -11625,7 +11625,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       },
       {
         type: "paragraph",
-        text: "We are committed to providing our patients with the highest quality dental care in a comfortable and welcoming environment. Contact us today (954) 757-5353 to learn more about how Invisalign can transform your smile!",
+        text: "We are committed to providing our patients with the highest quality dental care in a comfortable and welcoming environment. Contact us today [(954) 757-5353](tel:9547575353) to learn more about how Invisalign can transform your smile!",
       },
     ],
   },
@@ -11647,7 +11647,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     content: [
       {
         type: "paragraph",
-        text: "Invisalign has revolutionized the world of [orthodontics](/orthodontics/) by providing a discreet and comfortable alternative to traditional metal braces. As clear aligners, Invisalign offers a modern solution for correcting a wide range of dental issues, from mild to complex. With its innovative design, Invisalign allows you to achieve a straighter smile without the inconvenience of metal brackets and wires.",
+        text: "Invisalign has revolutionized the world of [orthodontics](/orthodontist/) by providing a discreet and comfortable alternative to traditional metal braces. As clear aligners, Invisalign offers a modern solution for correcting a wide range of dental issues, from mild to complex. With its innovative design, Invisalign allows you to achieve a straighter smile without the inconvenience of metal brackets and wires.",
       },
       {
         type: "paragraph",
@@ -12190,7 +12190,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       },
       {
         type: "paragraph",
-        text: "During the initial consultation, the dentist will evaluate your oral health, take dental X-rays, and possibly use 3D imaging to assess the condition of your jawbone and surrounding structures. This is crucial to determine if you are a good candidate for [dental implants](/dental-implant).",
+        text: "During the initial consultation, the dentist will evaluate your oral health, take dental X-rays, and possibly use 3D imaging to assess the condition of your jawbone and surrounding structures. This is crucial to determine if you are a good candidate for [dental implants](/dental-implants).",
       },
       {
         type: "heading",
@@ -12584,7 +12584,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       },
       {
         type: "paragraph",
-        text: "**Improved Cleaning**: Crooked or crowded teeth can be difficult to clean effectively, increasing the risk of plaque buildup, cavities, and gum disease. [Orthodontic treatment](/orthodontics/) straightens your teeth, making it easier to brush and floss, promoting better oral hygiene and preventing dental problems.",
+        text: "**Improved Cleaning**: Crooked or crowded teeth can be difficult to clean effectively, increasing the risk of plaque buildup, cavities, and gum disease. [Orthodontic treatment](/orthodontist/) straightens your teeth, making it easier to brush and floss, promoting better oral hygiene and preventing dental problems.",
       },
       {
         type: "paragraph",
@@ -12752,7 +12752,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       },
       {
         type: "paragraph",
-        text: "If you’re experiencing any of these symptoms after a root canal, don’t hesitate to contact our dental office, [Coral Springs Smiles](/). Early diagnosis and treatment are key to a successful outcome. We offer convenient appointment scheduling and are dedicated to providing you with the best possible care. Call us today at **(954) 757-5353**.",
+        text: "If you’re experiencing any of these symptoms after a root canal, don’t hesitate to contact our dental office, [Coral Springs Smiles](/). Early diagnosis and treatment are key to a successful outcome. We offer convenient appointment scheduling and are dedicated to providing you with the best possible care. Call us today at **[(954) 757-5353](tel:9547575353)**.",
       },
     ],
   },
@@ -12760,7 +12760,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     slug: "dentists-coral-spring",
     title: "Dentists Near Me Accepting New Patients: Coral Springs Smiles",
     excerpt:
-      "Are you looking for a dentist near you in Coral Springs, Florida? Coral Springs Smiles provides the best dental care! Call now (954) 715-6840.",
+      "Are you looking for a dentist near you in Coral Springs, Florida? Coral Springs Smiles provides the best dental care! Call now [(954) 715-6840](tel:9547156840).",
     publishedAt: "2024-04-26",
     cardImage: {
       src: "/blog/dentists-coral-spring.jpg",
@@ -12769,7 +12769,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     meta: {
       title: "Dentist Near Me in Coral Springs, Florida",
       description:
-        "Are you looking for a dentist near you in Coral Springs, Florida? Coral Springs Smiles provides the best dental care! Call now (954) 715-6840.",
+        "Are you looking for a dentist near you in Coral Springs, Florida? Coral Springs Smiles provides the best dental care! Call now [(954) 715-6840](tel:9547156840).",
     },
     content: [
       {
@@ -12842,7 +12842,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       },
       {
         type: "paragraph",
-        text: "At [Coral Springs Smiles](/), we prioritize your well-being and aim to improve your quality of life through better oral health. Schedule an appointment today by calling (954) 757-5353. Let us take care of your dental needs and keep your smile healthy and beautiful!",
+        text: "At [Coral Springs Smiles](/), we prioritize your well-being and aim to improve your quality of life through better oral health. Schedule an appointment today by calling [(954) 757-5353](tel:9547575353). Let us take care of your dental needs and keep your smile healthy and beautiful!",
       },
     ],
   },

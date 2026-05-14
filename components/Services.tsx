@@ -12,17 +12,18 @@ import {
 } from "framer-motion";
 import { Reveal } from "@/components/motion/Reveal";
 import SectionHeading from "@/components/SectionHeading";
+import { Button } from "@/components/ui/button";
 
 const services = [
   { title: "Botox Cosmetic", image: "/images/botox.png", description: "Soft facial balancing treatments with a natural, refreshed finish.", href: "/botox-coral-springs" },
   { title: "Cosmetic Dentistry", image: "/images/Cosmetic-Dentistry.png", description: "Smile-enhancing veneers and contouring tailored to your features.", href: "/cosmetic-dentistry" },
   { title: "Crowns & Bridges", image: "/images/Crowns-Bridges.png", description: "Durable restorations crafted for ideal bite alignment and aesthetics.", href: "/crowns" },
-  { title: "Dental Implants", image: "/images/Dental-Implants.png", description: "Precision-guided implant solutions for stability and long-term confidence.", href: "/dental-implant" },
+  { title: "Dental Implants", image: "/images/Dental-Implants.png", description: "Precision-guided implant solutions for stability and long-term confidence.", href: "/dental-implants" },
   { title: "Dermal Fillers", image: "/images/Dermal-Fillers.png", description: "Volume-restoring enhancements designed for subtle facial harmony.", href: "/dermal-fillers-coral-springs" },
   { title: "Emergency Appointment", image: "/images/Emergency-Appointment.png", description: "Same-day urgent care support when comfort and fast relief matter most.", href: "/emergency-dentist-coral-springs" },
   { title: "Invisalign", image: "/images/Invisalign.png", description: "Clear aligner plans that straighten your smile with daily convenience.", href: "/invisalign" },
   { title: "Laser Dentistry", image: "/images/Laser-Dentistry.png", description: "Minimally invasive procedures with better comfort and faster healing.", href: "/laser-dentistry" },
-  { title: "Orthodontics", image: "/images/Orthodontics.png", description: "Comprehensive bite correction for healthy function and balanced aesthetics.", href: "/orthodontics" },
+  { title: "Orthodontics", image: "/images/Orthodontics.png", description: "Comprehensive bite correction for healthy function and balanced aesthetics.", href: "/orthodontist" },
   { title: "Periodontics", image: "/images/Periodontics.png", description: "Gum health therapies focused on prevention, restoration, and longevity.", href: "/periodontics" },
   { title: "Root Canal Treatment", image: "/images/Root-Canal-Treatment.png", description: "Advanced infection treatment to save natural teeth and reduce discomfort.", href: "/endodontics" },
   { title: "Teeth Whitening", image: "/images/Teeth-Whitening.png", description: "Professional whitening protocols for noticeably brighter, even-toned teeth.", href: "/teeth-whitening" },
@@ -171,14 +172,17 @@ function ServiceCard({ service, index }: { service: Service; index: number }) {
           </p>
 
           {/* CTA */}
-          <div className="mt-6 flex items-center gap-2">
-            <Link
-              href={service.href}
-              className="group/link inline-flex items-center gap-1.5 text-[0.72rem] font-semibold uppercase tracking-[0.18em] text-brand transition-all duration-300 hover:text-brand-muted"
+          <div className="mt-6 w-full">
+            <Button
+              asChild
+              size="default"
+              className="group/btn w-full bg-linear-to-r from-brand-light via-brand to-brand-muted text-white shadow-[0_14px_40px_rgba(198,81,42,0.32),0_10px_34px_rgba(158,61,36,0.22)] transition-all duration-300 hover:-translate-y-0.5 hover:from-[#e8896f] hover:via-[#ce5c38] hover:to-[#a63d22] hover:shadow-[0_18px_48px_rgba(223,122,88,0.34),0_12px_40px_rgba(198,81,42,0.28)]"
             >
-              Learn More
-              <ArrowRight className="size-3.5 transition-transform duration-300 group-hover/link:translate-x-1" />
-            </Link>
+              <Link href={service.href}>
+                Learn more
+                <ArrowRight className="ml-1 size-4 transition-transform duration-300 group-hover/btn:translate-x-1" />
+              </Link>
+            </Button>
           </div>
         </div>
       </article>

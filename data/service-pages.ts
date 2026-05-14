@@ -101,7 +101,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
     meta: {
       title: "Dental Crowns in Coral Springs, Florida",
       description:
-        "Improve your smile with the best dental crowns in Coral Springs. Call (954) 757-5353 to schedule an appointment.",
+        "Improve your smile with the best dental crowns in Coral Springs. Call [(954) 757-5353](tel:9547575353) to schedule an appointment.",
     },
     title: "Dental Crowns",
     video: { kind: "mp4", src: "/videos/crowns-and-bridges.mp4" },
@@ -178,7 +178,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
     ],
   },
   {
-    slug: "dental-implant",
+    slug: "dental-implants",
     meta: {
       title: "Dental Implants in Coral Springs Smiles, Florida",
       description:
@@ -411,16 +411,16 @@ const SERVICE_PAGES: ServicePageDoc[] = [
     ],
   },
   {
-    slug: "orthodontics",
+    slug: "orthodontist",
     meta: {
       title: "Orthodontist, Coral Springs - Orthodontist Near Me",
       description:
-        "Book your appointment at (954) 757-5353 for best orthodontist treatment near Coral Springs, FL. Braces & Invisalign",
+        "Book your appointment at [(954) 757-5353](tel:9547575353) for best orthodontist treatment near Coral Springs, FL. Braces & Invisalign",
     },
     title: "Orthodontist",
     video: { kind: "mp4", src: "/videos/orthodontics.mp4" },
     content: [
-      { type: "heading", level: 2, text: "Orthodontics" },
+      { type: "heading", level: 2, text: "Orthodontist" },
       {
         type: "paragraph",
         text: "Orthodontics deals with correcting the dental aesthetics and functionality caused by irregularities in your teeth.",
@@ -752,7 +752,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
       title:
         "Invisalign Dentist Coral Springs. FL | Braces | Coral Springs, Florida",
       description:
-        "If you are looking for an invisalign dentist near me, then choose Coral Springs Smiles in Florida. Get the best invisalign treatment in Cora Springs, FL. Call us (954) 757-5353 for an appointment",
+        "If you are looking for an invisalign dentist near me, then choose Coral Springs Smiles in Florida. Get the best invisalign treatment in Cora Springs, FL. Call us [(954) 757-5353](tel:9547575353) for an appointment",
     },
     title: "Invisalign",
     video: { kind: "mp4", src: "/videos/invisalign.mp4" },
@@ -927,7 +927,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
     meta: {
       title: "Pediatric Dentist Coral Springs, FL | Kids Friendly Dentist",
       description:
-        "Looking for a pediatric dentist in Coral Springs, FL 33065? Coral Springs Smiles offers expert dental care for kids in a welcoming, child-friendly environment. Book your appointment at (954) 757-5353",
+        "Looking for a pediatric dentist in Coral Springs, FL 33065? Coral Springs Smiles offers expert dental care for kids in a welcoming, child-friendly environment. Book your appointment at [(954) 757-5353](tel:9547575353)",
     },
     title: "Pediatric Dentist",
     content: [
@@ -1476,7 +1476,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
     meta: {
       title: "Emergency Dentist in Coral Springs, FL",
       description:
-        "When you need a emergency dental tretment in in coral springs, our skilled dentist team in coral springs provide a effective care. Call (954) 757-5353",
+        "When you need a emergency dental tretment in in coral springs, our skilled dentist team in coral springs provide a effective care. Call [(954) 757-5353](tel:9547575353)",
     },
     title: "Emergency Dentist",
     video: {

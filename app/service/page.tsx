@@ -53,7 +53,7 @@ const SERVICE_ITEMS: ServiceCard[] = [
     title: "Dental Implant",
     src: "/images/Dental-Implants.jpg",
     alt: "Dental implant and crown model",
-    href: "/dental-implant",
+    href: "/dental-implants",
   },
   {
     title: "Root Canal Treatment",
@@ -65,7 +65,7 @@ const SERVICE_ITEMS: ServiceCard[] = [
     title: "Orthodontics",
     src: "/images/Orthodontics.jpg",
     alt: "Orthodontic dental care",
-    href: "/orthodontics",
+    href: "/orthodontist",
   },
   {
     title: "Teeth Whitening",

@@ -36,9 +36,9 @@ const navigation: NavigationItem[] = [
       { label: "Your First Visit", href: "/your-first-visit" },
       { label: "Cosmetic Dentistry", href: "/cosmetic-dentistry" },
       { label: "Crowns & Bridges", href: "/crowns" },
-      { label: "Dental Implant", href: "/dental-implant" },
+      { label: "Dental Implants", href: "/dental-implants" },
       { label: "Root Canal Treatment", href: "/endodontics" },
-      { label: "Orthodontics", href: "/orthodontics" },
+      { label: "Orthodontics", href: "/orthodontist" },
       { label: "Tooth Extraction", href: "/tooth-extraction" },
       { label: "Teeth Whitening", href: "/teeth-whitening" },
       { label: "Invisalign", href: "/invisalign" },
@@ -74,7 +74,7 @@ const navigation: NavigationItem[] = [
     ],
   },
   { label: "Location & Hours", href: "/office-hours" },
-  // { label: "Blog", href: "/blog" },
+  { label: "Blog", href: "/blog" },
   {
     label: "Success Stories", href: "/testimonials", sublinks: [
       { label: "Smile Gallery", href: "/smile-gallery" },

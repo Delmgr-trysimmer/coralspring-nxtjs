@@ -66,11 +66,13 @@ function ServiceVideo({
 
 export default function ServicePageBody({
   title,
+  tagline,
   breadcrumbLabel,
   video,
   content,
 }: {
   title: string;
+  tagline?: string;
   video?: ServiceVideoConfig;
   content: ServiceContentBlock[];
   breadcrumbLabel: string;
@@ -80,7 +82,7 @@ export default function ServicePageBody({
       <AnimateInView>
         <header className="mb-12 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.22em] text-brand sm:text-base">
-            Have A Perfect Smile!
+            {tagline || "Have A Perfect Smile!"}
           </p>
           <p className="mt-2 font-display text-xl font-semibold tracking-tight text-slate-900 sm:mt-3 sm:text-2xl lg:text-3xl">
             {breadcrumbLabel} in Coral Springs

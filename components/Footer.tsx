@@ -39,13 +39,13 @@ const quickLinks = [
 ] as const;
 
 const serviceLinks = [
-  { label: "Dental Implants", href: "/dental-implant" },
+  { label: "Dental Implants", href: "/dental-implants" },
   { label: "Cosmetic Dentistry", href: "/cosmetic-dentistry" },
   { label: "Invisalign", href: "/invisalign" },
   { label: "Teeth Whitening", href: "/teeth-whitening" },
   { label: "Emergency Appointment", href: "/emergency-dentist-coral-springs" },
   { label: "Root Canal Treatment", href: "/endodontics" },
-  { label: "Orthodontics", href: "/orthodontics" },
+  { label: "Orthodontist", href: "/orthodontics" },
   { label: "Crowns & Bridges", href: "/crowns" },
   { label: "Periodontics", href: "/periodontics" },
   { label: "Laser Dentistry", href: "/laser-dentistry" },

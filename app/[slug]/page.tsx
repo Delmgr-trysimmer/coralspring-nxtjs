@@ -109,6 +109,7 @@ export default async function UnifiedSlugPage({ params }: PageParams) {
         <main className="relative z-0 bg-white pb-16">
           <ServicePageBody
             title={serviceDoc.title}
+            tagline={serviceDoc.tagline}
             video={serviceDoc.video}
             content={serviceDoc.content}
             breadcrumbLabel={serviceDoc.title}
