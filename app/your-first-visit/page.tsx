@@ -10,7 +10,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Your First Visit to Our Practice | Schedule Your Appointment Today",
   description:
-    "Welcome to Coral Springs Smiles! Schedule your first appointment by requesting an appointment online or calling us at (954) 715-6840. Get directions to our location and we'll see you soon! Contact us for more information.",
+    "Schedule your first dental visit at Coral Springs Smiles for personalized family dental care in Coral Springs. Call (954) 266-8755 today.",
 };
 
 const VISIT_STEPS = [

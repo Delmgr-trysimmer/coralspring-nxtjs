@@ -16,7 +16,7 @@ type ServiceCard = {
 export const metadata: Metadata = {
   title: "Best Dental Service at Coral Springs Smiles, Florida",
   description:
-    "Coral Springs Smiles offers a range of dental services, including cosmetic dentistry, general dentistry, and emergency care. Get high-quality dental care in Coral Springs, FL.",
+    "Explore cosmetic, restorative, family, and emergency dental services at Coral Springs Smiles. Call (954) 266-8755 today.",
 };
 
 const SERVICE_ITEMS: ServiceCard[] = [

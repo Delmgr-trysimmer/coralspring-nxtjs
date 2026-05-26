@@ -1,6 +1,7 @@
 "use client";
 
 import Script from "next/script";
+import { useRouter } from "next/navigation";
 import { useState, type FormEvent, type ReactNode } from "react";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
@@ -55,6 +56,7 @@ const inputClass =
   "mt-1.5 w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5 text-slate-900 shadow-sm outline-none transition placeholder:text-slate-400 focus:border-[#007ea8] focus:ring-2 focus:ring-[#007ea8]/25";
 
 export default function ContactUsForm() {
+  const router = useRouter();
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
@@ -155,6 +157,9 @@ export default function ContactUsForm() {
       setConsent(false);
       window.grecaptcha?.reset?.();
       setStatus("success");
+      
+      // Redirect to thank you page
+      router.push("/thank-you");
     } catch {
       setErrorMessage("Network error. Please try again.");
       setStatus("error");

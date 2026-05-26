@@ -13,7 +13,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
     meta: {
       title: "Transform Your Smile | Cosmetic Dentist | Coral Springs, FL",
       description:
-        "If you are looking for teeth whitening, veneers, Invisalign, or any other cosmetic dental treatments in Coral Springs, FL, visit Coral Springs Smiles, and we will provide customized treatment plans for your needs!",
+        "Transform your smile with veneers, Invisalign, teeth whitening, and cosmetic dentistry in Coral Springs. Call (954) 266-8755 today.",
     },
     tagline: "Have A Perfect Smile!",
     title: "Cosmetic Dentist",
@@ -182,7 +182,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
     meta: {
       title: "Dental Implants in Coral Springs Smiles, Florida",
       description:
-        "Dr. Payal Anand offers the best dental implant treatments in and near Coral Springs, FL. Learn about the implant process and discover why dental implants are the right choice for you!",
+        "Replace missing teeth with durable, natural-looking dental implants in Coral Springs. Call (954) 266-8755 today.",
     },
     title: "Dental Implants",
     video: { kind: "mp4", src: "/videos/dental-implant.mp4" },
@@ -752,7 +752,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
       title:
         "Invisalign Dentist Coral Springs. FL | Braces | Coral Springs, Florida",
       description:
-        "If you are looking for an invisalign dentist near me, then choose Coral Springs Smiles in Florida. Get the best invisalign treatment in Cora Springs, FL. Call us [(954) 757-5353](tel:9547575353) for an appointment",
+        "Straighten crooked teeth with Invisalign clear aligners and achieve a confident smile in Coral Springs. Call (954) 266-8755 today.",
     },
     title: "Invisalign",
     video: { kind: "mp4", src: "/videos/invisalign.mp4" },
@@ -805,10 +805,9 @@ const SERVICE_PAGES: ServicePageDoc[] = [
   {
     slug: "dermal-fillers-coral-springs",
     meta: {
-      title:
-        "Dermal Fillers in Coral Springs | Restore Your Youthful Appearance Today",
+      title: "Dermal Fillers in Coral Springs",
       description:
-        "Achieve a more youthful look with dermal fillers in Coral Springs. Our experienced team of professionals at Coral Springs Smiles can help you enhance your natural beauty. Book an appointment now.",
+        "Enhance your natural beauty with professional dermal fillers and facial aesthetics in Coral Springs. Call (954) 266-8755 today.",
     },
     title: "Dermal Fillers",
     video: { kind: "mp4", src: "/videos/dermal-fillers-coral-springs.mp4" },
@@ -927,7 +926,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
     meta: {
       title: "Pediatric Dentist Coral Springs, FL | Kids Friendly Dentist",
       description:
-        "Looking for a pediatric dentist in Coral Springs, FL 33065? Coral Springs Smiles offers expert dental care for kids in a welcoming, child-friendly environment. Book your appointment at [(954) 757-5353](tel:9547575353)",
+        "Gentle pediatric dental care for children in a comfortable, family-friendly environment in Coral Springs. Call (954) 266-8755 today.",
     },
     title: "Pediatric Dentist",
     content: [
@@ -1223,7 +1222,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
     meta: {
       title: "Gum Disease Treatment - Periodontist",
       description:
-        "Trust our expert periodontist services in Coral Springs for effective gum disease treatment. Get relief from symptoms and prevent further damage to your teeth and gums.",
+        "Get advanced gum disease treatment and periodontal care for healthier gums in Coral Springs. Call (954) 266-8755 today.",
     },
     title: "Gum Disease Treatment",
     content: [
@@ -1336,7 +1335,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
     meta: {
       title: "Deep Cleaning Services in Coral Springs, FL | Coral Springs Smiles",
       description:
-        "Get comprehensive deep cleaning services for your teeth and gums at Coral Springs Smiles. Our experienced dentists provide the best dental cleaning services in Coral Springs.",
+        "Improve gum health with professional deep cleaning and periodontal care in Coral Springs. Call (954) 266-8755 today.",
     },
     title: "Deep Cleaning Services",
     content: [
@@ -1355,8 +1354,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
   {
     slug: "scaling-root-planing",
     meta: {
-      title:
-        "Scaling & Root Planing Treatment in Coral Springs, FL | Coral Springs Smiles",
+      title: "Scaling & Root Planing in Coral Springs",
       description:
         "Coral Springs Smiles offers scaling and root planing treatment to treat gum disease and prevent tooth loss. Get the best dental care services in Coral Springs.",
     },
@@ -1434,7 +1432,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
       title:
         "Peri-Implantitis Treatment in Coral Springs, FL | Coral Springs Smiles",
       description:
-        "Get the best peri-implantitis treatment in Coral Springs, FL, at Coral Springs Smiles. Our experienced dental team provides comprehensive dental care services to restore your oral health.",
+        "Treat peri-implantitis and restore healthy gums with advanced dental implant care in Coral Springs. Call (954) 266-8755 today.",
     },
     title: "Peri-Implantitis Treatment",
     content: [
@@ -1693,7 +1691,7 @@ const SERVICE_PAGES: ServicePageDoc[] = [
     meta: {
       title: "Periodontist Near Me in Coral Springs",
       description:
-        "Dr. Payal Anand, with over 16 years of experience, offers expert gum disease treatment at Coral Springs Smiles. We provide comprehensive solutions to restore your gum health.",
+        "Experienced periodontist providing advanced gum disease treatment and periodontal care. Call (954) 266-8755 today.",
     },
     title: "Periodontist",
     video: { kind: "youtube", videoId: "HXC_1Ezywa0" },

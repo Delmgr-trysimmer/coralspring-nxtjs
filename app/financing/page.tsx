@@ -4,7 +4,7 @@ import PageBanner from "@/components/PageBanner";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Insurance & Financing Options | Coral Springs Smiles | Dental Financing",
+  title: "Dental Financing in Coral Springs",
   description:
     "At Coral Springs Smiles, we offer insurance & financing options to make dental care affordable for everyone. Learn more about our financing options today.",
 };

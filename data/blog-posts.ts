@@ -30,7 +30,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     meta: {
       title: "Can I Get Dental Implants with Bone Loss?",
       description:
-        "Wondering if dental implants are possible with bone loss? At Coral Springs Smiles, we offer advanced solutions like bone grafting, sinus lifts, and All-on-4 implants to restore your smile",
+        "Explore advanced dental implant options for patients with bone loss at Coral Springs Smiles. Call (954) 266-8755 today.",
     },
     content: [
       {
@@ -246,7 +246,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     meta: {
       title: "Immediate vs. Delayed Dental Implant Placement",
       description:
-        "Explore the pros and cons of immediate vs. delayed dental implant placement. Coral Springs Smiles offers personalized guidance to help you choose the best option for restoring your smile effectively and confidently",
+        "Learn the benefits of immediate vs delayed dental implants and choose the right option for your smile. Call (954) 266-8755 today.",
     },
     content: [
       {
@@ -409,7 +409,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     meta: {
       title: "Gum Disease Prevention and Treatment in Coral Springs",
       description:
-        "Learn how to prevent and treat gum disease at Coral Springs Smiles. Our expert team offers personalized care, from routine cleanings to advanced periodontal treatments, to help you achieve a healthy smile and strong gums.",
+        "Get advanced gum disease treatment and periodontal care to restore healthy gums at Coral Springs Smiles. Call (954) 266-8755 today.",
     },
     content: [
       {
@@ -565,7 +565,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     meta: {
       title: "Understanding Tooth Decay: Prevention, Detection, and Treatment",
       description:
-        "Learn how to prevent, detect, and treat tooth decay effectively. Get expert advice on maintaining oral health with tips on brushing, fluoride use, and dental visits from Coral Springs Smiles.",
+        "Learn how to prevent tooth decay and protect your oral health with expert preventive dental care. Call (954) 266-8755 today.",
     },
     content: [
       {
@@ -684,7 +684,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     meta: {
       title: "Prevention & Progression: Understanding the 5 Stages of Cavities",
       description:
-        "Learn about the 5 stages of cavity progression, from enamel demineralization to abscess formation. Discover prevention tips and treatment options to maintain your oral health.",
+        "Learn the 5 stages of cavity progression and how preventive care protects your smile. Call (954) 266-8755 today.",
     },
     content: [
       {
@@ -804,7 +804,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     meta: {
       title: "Coral Springs Smiles Accepts United Healthcare Insurance",
       description:
-        "Looking for a dentist in Coral Springs who accepts United Healthcare Insurance? Coral Springs Smiles offers comprehensive dental care and proudly accepts United Healthcare Insurance.",
+        "Coral Springs Smiles proudly accepts United Healthcare Insurance for affordable family dental care. Call (954) 266-8755 today.",
     },
     content: [
       {
@@ -2103,7 +2103,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     meta: {
       title: "Dental Crowns in Coral Springs, FL | Coral Springs Smiles",
       description:
-        "Restore your smile with custom dental crowns at Coral Springs Smiles. Durable, natural-looking solutions to protect and enhance damaged teeth. Schedule a consultation today!",
+        "Restore damaged teeth with custom dental crowns for a natural, healthy smile. Call (954) 266-8755 today.",
     },
     content: [
       {
@@ -2242,7 +2242,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     meta: {
       title: "What Is the Cost of Teeth Whitening in Coral Springs?",
       description:
-        "Teeth whitening in Coral Springs costs $300-$800. In-office treatments range from $400-$800, while take-home kits cost $300-$500. Coral Springs Smiles offers both!",
+        "Learn about teeth whitening costs, treatment options, and brighter smile solutions in Coral Springs. Call today.",
     },
     content: [
       {
@@ -2567,10 +2567,9 @@ const BLOG_POSTS: BlogPostDoc[] = [
       alt: "Preparing kids for their first dentist visit",
     },
     meta: {
-      title:
-        "Tips to Prepare Kids for Their First Dentist Visit | Coral Springs Smiles",
+      title: "Kids First Dental Visit Tips",
       description:
-        "Prepare your child for their first dentist visit with helpful tips from Coral Springs Smiles. Create a positive experience for your little one with our expert advice and kid-friendly care.",
+        "Prepare your child for a stress-free first dental visit with helpful tips from Coral Springs Smiles. Call (954) 266-8755 today.",
     },
     content: [
       {
@@ -2852,10 +2851,9 @@ const BLOG_POSTS: BlogPostDoc[] = [
       alt: "Gum laser surgery LANAP treatment",
     },
     meta: {
-      title:
-        "Gum Laser Surgery: LANAP Treatment for Healthier Gums | Coral Springs Smiles",
+      title: "LANAP Gum Laser Treatment in Coral Springs",
       description:
-        "Discover LANAP, a minimally invasive gum laser surgery for gum disease. Learn how this revolutionary treatment at Coral Springs Smiles can restore your gum health with faster recovery and less discomfort.",
+        "Restore gum health with advanced LANAP laser gum surgery and periodontal treatment in Coral Springs. Call (954) 266-8755 today.",
     },
     content: [
       {
@@ -3001,10 +2999,9 @@ const BLOG_POSTS: BlogPostDoc[] = [
       alt: "Patient receiving gentle dental care in the treatment chair",
     },
     meta: {
-      title:
-        "Dental Fillings Near Me in Coral Springs | Cavities & Tooth Repair | Coral Springs Smiles",
+      title: "Dental Fillings in Coral Springs",
       description:
-        "Learn how dental fillings stop decay, strengthen teeth, and restore your smile. Explore types of fillings, costs, prevention, and FAQs from Coral Springs Smiles in Coral Springs, FL.",
+        "Restore cavities and damaged teeth with durable dental fillings in Coral Springs. Call (954) 266-8755 today.",
     },
     content: [
       {
@@ -3781,7 +3778,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       title:
         "Tooth Extraction in Coral Springs for Severely Damaged Teeth",
       description:
-        "Need tooth extraction in Coral Springs? Learn when removal is the best option for damaged or infected teeth and how it relieves pain and protects your oral health.",
+        "Safe tooth extraction services for damaged, infected, or painful teeth in Coral Springs. Call (954) 266-8755 today.",
     },
     content: [
       {
@@ -8437,10 +8434,9 @@ const BLOG_POSTS: BlogPostDoc[] = [
       alt: "Cosmetic dentistry for a confident, natural-looking smile",
     },
     meta: {
-      title:
-        "Best Cosmetic Dentist in Coral Springs | Fix Smile Imperfections Permanently",
+      title: "Cosmetic Dentist in Coral Springs",
       description:
-        "Looking for the best cosmetic dentist in Coral Springs? Fix stained, chipped, uneven, or crooked teeth with long-lasting solutions like veneers, whitening, and smile makeovers.",
+        "Fix chipped, stained, uneven, or crooked teeth with cosmetic dentistry in Coral Springs. Call (954) 266-8755 today.",
     },
     content: [
       {
@@ -8756,7 +8752,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       title:
         "Veneers Near Me | Best Veneers in Coral Springs for a Perfect Smile",
       description:
-        "Searching for veneers near me? Get natural-looking, long-lasting veneers in Coral Springs to fix chipped, stained, or uneven teeth. Book your consultation today!",
+        "Get natural-looking veneers in Coral Springs to fix chipped, stained, or uneven teeth. Call (954) 266-8755 today.",
     },
     content: [
       {
@@ -9041,7 +9037,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       title:
         "Smile Makeover Near Me | Complete Smile Makeover in Coral Springs",
       description:
-        "Looking for a smile makeover near me? Get a complete smile makeover in Coral Springs with veneers, whitening, Invisalign & more. Achieve a confident, natural smile today!",
+        "Transform your smile with veneers, whitening, Invisalign, and smile makeovers in Coral Springs. Call today.",
     },
     content: [
       {
@@ -10503,10 +10499,9 @@ const BLOG_POSTS: BlogPostDoc[] = [
       alt: "Root canal treatment in Coral Springs",
     },
     meta: {
-      title:
-        "Everything You Need to Know About Root Canal Treatment in Coral Springs",
+      title: "Root Canal Treatment in Coral Springs",
       description:
-        "Learn everything you need to know about root canal treatment in Coral Springs, including why it's necessary, how it's performed, and what to expect during recovery.",
+        "Learn everything about root canal treatment, recovery, benefits, and aftercare at Coral Springs Smiles today.",
     },
     content: [
       {
@@ -10592,7 +10587,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     meta: {
       title: "Root Canal Treatment in Coral Springs, FL",
       description:
-        "Root Canal Treatment in Coral Springs, FL. Painful tooth? Get expert Root Canal Treatment in Coral Springs, FL at Coral Springs Smiles. Schedule your appointment today!",
+        "Relieve tooth pain with expert root canal treatment and restorative dental care in Coral Springs. Call today.",
     },
     content: [
 
@@ -11068,7 +11063,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     meta: {
       title: "Reasons Why You Should Consider Teeth Whitening",
       description:
-        "Discover the benefits of teeth whitening at Coral Springs Smiles Dentistry. Enhance your appearance, boost confidence, and achieve a whiter smile with safe and effective treatments. Schedule a consultation to learn more",
+        "Discover the benefits of professional teeth whitening for a brighter, confident smile at Coral Springs Smiles. Call (954) 266-8755 today.",
     },
     content: [
       {
@@ -11167,9 +11162,9 @@ const BLOG_POSTS: BlogPostDoc[] = [
       alt: "Root canal treatment follow-up in Coral Springs",
     },
     meta: {
-      title: "",
+      title: "Root Canal Issues in Coral Springs",
       description:
-        "Discover why root canal treatment may fail and what to expect after therapy. Our experienced dentists in Coral Springs provide expert care and advice to help you maintain a healthy smile.",
+        "Learn common root canal treatment issues, symptoms, and recovery tips at Coral Springs Smiles. Call today.",
     },
     content: [
       {
@@ -11225,7 +11220,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     meta: {
       title: "Get Your Perfect Smile with Dental Implants in Coral Springs",
       description:
-        "Say goodbye to missing teeth and hello to a confident smile with dental implants in Coral Springs! Our experts ensure a painless procedure for a flawless finish.",
+        "Replace missing teeth with durable, natural-looking dental implants in Coral Springs. Call (954) 266-8755 today.",
     },
     content: [
       {
@@ -11305,7 +11300,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     meta: {
       title: "General Dentistry Near Me in Coral Springs Smiles",
       description:
-        "Find the best dentist near you in Coral Springs, Florida for routine check-ups and cosmetic procedures. Book now at [(954) 715-6840](tel:9547156840) for a general dentistry appointment",
+        "Comprehensive general dentistry including exams, cleanings, fillings, and preventive care. Call (954) 266-8755 today.",
     },
     content: [
       {
@@ -11642,7 +11637,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     meta: {
       title: "Invisalign: FAQs, Benefits, and Treatment Process",
       description:
-        "Explore Invisalign FAQs and discover how clear aligners can help you achieve a perfect smile. Learn about treatment options, benefits, costs, and more at Coral Springs Smiles",
+        "Get answers to Invisalign FAQs about aligners, treatment time, costs, and smile benefits. Call (954) 266-8755 today.",
     },
     content: [
       {
@@ -12298,7 +12293,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     meta: {
       title: "Are Root Canals Painful?",
       description:
-        "Discover the truth about root canals and pain. Learn how modern dental techniques and anesthesia ensure a comfortable experience. Find out what to expect and how to manage any discomfort.",
+        "Learn how modern root canal treatments provide comfortable, effective, and pain-free dental care. Call (954) 266-8755 today.",
     },
     content: [
       {
@@ -12653,7 +12648,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     meta: {
       title: "Symptoms of Root Canal Infection",
       description:
-        "Experiencing pain or swelling after a root canal? It could be an infection. Learn the signs of root canal infection and what to do if you have them. Our dentist can help!",
+        "Learn the signs of root canal infection, severe tooth pain, and when to seek dental care. Call (954) 266-8755 today.",
     },
     content: [
       {
@@ -12856,8 +12851,8 @@ const BLOG_POSTS: BlogPostDoc[] = [
       alt: "Is Having Sensitive Teeth Bad?",
     },
     meta: {
-      title: "",
-      description: "",
+      title: "Sensitive Teeth Treatment | Coral Springs Smiles",
+      description: "Are your teeth sensitive to hot or cold? Learn about the causes of tooth sensitivity and how we can help you find relief at Coral Springs Smiles.",
     },
     content: [
       {
@@ -12981,7 +12976,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
     meta: {
       title: "Professional Teeth Whitening",
       description:
-        "Discover the benefits of professional teeth whitening at Coral Springs Smiles, even for those with sensitive teeth. Learn about the procedure, customization, safety, and long-lasting effects.",
+        "Achieve a brighter smile with safe, effective professional teeth whitening treatments in Coral Springs. Call (954) 266-8755 today.",
     },
     content: [
       {

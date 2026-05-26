@@ -5,10 +5,9 @@ import Testimonials from "@/components/Testimonials";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title:
-    "Discover Why Our Patients Choose Coral Springs Dental | Read Our Testimonials",
+  title: "Patient Testimonials | Coral Springs Smiles",
   description:
-    "Discover what our patients say about their experiences with Coral Springs Dental. Read our testimonials and discover why we are the trusted choice for comprehensive dental care in Coral Springs.",
+    "Read patient testimonials and reviews to discover why Coral Springs Smiles is trusted for family dental care. Call today.",
 };
 
 const TESTIMONIAL_VIDEOS = [

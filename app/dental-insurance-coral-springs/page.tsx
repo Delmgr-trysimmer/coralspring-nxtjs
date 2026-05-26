@@ -9,7 +9,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Dental Insurance at Coral Springs Smiles",
   description:
-    "Coral Springs Smiles accepts a wide range of dental insurance plans, including MetLife, Cigna, Humana, and many more, to ensure affordable, high-quality dental care for Coral Springs, FL residents. Schedule your appointment today!",
+    "Coral Springs Smiles accepts most dental insurance plans to provide affordable, high-quality dental care. Call (954) 266-8755 today.",
 };
 
 const insurancePlans = [

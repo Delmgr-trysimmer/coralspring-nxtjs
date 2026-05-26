@@ -50,4 +50,4 @@ Allow: /
 
 # Sitemap
 
-Sitemap: https://www.coralspringsmiles.com/sitemap.xml
+Sitemap: https://coralspringsmiles.com/sitemap.xml

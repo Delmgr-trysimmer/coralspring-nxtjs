@@ -5,7 +5,7 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "Best Periodontist Coral Springs | Gum Disease & Deep Cleaning Experts",
   description:
-    "Looking for a trusted periodontist in Coral Springs? Coral Springs Smiles offers expert gum disease treatment, scaling and root planing, and advanced periodontal care. Book your consultation today.",
+    "Trusted periodontist in Coral Springs offering gum disease treatment and advanced periodontal care. Call (954) 266-8755 today.",
   alternates: {
     canonical: "/periodontist-coral-springs",
   },

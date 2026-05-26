@@ -157,7 +157,7 @@ export default function Footer() {
       <div className="border-t border-slate-100 bg-slate-50/80">
         <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
           <p className="text-center text-xs text-slate-600 sm:text-left">
-            © {new Date().getFullYear()} coralspringssmiles.com All Rights Reserved.
+            © {new Date().getFullYear()} coralspringsmiles.com All Rights Reserved.
           </p>
         </div>
       </div>

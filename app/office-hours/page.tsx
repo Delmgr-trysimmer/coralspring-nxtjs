@@ -10,7 +10,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Office Hours | Coral Springs Dental",
   description:
-    "At Coral Springs Dental, we understand that your time is valuable. That's why we offer convenient office hours to fit your busy schedule. Book your appointment today and experience personalized dental care at a time that works for you.",
+    "Visit Coral Springs Smiles for flexible office hours, advanced dental care, and personalized treatments in Coral Springs. Call (954) 266-8755 today.",
 };
 
 const HOURS_ROWS: { day: string; value: string }[] = [
