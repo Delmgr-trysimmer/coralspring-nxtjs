@@ -1,282 +1,320 @@
-[
-  {
-    "slug": "dental-implants-with-bone-loss",
-    "title": "Can I Get Dental Implants with Bone Loss?",
-    "fileIdx": 21
-  },
-  {
-    "slug": "immediate-vs-delayed-dental-implant",
-    "title": "The Pros and Cons of Immediate vs. Delayed Dental Implant Placement",
-    "fileIdx": 237
-  },
-  {
-    "slug": "gum-disease",
-    "title": "Gum Disease Prevention and Treatment",
-    "fileIdx": 400
-  },
-  {
-    "slug": "tooth-decay-prevention",
-    "title": "Understanding Tooth Decay: Prevention, Detection, and Treatment",
-    "fileIdx": 556
-  },
-  {
-    "slug": "prevention-progression-5-stages-of-cavities",
-    "title": "Prevention & Progression: The 5 Stages of Cavities",
-    "fileIdx": 675
-  },
-  {
-    "slug": "united-healthcare-insurance",
-    "title": "Dentist Accepting United Healthcare Insurance in Coral Springs",
-    "fileIdx": 795
-  },
-  {
-    "slug": "endodontic-treatment-in-coral-springs",
-    "title": "Endodontic Treatment in Coral Springs | Root Canal Care",
-    "fileIdx": 902
-  },
-  {
-    "slug": "how-dental-implants-work-coral-springs",
-    "title": "How Do Dental Implants Work? | Coral Springs Smiles",
-    "fileIdx": 1074
-  },
-  {
-    "slug": "lanap-treatment-coral-springs",
-    "title": "LANAP Treatment in Coral Springs: A Gentle Approach to Healthier Gums",
-    "fileIdx": 1215
-  },
-  {
-    "slug": "dental-implants-in-coral-springs-fl",
-    "title": "Dental Implants in Coral Springs,FL | Coral Springs Smiles",
-    "fileIdx": 1326
-  },
-  {
-    "slug": "invisalign-in-coral-springsfl",
-    "title": "Invisalign in Coral Springs,Fl",
-    "fileIdx": 1431
-  },
-  {
-    "slug": "dental-veneers-in-coral-springs-fl",
-    "title": "Dental Veneers in Coral Springs, FL | Coral Springs Smiles",
-    "fileIdx": 1538
-  },
-  {
-    "slug": "laser-teeth-whitening-in-coral-springs-fl",
-    "title": "Laser Teeth Whitening in Coral Springs,FL – Get a Brighter Smile Today",
-    "fileIdx": 1639
-  },
-  {
-    "slug": "emergency-dentistry-in-coral-springs-fl",
-    "title": "Emergency Dentistry in Coral Springs, FL",
-    "fileIdx": 1719
-  },
-  {
-    "slug": "invisalign-vs-braces-in-coral-springs-fl",
-    "title": "Can Braces Change Your Face? Invisalign vs Braces in Coral Springs, FL",
-    "fileIdx": 1816
-  },
-  {
-    "slug": "dental-implants-in-coral-springs",
-    "title": "Dental Implants in Coral Springs | Dental Implants Near Me",
-    "fileIdx": 1914
-  },
-  {
-    "slug": "teeth-whitening-in-coral-springs",
-    "title": "The Best Professional Teeth Whitening in Coral Springs , Fl",
-    "fileIdx": 1993
-  },
-  {
-    "slug": "dental-crowns-restoring-your-smile-with-coral-springs-smiles",
-    "title": "Dental Crowns: Restoring Your Smile with Coral Springs Smiles",
-    "fileIdx": 2094
-  },
-  {
-    "slug": "what-is-the-cost-of-teeth-whitening-in-coral-springs",
-    "title": "What Is the Cost of Teeth Whitening in Coral Springs?",
-    "fileIdx": 2233
-  },
-  {
-    "slug": "best-orthodontist-in-coral-springs",
-    "title": "How to Find the Best Orthodontist in Coral Springs for Your Family",
-    "fileIdx": 2362
-  },
-  {
-    "slug": "invisalign-in-coral-springs",
-    "title": "Why Invisalign in Coral Springs Is the Best Way to Get a Straighter Smile",
-    "fileIdx": 2452
-  },
-  {
-    "slug": "prepare-kids-first-dental-visit",
-    "title": "Tips to Prepare Kids for Their First Visit to the Dentist",
-    "fileIdx": 2560
-  },
-  {
-    "slug": "prevent-cavities",
-    "title": "How Can I Prevent Cavities in My Child’s Teeth?",
-    "fileIdx": 2685
-  },
-  {
-    "slug": "gum-laser-surgery-lanap-treatment",
-    "title": "Gum Laser Surgery: LANAP Treatment for Healthier Gums",
-    "fileIdx": 2845
-  },
-  {
-    "slug": "best-time-to-brush-your-teeth-dentist-recommended-guide",
-    "title": "Best Time to Brush Your Teeth | Dentist Recommended Guide",
-    "fileIdx": 4804
-  },
-  {
-    "slug": "tooth-extraction-cost-coral-springs-2026-price-guide",
-    "title": "Tooth Extraction Cost in Coral Springs (2026) | Price Guide",
-    "fileIdx": 5596
-  },
-  {
-    "slug": "best-way-to-replace-missing-tooth-coral-springs",
-    "title": "Gum Disease Treatment in Coral Springs",
-    "fileIdx": 7874
-  },
-  {
-    "slug": "gum-disease-treatment-in-coral-springs",
-    "title": "Gum Disease Treatment in Coral Springs",
-    "fileIdx": 8041
-  },
-  {
-    "slug": "laser-teeth-whitening-in-coral-springs",
-    "title": "Laser Teeth Whitening in Coral Springs",
-    "fileIdx": 8235
-  },
-  {
-    "slug": "orthodontist-near-me-coral-springs",
-    "title": "Orthodontist Near Me in Coral Springs",
-    "fileIdx": 9293
-  },
-  {
-    "slug": "dentist-near-me-in-coral-springs",
-    "title": "How to Find the Best Dentist in Coral Springs Near You",
-    "fileIdx": 9577
-  },
-  {
-    "slug": "laser-dentistry-in-coral-springs-fl",
-    "title": "Laser Dentistry in Coral Springs, FL",
-    "fileIdx": 10039
-  },
-  {
-    "slug": "teeth-whitening-treatment-in-coral-springs-fl",
-    "title": "Teeth Whitening Treatment in Coral Springs, FL",
-    "fileIdx": 10183
-  },
-  {
-    "slug": "periodontics-in-coral-springs-fl",
-    "title": "Periodontics in Coral Springs, FL",
-    "fileIdx": 10317
-  },
-  {
-    "slug": "all-you-need-to-know-about-root-canal-treatment-in-coral-springs",
-    "title": "All You Need to Know About Root Canal Treatment in Coral Springs",
-    "fileIdx": 10496
-  },
-  {
-    "slug": "root-canal-treatment-in-coral-springs",
-    "title": "Root Canal Treatment in Coral Springs, FL",
-    "fileIdx": 10582
-  },
-  {
-    "slug": "cosmetic-dentistry-in-coral-springs",
-    "title": "Cosmetic Dentistry in Coral Springs,FL",
-    "fileIdx": 10735
-  },
-  {
-    "slug": "gum-disease-treatment-coral-springs",
-    "title": "Gum Disease Treatment in Coral Springs",
-    "fileIdx": 10884
-  },
-  {
-    "slug": "reasons-why-you-should-consider-teeth-whitening",
-    "title": "Reasons Why You Should Consider Teeth Whitening",
-    "fileIdx": 11059
-  },
-  {
-    "slug": "understanding-the-issues-with-root-canal-treatment-in-coral-springs",
-    "title": "Understanding the issues with root canal treatment in Coral Springs",
-    "fileIdx": 11160
-  },
-  {
-    "slug": "dental-implants-the-best-option-for-replacing-missing-teeth",
-    "title": "Dental Implants: The Best Option for Replacing Missing Teeth",
-    "fileIdx": 11216
-  },
-  {
-    "slug": "general-dentistry",
-    "title": "Guide to General Dentistry: Your Path to Oral Health",
-    "fileIdx": 11296
-  },
-  {
-    "slug": "osseous-surgery",
-    "title": "Osseous Surgery: Everything You Need to Know",
-    "fileIdx": 11403
-  },
-  {
-    "slug": "invisalign-fix-crossbite",
-    "title": "Can Invisalign Fix Your Crossbite?",
-    "fileIdx": 11506
-  },
-  {
-    "slug": "invisalign-faqs",
-    "title": "Unlocking Your Best Smile: FAQs About Invisalign",
-    "fileIdx": 11633
-  },
-  {
-    "slug": "lanap-and-its-procedure",
-    "title": "Understanding LANAP: A Comprehensive Guide",
-    "fileIdx": 11829
-  },
-  {
-    "slug": "how-flossing-improves-gum-health",
-    "title": "How Flossing Improves Gum Health",
-    "fileIdx": 12017
-  },
-  {
-    "slug": "dental-implants-works",
-    "title": "How Do Dental Implants Work?",
-    "fileIdx": 12131
-  },
-  {
-    "slug": "are-root-canals-painful",
-    "title": "Are Root Canals Painful?",
-    "fileIdx": 12289
-  },
-  {
-    "slug": "lanap-minimally-invasive-gum-disease-treatment",
-    "title": "LANAP: A Minimally Invasive Option for Treating Gum Disease",
-    "fileIdx": 12390
-  },
-  {
-    "slug": "orthodontic-treatment-benefits",
-    "title": "Benefits of Orthodontic Treatment",
-    "fileIdx": 12553
-  },
-  {
-    "slug": "root-canal-symptoms",
-    "title": "Root Canal Infection: Signs Your Tooth Needs Attention Again",
-    "fileIdx": 12644
-  },
-  {
-    "slug": "dentists-coral-spring",
-    "title": "Dentists Near Me Accepting New Patients: Coral Springs Smiles",
-    "fileIdx": 12760
-  },
-  {
-    "slug": "sensitive-teeth",
-    "title": "Is Having Sensitive Teeth Bad?",
-    "fileIdx": 12850
-  },
-  {
-    "slug": "professional-teeth-whitening",
-    "title": "The Ultimate Guide to Professional Teeth Whitening",
-    "fileIdx": 12972
-  },
-  {
-    "slug": "floss-before-after-brushing",
-    "title": "The Great Flossing Debate: Should you floss before or after brushing?",
-    "fileIdx": 13144
-  }
-]
+{
+  "blogs": [
+    {
+      "slug": "emergency-dentistry-near-me-coral-springs-fl",
+      "fileIdx": 363
+    },
+    {
+      "slug": "dental-implants-cost-coral-springs-guide",
+      "fileIdx": 14015
+    },
+    {
+      "slug": "dental-implants-with-bone-loss",
+      "fileIdx": 21085
+    },
+    {
+      "slug": "immediate-vs-delayed-dental-implant",
+      "fileIdx": 32602
+    },
+    {
+      "slug": "gum-disease",
+      "fileIdx": 41240
+    },
+    {
+      "slug": "tooth-decay-prevention",
+      "fileIdx": 49465
+    },
+    {
+      "slug": "prevention-progression-5-stages-of-cavities",
+      "fileIdx": 56996
+    },
+    {
+      "slug": "united-healthcare-insurance",
+      "fileIdx": 64081
+    },
+    {
+      "slug": "endodontic-treatment-in-coral-springs",
+      "fileIdx": 69268
+    },
+    {
+      "slug": "how-dental-implants-work-coral-springs",
+      "fileIdx": 76354
+    },
+    {
+      "slug": "lanap-treatment-coral-springs",
+      "fileIdx": 81986
+    },
+    {
+      "slug": "dental-implants-in-coral-springs-fl",
+      "fileIdx": 87034
+    },
+    {
+      "slug": "invisalign-in-coral-springsfl",
+      "fileIdx": 92503
+    },
+    {
+      "slug": "dental-veneers-in-coral-springs-fl",
+      "fileIdx": 97832
+    },
+    {
+      "slug": "laser-teeth-whitening-in-coral-springs-fl",
+      "fileIdx": 101929
+    },
+    {
+      "slug": "emergency-dentistry-in-coral-springs-fl",
+      "fileIdx": 105818
+    },
+    {
+      "slug": "invisalign-vs-braces-in-coral-springs-fl",
+      "fileIdx": 111529
+    },
+    {
+      "slug": "dental-implants-in-coral-springs",
+      "fileIdx": 116517
+    },
+    {
+      "slug": "teeth-whitening-in-coral-springs",
+      "fileIdx": 120960
+    },
+    {
+      "slug": "dental-crowns-restoring-your-smile-with-coral-springs-smiles",
+      "fileIdx": 126760
+    },
+    {
+      "slug": "what-is-the-cost-of-teeth-whitening-in-coral-springs",
+      "fileIdx": 133011
+    },
+    {
+      "slug": "best-orthodontist-in-coral-springs",
+      "fileIdx": 139700
+    },
+    {
+      "slug": "invisalign-in-coral-springs",
+      "fileIdx": 144585
+    },
+    {
+      "slug": "prepare-kids-first-dental-visit",
+      "fileIdx": 149401
+    },
+    {
+      "slug": "prevent-cavities",
+      "fileIdx": 156205
+    },
+    {
+      "slug": "gum-laser-surgery-lanap-treatment",
+      "fileIdx": 164704
+    },
+    {
+      "slug": "dental-fillings-coral-springs-cavities-damaged-teeth",
+      "fileIdx": 172260
+    },
+    {
+      "slug": "orthodontic-treatment-coral-springs-jaw-pain-bite-problems",
+      "fileIdx": 182233
+    },
+    {
+      "slug": "veneers-coral-springs-chipped-uneven-teeth-smile-makeover",
+      "fileIdx": 190411
+    },
+    {
+      "slug": "tooth-extraction-coral-springs-damaged-tooth-removal",
+      "fileIdx": 198104
+    },
+    {
+      "slug": "best-periodontist-coral-springs-gum-recession-gum-grafting",
+      "fileIdx": 205846
+    },
+    {
+      "slug": "periodontist-coral-springs-gum-disease-treatment-options",
+      "fileIdx": 213413
+    },
+    {
+      "slug": "stress-and-gum-health-bleeding-gums-recession-causes-prevention",
+      "fileIdx": 222501
+    },
+    {
+      "slug": "best-time-to-brush-your-teeth-dentist-recommended-guide",
+      "fileIdx": 231426
+    },
+    {
+      "slug": "teeth-whitening-cost-coral-springs-2026-price-guide",
+      "fileIdx": 239081
+    },
+    {
+      "slug": "dental-crown-cost-coral-springs-2026-types-materials-price-guide",
+      "fileIdx": 249657
+    },
+    {
+      "slug": "tooth-extraction-cost-coral-springs-2026-price-guide",
+      "fileIdx": 260324
+    },
+    {
+      "slug": "apicoectomy-coral-springs-root-end-surgery-save-tooth",
+      "fileIdx": 270435
+    },
+    {
+      "slug": "dental-implants-coral-springs",
+      "fileIdx": 279299
+    },
+    {
+      "slug": "teeth-whitening-coral-springs-yellow-teeth-solutions",
+      "fileIdx": 288791
+    },
+    {
+      "slug": "severe-tooth-pain-how-root-canal-treatment-can-save-your-natural-tooth",
+      "fileIdx": 297796
+    },
+    {
+      "slug": "tooth-extraction-pros-cons-bone-graft-benefits",
+      "fileIdx": 307991
+    },
+    {
+      "slug": "severe-tooth-pain-night-emergency-dentist-coral-springs",
+      "fileIdx": 320154
+    },
+    {
+      "slug": "bleeding-gums-periodontist-coral-springs",
+      "fileIdx": 329106
+    },
+    {
+      "slug": "fix-crooked-teeth-without-braces-coral-springs",
+      "fileIdx": 337321
+    },
+    {
+      "slug": "best-way-to-replace-missing-tooth-coral-springs",
+      "fileIdx": 344425
+    },
+    {
+      "slug": "gum-disease-treatment-in-coral-springs",
+      "fileIdx": 351691
+    },
+    {
+      "slug": "laser-teeth-whitening-in-coral-springs",
+      "fileIdx": 358892
+    },
+    {
+      "slug": "best-cosmetic-dentist-coral-springs-smile-imperfections",
+      "fileIdx": 367743
+    },
+    {
+      "slug": "veneers-near-me-coral-springs",
+      "fileIdx": 377769
+    },
+    {
+      "slug": "smile-makeover-near-me-coral-springs",
+      "fileIdx": 386967
+    },
+    {
+      "slug": "orthodontist-near-me-coral-springs",
+      "fileIdx": 396098
+    },
+    {
+      "slug": "dentist-near-me-in-coral-springs",
+      "fileIdx": 406165
+    },
+    {
+      "slug": "common-signs-of-root-canal-infection",
+      "fileIdx": 415417
+    },
+    {
+      "slug": "laser-dentistry-in-coral-springs-fl",
+      "fileIdx": 423221
+    },
+    {
+      "slug": "teeth-whitening-treatment-in-coral-springs-fl",
+      "fileIdx": 429810
+    },
+    {
+      "slug": "periodontics-in-coral-springs-fl",
+      "fileIdx": 436559
+    },
+    {
+      "slug": "all-you-need-to-know-about-root-canal-treatment-in-coral-springs",
+      "fileIdx": 444332
+    },
+    {
+      "slug": "root-canal-treatment-in-coral-springs",
+      "fileIdx": 449252
+    },
+    {
+      "slug": "cosmetic-dentistry-in-coral-springs",
+      "fileIdx": 454999
+    },
+    {
+      "slug": "gum-disease-treatment-coral-springs",
+      "fileIdx": 462341
+    },
+    {
+      "slug": "reasons-why-you-should-consider-teeth-whitening",
+      "fileIdx": 469663
+    },
+    {
+      "slug": "understanding-the-issues-with-root-canal-treatment-in-coral-springs",
+      "fileIdx": 475413
+    },
+    {
+      "slug": "dental-implants-the-best-option-for-replacing-missing-teeth",
+      "fileIdx": 479359
+    },
+    {
+      "slug": "general-dentistry",
+      "fileIdx": 484211
+    },
+    {
+      "slug": "osseous-surgery",
+      "fileIdx": 489574
+    },
+    {
+      "slug": "invisalign-fix-crossbite",
+      "fileIdx": 494732
+    },
+    {
+      "slug": "invisalign-faqs",
+      "fileIdx": 501187
+    },
+    {
+      "slug": "lanap-and-its-procedure",
+      "fileIdx": 510383
+    },
+    {
+      "slug": "how-flossing-improves-gum-health",
+      "fileIdx": 518117
+    },
+    {
+      "slug": "dental-implants-works",
+      "fileIdx": 524155
+    },
+    {
+      "slug": "are-root-canals-painful",
+      "fileIdx": 530949
+    },
+    {
+      "slug": "lanap-minimally-invasive-gum-disease-treatment",
+      "fileIdx": 536223
+    },
+    {
+      "slug": "orthodontic-treatment-benefits",
+      "fileIdx": 543804
+    },
+    {
+      "slug": "root-canal-symptoms",
+      "fileIdx": 548993
+    },
+    {
+      "slug": "dentists-coral-spring",
+      "fileIdx": 556152
+    },
+    {
+      "slug": "sensitive-teeth",
+      "fileIdx": 559887
+    },
+    {
+      "slug": "professional-teeth-whitening",
+      "fileIdx": 566341
+    },
+    {
+      "slug": "floss-before-after-brushing",
+      "fileIdx": 573489
+    }
+  ]
+}

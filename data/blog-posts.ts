@@ -18,6 +18,348 @@ export type BlogPostDoc = {
 
 const BLOG_POSTS: BlogPostDoc[] = [
   {
+    slug: "emergency-dentistry-near-me-coral-springs-fl",
+    title: "Emergency Dentistry Near Me in Coral Springs, FL",
+    excerpt:
+      "Experience sudden dental pain or injury? Coral Springs Smiles provides prompt, reliable emergency dentistry in Coral Springs, FL, to manage pain and protect your oral health.",
+    publishedAt: "2026-05-28",
+    cardImage: {
+      src: "/blog/Emergency-Dentistry-Near-Me-in-Coral-Springs-FL.jpg",
+      alt: "Emergency Dentistry Near Me in Coral Springs, FL",
+    },
+    meta: {
+      title: "Emergency Dentistry Near Me in Coral Springs, FL | Coral Springs Smiles",
+      description:
+        "Need urgent dental care in Coral Springs, FL? Coral Springs Smiles provides emergency dentistry for tooth pain, broken teeth, infections, and dental injuries. Call today for fast relief.",
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "When you have a sudden tooth injury or severe dental pain, finding fast, reliable help is your top priority. Coral Springs Smiles provides prompt care for urgent oral health issues to help you manage pain and prevent further damage. If you are searching for emergency dentistry options, our local team is ready to assess your situation and provide the necessary treatment in Coral Springs, FL.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "What Is Emergency Dentistry?",
+      },
+      {
+        type: "paragraph",
+        text: "[Emergency dentistry](/emergency-dentist-coral-springs) involves immediate care for urgent dental issues that require professional attention right away. Whether you are dealing with sudden, intense pain, an injury, or an unexpected problem with a restoration, quick action is often necessary to prevent further complications.",
+      },
+      {
+        type: "paragraph",
+        text: "When you search for [emergency dentistry near me](/emergency-dentist-coral-springs), you are looking for a reliable team ready to address your discomfort and protect your oral health. At Coral Springs Smiles, we understand that dental emergencies are stressful and often disruptive, which is why we prioritize getting you the care you need as efficiently as possible.",
+      },
+      {
+        type: "paragraph",
+        text: "Understanding the difference between a routine visit and an urgent concern is key. If you are experiencing persistent pain, swelling, or trauma to your teeth, seeking emergency dentistry consultation helps you stop the pain and address the underlying cause before it escalates.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "The Value of Timely Emergency Dental Care",
+      },
+      {
+        type: "paragraph",
+        text: "When dental pain or injury occurs, immediate professional intervention is often necessary to stabilize your oral health. Seeking timely care can prevent minor issues, such as a chipped tooth or persistent ache, from escalating into complex conditions that require more invasive or costly procedures.",
+      },
+      {
+        type: "paragraph",
+        text: "At Coral Springs Smiles, we prioritize clear assessments to help you understand the source of your discomfort. Finding reliable emergency dentistry options allows you to address the root of the problem and protect your smile from further damage before the issue becomes unmanageable.",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "Rapid pain management to help restore daily comfort and function.",
+          "Proactive intervention that increases the likelihood of saving a natural tooth.",
+          "Early detection of underlying infections, helping you avoid extensive or recurring complications.",
+          "Personalized treatment plans tailored to address your immediate dental needs without unnecessary delays.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Is Emergency Dentistry Right for You?",
+      },
+      {
+        type: "paragraph",
+        text: "For residents of Coral Springs, FL, local emergency dentistry is designed for patients facing urgent dental issues that cannot wait for a standard appointment. This care is typically appropriate for those dealing with sudden, acute pain, trauma, or injury that requires immediate clinical intervention to prevent long-term complications.",
+      },
+      {
+        type: "paragraph",
+        text: "If you are unsure whether your symptoms qualify as an emergency, we encourage you to contact our team for a professional assessment. We can help determine if your specific situation requires immediate treatment or if it can be effectively managed during our standard office hours.",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "Severe, persistent toothache or jaw pain that limits your ability to eat or sleep.",
+          "Dental trauma, including a chipped, fractured, or completely knocked-out tooth.",
+          "Signs of an oral infection, such as fever, swelling, or a persistent bad taste in the mouth.",
+          "Lost or damaged dental restorations like crowns, bridges, or fillings that result in significant discomfort.",
+          "Uncontrolled bleeding from the gums or soft tissues inside the mouth.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "What to Expect During Your Emergency Dentistry Consultation",
+      },
+      {
+        type: "paragraph",
+        text: "When you experience a sudden dental problem, getting the right help quickly is essential to relieving pain and preventing further complications. At Coral Springs Smiles, our team follows a streamlined approach to ensure you receive prompt attention and effective treatment for your urgent dental needs.",
+      },
+      {
+        type: "paragraph",
+        text: "If you are searching for local emergency dentistry, follow these steps to secure care and begin your path to relief.",
+      },
+      {
+        type: "paragraph",
+        text: "The most important step is reaching out to our office as soon as you realize something is wrong. Whether you are dealing with severe tooth pain, a lost filling, or a dental injury, contacting our team immediately allows us to assess your situation and prioritize your visit.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Cost, Timing, and Insurance for Emergency Dentistry",
+      },
+      {
+        type: "paragraph",
+        text: "When you need emergency dentistry options, knowing the potential cost and timeline is often a priority. Because emergency care depends entirely on the specific nature of your dental injury or pain, it is impossible to provide a universal cost or timeline before a professional evaluation.",
+      },
+      {
+        type: "paragraph",
+        text: "During your consultation at Coral Springs Smiles, our team performs a focused exam to identify the source of the issue. Once the clinical team determines the necessary treatment, we can provide a transparent breakdown of costs and a realistic timeline for your procedure and recovery. Our office staff is here to help you navigate your insurance benefits and discuss available financing options so you can focus on getting the relief you need.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Living With Emergency Dentistry: Care and Daily Tips",
+      },
+      {
+        type: "paragraph",
+        text: "Recovery time and specific aftercare instructions vary depending on the nature of your treatment, whether you received a filling, a crown, or care for a dental infection. Our team provides personalized guidance to ensure you know how to manage comfort and maintain your oral health at home.",
+      },
+      {
+        type: "paragraph",
+        text: "When you rely on [emergency dentistry at our Coral Springs, FL](/emergency-dentist-coral-springs) office, we prioritize your immediate comfort and long-term recovery. We will outline essential care steps before you leave, including how to manage discomfort, what foods to avoid, and when you should schedule a follow-up appointment.",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "Follow all provided instructions regarding medication or pain management.",
+          "Opt for soft, room-temperature foods immediately after your appointment to avoid irritating sensitive areas.",
+          "Maintain gentle oral hygiene routines; avoid brushing directly over the treatment site if specifically instructed.",
+          "Contact our office immediately if you experience increased swelling, persistent pain, or fever.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why Choose Coral Springs Smiles for Emergency Dentistry in Coral Springs?",
+      },
+      {
+        type: "paragraph",
+        text: "When you are searching for emergency dentistry consultation in Coral Springs, FL, you need a practice that prioritizes local access and clear communication. At Coral Springs Smiles, our focus is on providing straightforward, patient-centered care to help alleviate your discomfort quickly.",
+      },
+      {
+        type: "paragraph",
+        text: "Our approach is designed to remove the uncertainty often associated with unexpected dental issues. We strive to create an environment where you feel informed and supported from the moment you contact our office.",
+      },
+      {
+        type: "paragraph",
+        text: "By staying dedicated to the Coral Springs community, we ensure our services remain accessible to those who need urgent attention, helping you navigate your options with confidence.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Your Local Emergency Dentistry Provider",
+      },
+      {
+        type: "paragraph",
+        text: "At Coral Springs Smiles, our approach to care centers on providing clear communication and a supportive environment, especially when you are dealing with a dental emergency. We prioritize your comfort and understanding, ensuring that every patient receives professional attention and a transparent roadmap for their treatment.",
+      },
+      {
+        type: "paragraph",
+        text: "We are dedicated to serving the Coral Springs, FL community with consistent and reliable dental care. By focusing on efficient processes and honest patient education, we aim to provide the guidance and support necessary to manage your dental health effectively.",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "Personalized consultation with Coral Springs Smiles",
+          "Local care context for Coral Springs patients",
+          "Clear explanation of options, next steps, and follow-up needs",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently Asked Questions",
+      },
+      {
+        type: "paragraph",
+        text: "**What is local emergency dentistry and when is it useful?** Emergency dentistry in Coral Springs is specialized, immediate care for acute dental issues like severe pain, knocked-out teeth, or uncontrollable bleeding. It is the appropriate choice when you have a condition that requires urgent intervention to stabilize your oral health.",
+      },
+      {
+        type: "paragraph",
+        text: "**Who is a good candidate for urgent dental care in Coral Springs?** Anyone in Coral Springs, FL, experiencing sudden, debilitating dental discomfort or trauma is a candidate for urgent care. If an issue prevents you from performing daily activities, prompt professional evaluation is necessary.",
+      },
+      {
+        type: "paragraph",
+        text: "**What should I expect during an emergency dental visit at Coral Springs Smiles?** Upon arrival, our team will conduct a focused assessment to diagnose the source of your pain or injury immediately. We prioritize stabilizing your condition and discussing the most effective treatment options to provide relief.",
+      },
+      {
+        type: "paragraph",
+        text: "**What factors affect the cost and insurance coverage for emergency procedures?** The cost of emergency dental care varies based on the specific treatment required to address your issue. We communicate transparently regarding insurance benefits and fees before starting any care to help you make informed decisions.",
+      },
+      {
+        type: "paragraph",
+        text: "**Why consider Coral Springs Smiles for dental emergencies?** Our practice is dedicated to helping patients in the Coral Springs community get out of pain quickly and safely. We prioritize efficiency and clear communication to ensure you receive the appropriate care when you need it most.",
+      },
+      {
+        type: "paragraph",
+        text: "**How can I book an appointment for urgent dental needs?** If you are facing a dental emergency, please call our office directly to explain your situation. We will assist you in coordinating a visit as soon as possible so we can address your needs immediately.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Need Urgent Dental Relief in Coral Springs?",
+      },
+      {
+        type: "paragraph",
+        text: "Dental emergencies require prompt attention to manage pain and prevent further complications. At Coral Springs Smiles, our team is prepared to provide the urgent care you need to protect your oral health. Reach out to our local office today to schedule your visit and get the support you deserve.",
+      },
+    ],
+  },
+
+  {
+    slug: "dental-implants-cost-coral-springs-guide",
+    title: "How Much Do Dental Implants Cost in Coral Springs? A Complete Guide",
+    excerpt:
+      "Discover the true cost of dental implants in Coral Springs. Learn about factors affecting pricing, the treatment process, and how to choose the right provider for your smile.",
+    publishedAt: "2026-05-28",
+    cardImage: {
+      src: "/blog/How-Much-Do-Dental-Implants-Cost-in-Coral-Springs-A-Complete-Guide.jpg",
+      alt: "How Much Do Dental Implants Cost in Coral Springs?",
+    },
+    meta: {
+      title: "How Much Do Dental Implants Cost in Coral Springs? | Coral Springs Smiles",
+      description:
+        "Learn about dental implant costs in Coral Springs, FL. Discover factors affecting teeth implant pricing, treatment steps, and what to expect during your consultation at Coral Springs Smiles.",
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "When considering tooth replacement, understanding the teeth implants price in Coral Springs is the essential first step for many patients. At Coral Springs Smiles, we prioritize price transparency because we know dental health is a significant investment. While many online searches provide broad national ranges, the reality is that there is no one-size-fits-all price tag. Your unique oral health needs, jawbone density, and the number of teeth requiring replacement all influence the total investment.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Understanding Dental Implant Cost Components",
+      },
+      {
+        type: "paragraph",
+        text: "To better understand the [dental implant cost](/dental-implants), it is helpful to break the procedure into its fundamental components. A dental implant is a sophisticated system rather than a single item, typically consisting of:",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "The Implant Post: A biocompatible titanium screw that serves as an artificial tooth root.",
+          "The Abutment: The connector piece that joins the post to the final restoration.",
+          "The Dental Crown: The custom-made, natural-looking tooth that sits atop the abutment.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Because every patient is different, the cost varies significantly based on whether you need a single implant, multiple implants, or a full-arch restoration. Additionally, clinical requirements such as bone grafting or sinus lifts to support the implant post will impact your final estimate. We prioritize high-quality, long-term solutions, as dental implants are designed to be a durable alternative to bridges or dentures.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why Accurate Pricing Matters",
+      },
+      {
+        type: "paragraph",
+        text: "When researching the best teeth implants price in Coral Springs, it is tempting to look for the lowest cost. However, we advise patients to prioritize the quality of materials and the clinical expertise required for a successful, long-term result.",
+      },
+      {
+        type: "paragraph",
+        text: "As a locally operated practice, Coral Springs Smiles focuses on patient-centered care. We believe that choosing a trustworthy local provider is as important as the price itself. Our licensed professionals ensure your treatment is performed with precision, prioritizing your long-term comfort and dental health.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "What to Expect During Your Dental Implant Journey",
+      },
+      {
+        type: "paragraph",
+        text: "Understanding the [teeth implants process](/dental-implants) helps demystify the investment. The path toward a restored smile typically involves these stages:",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "Comprehensive Consultation: We begin with an adult complete check-up to assess your gum condition and jawbone density.",
+          "Diagnostic Imaging: High-resolution scans allow us to map the precise placement of your implants.",
+          "Surgical Placement: The post is placed into the jawbone, followed by a healing period where the bone fuses with the implant.",
+          "Restoration: Once healed, we attach the custom crown to complete your smile.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How to Choose the Right Implant Provider",
+      },
+      {
+        type: "paragraph",
+        text: "When searching for a qualified dentist in Coral Springs, your goal is to find a provider who balances clinical skill with clear communication. If you are searching for \"teeth implants near me,\" consider these factors:",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "Verified Experience: Look for practices with a dedicated presence in the community.",
+          "Patient Feedback: Read reviews to understand the experiences of previous patients.",
+          "Personalized Planning: Avoid providers who offer \"flat fees\" over the phone without a clinical examination. A personalized consultation is the only way to receive an accurate, reliable estimate.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently Asked Questions About Dental Implants",
+      },
+      {
+        type: "paragraph",
+        text: "**How much does a dental implant cost on average?** Costs depend on your specific clinical needs. During a consultation, we provide a transparent, itemized breakdown so you understand exactly what you are paying for.",
+      },
+      {
+        type: "paragraph",
+        text: "**How long do dental implants take?** The timeline varies, but the process often takes several months to allow for proper bone healing and integration with the implant.",
+      },
+      {
+        type: "paragraph",
+        text: "**What questions should I ask before starting?** Ask about the provider's experience, the types of materials used, and available payment or insurance options to help manage your out-of-pocket costs.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Schedule Your Consultation in Coral Springs",
+      },
+      {
+        type: "paragraph",
+        text: "Prioritizing your oral health is one of the most beneficial investments you can make. If you are ready to explore your options, we invite you to book our $66 adult complete check-up. This is an ideal entry point for new patients to meet our team and discuss their dental needs in a low-pressure environment.",
+      },
+      {
+        type: "paragraph",
+        text: "Don’t let questions about the Coral Springs teeth implants price keep you from the smile you deserve. Our team is here to provide the clarity you need. Schedule your personalized implant consultation to receive an accurate cost estimate today by contacting Coral Springs Smiles.",
+      },
+    ],
+  },
+
+  {
     slug: "dental-implants-with-bone-loss",
     title: "Can I Get Dental Implants with Bone Loss?",
     excerpt:
@@ -1542,7 +1884,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "If you’re looking to improve the appearance of your smile, dental veneers in Coral Springs, FL, could be the perfect solution.",
     publishedAt: "2025-06-05",
     cardImage: {
-      src: "/blog/dental-veneers-in-coral-springs-fl.jpg",
+      src: "/blog/veneers-near-me-coral-springs.jpg",
       alt: "Dental veneers in Coral Springs FL",
     },
     meta: {
@@ -1642,7 +1984,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "If you’re looking to enhance your smile quickly and safely, laser teeth whitening in Coral Springs,FL is a great option.",
     publishedAt: "2025-06-05",
     cardImage: {
-      src: "/blog/laser-teeth-whitening-in-coral-springs-fl.jpg",
+      src: "/blog/laser-teeth-whitening-in-coral-springs.jpg",
       alt: "Laser teeth whitening in Coral Springs FL",
     },
     meta: {
@@ -2097,7 +2439,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "At Coral Springs Smiles, we understand the importance of a healthy, confident smile. Dental crowns are one of the most effective solutions for restoring damaged teeth, and enhancing their function and appearance.",
     publishedAt: "2025-03-18",
     cardImage: {
-      src: "/blog/dental-crowns-restoring-your-smile-with-coral-springs-smiles.jpg",
+      src: "/blog/Dental-Crowns-Restoring-Your-Smile-with-Coral-Springs-Smiles.jpg",
       alt: "Dental crowns in Coral Springs FL",
     },
     meta: {
@@ -2236,7 +2578,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Are you considering teeth whitening to brighten your smile? Teeth whitening is one of the most effective ways to enhance your appearance and boost your confidence.",
     publishedAt: "2025-03-18",
     cardImage: {
-      src: "/blog/what-is-the-cost-of-teeth-whitening-in-coral-springs.jpg",
+      src: "/blog/What-Is-the-Cost-of-Teeth-Whitening-in-Coral-Springs.jpg",
       alt: "Cost of teeth whitening in Coral Springs",
     },
     meta: {
@@ -2455,7 +2797,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "A straight, confident smile can make all the difference in your appearance and self-esteem. If you’re looking for an effective and discreet way to straighten your teeth, Invisalign is the perfect solution.",
     publishedAt: "2025-03-13",
     cardImage: {
-      src: "/blog/invisalign-in-coral-springs.jpg",
+      src: "/blog/invisalign-in-coral-springsfl.jpg",
       alt: "Invisalign in Coral Springs",
     },
     meta: {
@@ -3771,7 +4113,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "A severely damaged tooth isn't just painful-it can affect your entire oral health. Whether it's due to deep decay, trauma, or infection, sometimes saving the tooth isn't possible.",
     publishedAt: "2025-04-29",
     cardImage: {
-      src: "/blog/tooth-extraction-coral-springs-damaged-tooth-removal.jpg",
+      src: "/blog/severe-tooth-pain-night-emergency-dentist-coral-springs.jpg",
       alt: "Gentle tooth extraction care for damaged or infected teeth in Coral Springs",
     },
     meta: {
@@ -4008,7 +4350,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Gum recession often starts quietly-slight sensitivity, teeth appearing longer, or minor discomfort while brushing. But over time, it can expose tooth roots, increase decay risk, and affect overall oral health.",
     publishedAt: "2025-04-01",
     cardImage: {
-      src: "/blog/best-periodontist-coral-springs-gum-recession-gum-grafting.jpg",
+      src: "/blog/periodontist-coral-springs-gum-disease-treatment-options.jpg",
       alt: "Periodontal care and gum grafting for gum recession in Coral Springs",
     },
     meta: {
@@ -5597,7 +5939,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Tooth extraction is sometimes necessary to protect your overall oral health, especially when a tooth is severely damaged, infected, or causing crowding. One of the most common concerns patients have is: what does tooth extraction cost in Coral Springs?",
     publishedAt: "2026-04-17",
     cardImage: {
-      src: "/blog/tooth-extraction-cost-coral-springs-2026-price-guide.jpg",
+      src: "/blog/Tooth-Extraction-Cost-in-Coral-Springs-What-You-Should-Expect-in-2026.png",
       alt: "Tooth extraction pricing and care in Coral Springs",
     },
     meta: {
@@ -6636,7 +6978,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Severe tooth pain can affect your daily life, making it difficult to eat, speak, or concentrate. While temporary remedies may ease discomfort, persistent pain often indicates a deeper issue within the tooth. In many cases, the underlying cause is an infection that requires professional dental care.",
     publishedAt: "2025-03-27",
     cardImage: {
-      src: "/blog/severe-tooth-pain-how-root-canal-treatment-can-save-your-natural-tooth.jpg",
+      src: "/blog/Severe-Tooth-Pain-How-Root-Canal-Treatment-Can-Save-Your-Natural-Tooth.jpg",
       alt: "Root canal treatment for severe tooth pain in Coral Springs",
     },
     meta: {
@@ -7685,7 +8027,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Crooked teeth can affect both your confidence and your oral health. Many adults and teens want straighter teeth but prefer to avoid traditional metal braces. If you're looking for a discreet and modern solution, Invisalign may be the perfect option.",
     publishedAt: "2025-02-28",
     cardImage: {
-      src: "/blog/fix-crooked-teeth-without-braces-coral-springs.jpg",
+      src: "/blog/invisalign-fix-crossbite.png",
       alt: "Invisalign clear aligners to fix crooked teeth without braces in Coral Springs",
     },
     meta: {
@@ -7874,7 +8216,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Losing a tooth can affect more than just your appearance. A missing tooth can make chewing difficult, impact your speech, cause nearby teeth to shift, and even lead to bone loss in the jaw over time. If you are searching for the best way to replace a missing tooth in Coral Springs, modern dentistry offers a reliable and long-lasting solution - Dental Implants.",
     publishedAt: "2026-02-26",
     cardImage: {
-      src: "/blog/best-way-to-replace-missing-tooth-coral-springs.jpg",
+      src: "/blog/Gum-Disease-Treatment-in-Coral-Springs-1.png",
       alt: "Dental implants and options to replace a missing tooth in Coral Springs",
     },
     meta: {
@@ -8041,7 +8383,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Healthy gums are essential for a healthy smile.Gum disease treatment in Coral Springs helps prevent tooth loss, control infection, and restore overall oral health. Gum disease is common, but with early diagnosis and professional dental care, it can be effectively managed.",
     publishedAt: "2026-01-30",
     cardImage: {
-      src: "/blog/gum-disease-treatment-in-coral-springs.jpg",
+      src: "/blog/gum-disease-treatment-coral-springs.jpg",
       alt: "Professional gum disease treatment in Coral Springs",
     },
     meta: {
@@ -8235,7 +8577,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "A bright, confident smile can make a lasting impression. Laser teeth whitening in Coral Springs is one of the most effective ways to remove stains and discoloration quickly and safely. This professional treatment is designed to deliver noticeable results in a single visit while protecting your teeth and gums. If you are looking for a fast and reliable way to improve your smile, laser teeth whitening is a popular cosmetic dental solution.",
     publishedAt: "2026-01-30",
     cardImage: {
-      src: "/blog/laser-teeth-whitening-in-coral-springs.jpg",
+      src: "/blog/Laser-Teeth-Whitening-in-Coral-Springs.jpg",
       alt: "Professional laser teeth whitening in Coral Springs",
     },
     meta: {
@@ -8430,7 +8772,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Your smile should make you feel confident-not self-conscious. Yet many people hide their smiles due to visible dental issues like stains, chips, gaps, or uneven teeth.",
     publishedAt: "2025-04-30",
     cardImage: {
-      src: "/blog/best-cosmetic-dentist-coral-springs-smile-imperfections.jpg",
+      src: "/blog/cosmetic-dentistry-in-coral-springs.jpg",
       alt: "Cosmetic dentistry for a confident, natural-looking smile",
     },
     meta: {
@@ -10316,7 +10658,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Healthy gums are essential for maintaining a confident, lasting smile. At Coral Springs Smiles, we provide advanced periodontics in Coral Springs, helping patients prevent, treat, and manage all forms of gum disease.",
     publishedAt: "2025-11-05",
     cardImage: {
-      src: "/blog/periodontics-in-coral-springs-fl.jpg",
+      src: "/blog/Periodontics-in-Coral-Springs-FL.jpg",
       alt: "Periodontal gum care and treatment in Coral Springs, FL",
     },
     meta: {
@@ -10495,7 +10837,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Root canal treatment is a dental procedure that involves removing the infected or damaged pulp from the tooth’s root canal. This treatment can save a damaged or infected tooth and prevent the need for extraction. In this blog post, we will discuss everything you need to know about root canal treatment in Coral Springs.",
     publishedAt: "2025-02-26",
     cardImage: {
-      src: "/blog/all-you-need-to-know-about-root-canal-treatment-in-coral-springs.png",
+      src: "/blog/All-You-Need-to-Know-About-Root-Canal-Treatment-in-Coral-Springs.png",
       alt: "Root canal treatment in Coral Springs",
     },
     meta: {
@@ -11057,7 +11399,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "A bright, white smile can greatly enhance your appearance and boost your confidence. If you’re looking to achieve a dazzling smile, teeth whitening is a popular and effective solution.",
     publishedAt: "2025-02-21",
     cardImage: {
-      src: "/blog/reasons-why-you-should-consider-teeth-whitening.png",
+      src: "/blog/Reasons-Why-You-Should-Consider-Teeth-Whitening.png",
       alt: "Professional teeth whitening consultation",
     },
     meta: {
@@ -11158,7 +11500,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Root canal treatment fails at times. The frontier reason for endodontic failure is that infection persists. It is also a fact that many a time the issues of failing root canal therapy are the same as those which called for root canal treatment in the first place.",
     publishedAt: "2025-02-14",
     cardImage: {
-      src: "/blog/understanding-the-issues-with-root-canal-treatment-in-coral-springs.png",
+      src: "/blog/Understanding-the-issues-with-root-canal-treatment-in-Coral-Springs.png",
       alt: "Root canal treatment follow-up in Coral Springs",
     },
     meta: {
@@ -11214,7 +11556,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "At Coral Springs Smiles, we understand that losing a tooth can be a difficult and often traumatic experience. Missing teeth can have a negative impact on your oral health, your confidence, and your ability to chew and speak properly.",
     publishedAt: "2025-02-07",
     cardImage: {
-      src: "/blog/dental-implants-the-best-option-for-replacing-missing-teeth.png",
+      src: "/blog/Dental-Implants-The-Best-Option-for-Replacing-Missing-Teeth.png",
       alt: "Dental implants for replacing missing teeth",
     },
     meta: {
@@ -11631,7 +11973,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Explore Invisalign FAQs and discover how clear aligners can help you achieve a perfect smile. Learn about treatment options, benefits, costs, and more at Coral Springs Smiles",
     publishedAt: "2024-08-30",
     cardImage: {
-      src: "/blog/invisalign-faqs.jpg",
+      src: "/blog/smile-makeover-near-me-coral-springs.jpg",
       alt: "Invisalign FAQs",
     },
     meta: {
@@ -12015,7 +12357,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "1. Removes Plaque and Food Particles, 2. Prevents Gum Disease, 3. Reduces Inflammation, 4. Improves Blood Circulation, 5. Freshens Breath",
     publishedAt: "2024-07-26",
     cardImage: {
-      src: "/blog/how-flossing-improves-gum-health.jpg",
+      src: "/blog/How-Flossing-Improves-Gum-Health.jpg",
       alt: "How Flossing Improves Gum Health",
     },
     meta: {
@@ -12287,7 +12629,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Discover the truth about root canals and pain. Learn how modern dental techniques and anesthesia ensure a comfortable experience. Find out what to expect and how to manage any discomfort.",
     publishedAt: "2024-06-28",
     cardImage: {
-      src: "/blog/are-root-canals-painful.jpg",
+      src: "/blog/root-canal-treatment-in-coral-springs.jpg",
       alt: "Are Root Canals Painful?",
     },
     meta: {
@@ -12551,7 +12893,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Orthodontic treatment improves dental alignment, enhances bite function, prevents oral health issues, and enhances facial aesthetics.",
     publishedAt: "2024-04-26",
     cardImage: {
-      src: "/blog/orthodontic-treatment-benefits.jpg",
+      src: "/blog/orthodontic-treatment-benefits.jpg  ",
       alt: "Benefits of Orthodontic Treatment",
     },
     meta: {
@@ -12758,7 +13100,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Are you looking for a dentist near you in Coral Springs, Florida? Coral Springs Smiles provides the best dental care! Call now [(954) 715-6840](tel:9547156840).",
     publishedAt: "2024-04-26",
     cardImage: {
-      src: "/blog/dentists-coral-spring.jpg",
+      src: "/blog/dentist-near-me-in-coral-springs.jpg",
       alt: "Dentists Near Me Accepting New Patients: Coral Springs Smiles",
     },
     meta: {
@@ -12970,7 +13312,7 @@ const BLOG_POSTS: BlogPostDoc[] = [
       "Discover the benefits of professional teeth whitening at Coral Springs Smiles, even for those with sensitive teeth. Learn about the procedure, customization, safety, and long-lasting effects.",
     publishedAt: "2023-10-31",
     cardImage: {
-      src: "/blog/professional-teeth-whitening.jpg",
+      src: "/blog/teeth-whitening-in-coral-springs.png",
       alt: "The Ultimate Guide to Professional Teeth Whitening",
     },
     meta: {
