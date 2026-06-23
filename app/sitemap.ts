@@ -56,5 +56,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const uniqueRoutes = Array.from(new Set(routes)).sort();
 
-  return [entry("/", 1.0), ...uniqueRoutes.map((route) => entry(route, 0.8))];
+  return [entry("", 1.0), ...uniqueRoutes.map((route) => entry(route, 0.8))];
 }
