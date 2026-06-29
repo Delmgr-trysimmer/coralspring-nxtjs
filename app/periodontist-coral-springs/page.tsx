@@ -423,7 +423,6 @@ export default function PeriodontistCoralSpringsPage() {
         <ServicePageBody
           title="Periodontist"
           tagline="Advanced Gum Disease Treatment & Periodontal Care"
-          video={{ kind: "mp4", src: "/images/lanap.mp4" }}
           content={content}
           breadcrumbLabel="Periodontist"
         />
