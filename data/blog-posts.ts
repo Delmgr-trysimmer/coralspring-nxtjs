@@ -18,6 +18,1780 @@ export type BlogPostDoc = {
 
 const BLOG_POSTS: BlogPostDoc[] = [
   {
+    slug: "periodontist-in-coral-springs-dr-payal-anand",
+    title: "Meet Dr. Payal Anand: Periodontist in Coral Springs",
+    excerpt:
+      "Searching for a periodontist in Coral Springs? Meet Dr. Payal Anand, DDS at Coral Springs Smiles — 16+ years treating gum disease. Call (954) 266-8755.",
+    publishedAt: "2026-07-30",
+    cardImage: {
+      src: "/blog/periodontist-in-coral-springs-dr-payal-anand.webp",
+      alt: "Dr. Payal Anand, periodontist in Coral Springs, at Coral Springs Smiles",
+    },
+    meta: {
+      title: "Periodontist in Coral Springs | Meet Dr. Payal Anand",
+      description:
+        "Searching for a periodontist in Coral Springs? Meet Dr. Payal Anand, DDS at Coral Springs Smiles — 16+ years treating gum disease. Call (954) 266-8755.",
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "If your gums bleed when you brush, feel tender, or you've been told you have gum recession or bone loss, finding a qualified [periodontist in Coral Springs](/gum-disease-treatment) is the next right step — and you don't have to look far. At Coral Springs Smiles, Dr. Payal Anand, DDS, brings advanced periodontal training and 16+ years of hands-on experience to patients right here in Coral Springs, Florida, treating everything from early gum inflammation to advanced periodontal disease and implant complications.",
+      },
+      {
+        type: "paragraph",
+        text: "Many patients searching \"periodontist near me\" or \"periodontist near Coral Springs\" are dealing with pain, bleeding, or a diagnosis they don't fully understand. This post introduces you to Dr. Anand, explains what periodontal care at Coral Springs Smiles actually looks like, and helps you decide when it's time to book a visit.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Who Is Dr. Payal Anand, DDS?",
+      },
+      {
+        type: "paragraph",
+        text: "Dr. Payal Anand is a graduate of the LSU School of Dentistry, where she also completed a subspecialty fellowship in periodontics — advanced, focused training in the diagnosis and treatment of gum disease, bone loss, and the tissues that support your teeth. She is a member of the American Dental Association (ADA), the Academy of General Dentistry (AGD), and the Academy of Cosmetic Dentistry (ACD).",
+      },
+      {
+        type: "paragraph",
+        text: "Over more than 16 years in practice, Dr. Anand has treated 10,000+ patients and placed 2,000+ [dental implants](/dental-implants), giving her a depth of clinical experience that matters when your gum health and the long-term stability of your teeth are on the line. She combines periodontal precision with a calm, unhurried chairside manner — patients consistently describe her as thorough, gentle, and easy to trust with more complex treatment.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Periodontal Services Available at Coral Springs Smiles",
+      },
+      {
+        type: "paragraph",
+        text: "As a **periodontist near Coral Springs**, Dr. Anand offers a full range of gum health treatments under one roof at our [periodontics page](/gum-disease-treatment), including:",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "**[Scaling & Root Planing](/scaling-root-planing)** — a deep cleaning below the gumline that removes plaque and tartar buildup and smooths root surfaces so gums can reattach and heal. Learn more on our [scaling & root planing page](/scaling-root-planing).",
+          "**[Deep Cleaning](/deep-cleaning)** — for patients with early to moderate gum disease who need more than a routine cleaning. Details are on our [deep cleaning page](/deep-cleaning).",
+          "**[LANAP® Laser Gum Treatment](/lanap)** — a minimally invasive, laser-based alternative to traditional gum surgery that targets diseased tissue while preserving healthy gum. See our [LANAP treatment page](/lanap) for how it works.",
+          "**[Peri-Implantitis](/peri-implantitis) Treatment** — specialized care for gum and bone inflammation around dental implants, an area where Dr. Anand's implant experience directly supports better outcomes. Read more on our [peri-implantitis page](/peri-implantitis).",
+          "**General [Gum Disease Treatment](/gum-disease-treatment)** — for patients at any stage of gingivitis or periodontitis. Visit our [gum disease treatment page](/gum-disease-treatment) to learn about your options.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Because Coral Springs Smiles also offers [laser dentistry](/laser-dentistry) more broadly, many periodontal procedures can be done with less discomfort and faster healing than traditional methods — you can read more on our [laser dentistry page](/laser-dentistry).",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Why Gum Health Matters More Than Most Patients Realize",
+      },
+      {
+        type: "paragraph",
+        text: "Gum disease doesn't just threaten your gums — left untreated, it's a leading cause of adult tooth loss and can affect the bone that holds your teeth (and implants) in place. Dr. Anand's periodontal fellowship training means she's specifically equipped to catch early warning signs — bleeding, puffiness, recession, or bad breath that won't go away — before they progress into something more serious. At Coral Springs Smiles, every periodontal evaluation is paired with a clear explanation of what's happening in your mouth and what your treatment options are, so you're never left guessing.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Why Coral Springs Patients Choose Coral Springs Smiles",
+      },
+      {
+        type: "paragraph",
+        text: "Patients across Coral Springs choose Dr. Anand and her team for a few consistent reasons:",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "**Specialized training** — a periodontics fellowship on top of general dentistry, not just general familiarity with gum disease",
+          "**Real experience** — 10,000+ patients treated and 2,000+ [dental implants](/dental-implants) placed in the Coral Springs area",
+          "**Convenient location** — Coral Springs Smiles is easy to reach at 2929 North University Drive, Suite 203, Coral Springs, FL 33065, with ample parking",
+          "**Insurance-friendly care** — Coral Springs Smiles accepts Humana, United Healthcare, WellCare, Simply Healthcare, Care Plus, and Florida Blue",
+          "**Flexible scheduling** — appointments Monday through Friday, with same-day urgent care when possible for patients dealing with gum pain or swelling",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Whether you found us by searching \"periodontist near me\" or you were referred by another dentist, our goal is the same: to give you gum health answers and a treatment plan you actually understand.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Frequently Asked Questions",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            question: "1. What does a periodontist in Coral Springs actually treat?",
+            answer:
+              "A periodontist focuses on the gums and the bone that supports your teeth — treating gum disease at every stage, gum recession, and complications around [dental implants](/dental-implants), like [peri-implantitis](/peri-implantitis).",
+          },
+          {
+            question: "2. How is Dr. Anand different from a general dentist?",
+            answer:
+              "Dr. Anand is a board-certified general dentist who also completed a periodontics fellowship at LSU, giving her advanced training specifically in gum and bone health beyond standard dental school education.",
+          },
+          {
+            question: "3. Do I need a referral to see a periodontist near Coral Springs?",
+            answer:
+              "No referral is required. You can book directly with Dr. Anand at Coral Springs Smiles by calling [(954) 266-8755](tel:9542668755) or booking online.",
+          },
+          {
+            question: "4. Does Coral Springs Smiles accept my dental insurance?",
+            answer:
+              "Coral Springs Smiles accepts Humana, United Healthcare, WellCare, Simply Healthcare, Care Plus, and Florida Blue. Call our office to confirm your specific plan benefits.",
+          },
+          {
+            question: "5. What if I have gum pain or swelling and need to be seen quickly?",
+            answer:
+              "Coral Springs Smiles offers same-day urgent care appointments when possible, Monday through Friday. Call [(954) 266-8755](tel:9542668755) to check same-day availability.",
+          },
+        ],
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Schedule Your Visit with Coral Springs Trusted Periodontist",
+      },
+      {
+        type: "paragraph",
+        text: "If you're dealing with bleeding gums, recession, or implant discomfort, don't wait for it to get worse. Dr. Payal Anand and the team at Coral Springs Smiles are here to help.",
+      },
+      {
+        type: "paragraph",
+        text: "📍 [2929 North University Drive, Suite 203, Coral Springs, FL 33065](https://share.google/foAykmLoiJ3n2X1Nb) 📞 Call [(954) 266-8755](tel:9542668755) or [book your appointment online](/contact-us) today.",
+      },
+    ],
+  },
+  {
+    slug: "gum-disease-stages-coral-springs-periodontist",
+    title: "Gum Disease Stages Explained by a Coral Springs Periodontist",
+    excerpt:
+      "Learn the stages of gum disease from a trusted gum specialist in Coral Springs. Dr. Payal Anand at Coral Springs Smiles offers expert care. Call today.",
+    publishedAt: "2026-07-29",
+    cardImage: {
+      src: "/blog/gum-disease-stages-coral-springs-periodontist.webp",
+      alt: "Coral Springs gum specialist Dr. Payal Anand examining a patient's gums for signs of gum disease",
+    },
+    meta: {
+      title: "Gum Disease Stages: Coral Springs Gum Specialist Explains",
+      description:
+        "Learn the stages of gum disease from a trusted gum specialist in Coral Springs. Dr. Payal Anand at Coral Springs Smiles offers expert care. Call today.",
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "If your gums bleed when you brush, feel tender, or have started to pull away from your teeth, you're not alone — and you're not stuck. As a trusted **gum specialist in Coral Springs**, Dr. Payal Anand at [Coral Springs Smiles](/) helps patients catch gum disease early and treat it before it threatens their teeth. Understanding the stages of gum disease is the first step toward protecting your smile, and knowing when to call a professional can make all the difference between a simple cleaning and a more involved procedure.",
+      },
+      {
+        type: "paragraph",
+        text: "Below, we break down each stage of gum disease, what to watch for, and how our Coral Springs office treats it — from conservative [deep cleanings](/deep-cleaning) to advanced [laser therapy](/laser-dentistry).",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "The Four Stages of Gum Disease",
+      },
+      {
+        type: "paragraph",
+        text: "Gum disease doesn't happen overnight. It progresses gradually, and each stage requires a different level of care.",
+      },
+      {
+        type: "paragraph",
+        text: "**1. Gingivitis (Early Stage)**: This is the mildest and most reversible form of gum disease. Symptoms include red, swollen gums that bleed easily during brushing or flossing. At this stage, a professional cleaning and improved home care can often reverse the damage completely.",
+      },
+      {
+        type: "paragraph",
+        text: "**2. Early Periodontitis**: When gingivitis isn't addressed, plaque and tartar build up below the gumline, causing the gums to start pulling away from the teeth and forming small pockets. Bone loss can begin here, though it's usually minor.",
+      },
+      {
+        type: "paragraph",
+        text: "**3. Moderate Periodontitis**: Pockets deepen, bone loss becomes more noticeable, and teeth may start to feel loose or shift slightly. Patients often notice persistent bad breath and gum tenderness.",
+      },
+      {
+        type: "paragraph",
+        text: "**4. Advanced Periodontitis**: This is the most serious stage, with significant bone and tissue loss. Teeth may become very loose or require extraction if left untreated. At this point, specialized treatment from an experienced [gum specialist near me](/gum-disease-treatment) search often leads patients directly to Dr. Anand's door.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How Coral Springs Smiles Diagnoses Gum Disease",
+      },
+      {
+        type: "paragraph",
+        text: "During your visit, Dr. Anand performs a thorough periodontal evaluation, measuring gum pocket depth, checking for bleeding, and assessing bone levels. With over 16 years of experience and more than 10,000 patients treated, she has the trained eye to catch subtle changes that a general checkup might miss. Early detection is what separates a quick, comfortable treatment from a lengthy one — which is why we recommend regular visits to our Coral Springs office even if your gums feel fine.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Gum Treatment Near Me: What Coral Springs Smiles Offers",
+      },
+      {
+        type: "paragraph",
+        text: "Once we've identified the stage of your gum disease, Dr. Anand tailors a treatment plan to your needs. Patients searching for **gum treatment near me** in Coral Springs will find a full range of options under one roof, including:",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "**[Scaling and root planing](/scaling-root-planing)** — a deep cleaning that removes plaque and tartar from below the gumline, ideal for early to moderate periodontitis",
+          "**[LANAP® laser gum therapy](/lanap)** — a minimally invasive laser treatment that targets diseased tissue while preserving healthy gum, often with faster healing than traditional surgery",
+          "**[Laser dentistry](/laser-dentistry)** for precise, comfortable treatment of infected or inflamed tissue",
+          "**[Peri-implantitis](/peri-implantitis) treatment** for patients with [dental implants](/dental-implants) who develop gum inflammation around the implant site",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "You can learn more about our approach to advanced periodontal care on our [gum disease treatment page](/gum-disease-treatment), where we explain how LANAP and other therapies help patients avoid traditional gum surgery whenever possible.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why Coral Springs Patients Choose Us",
+      },
+      {
+        type: "paragraph",
+        text: "Coral Springs Smiles is conveniently located at 2929 North University Drive, Suite 203, making it easy for patients throughout Coral Springs and the surrounding areas to get the periodontal care they need without a long drive. [Dr. Payal Anand, DDS](/our-doctor), is a graduate of LSU School of Dentistry and completed a periodontics fellowship at LSU, giving her specialized training that goes beyond general dentistry. She is also a member of the ADA, AGD, and Academy of Cosmetic Dentistry, and has placed more than 2,000 [dental implants](/dental-implants) over her career.",
+      },
+      {
+        type: "paragraph",
+        text: "We accept a wide range of insurance plans, including Humana, United Healthcare, WellCare, Simply Healthcare, Care Plus, and Florida Blue, so quality gum care stays accessible. Appointments are available Monday through Friday, and we offer same-day urgent care when possible — because gum pain and bleeding shouldn't have to wait for the next available slot.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently Asked Questions",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            question: "1. What are the first signs of gum disease?",
+            answer:
+              "The earliest signs are usually red, swollen, or bleeding gums, especially during brushing or flossing. Bad breath that doesn't go away can also be an early indicator.",
+          },
+          {
+            question: "2. Can gum disease be reversed?",
+            answer:
+              "Gingivitis, the earliest stage, can typically be reversed with a professional cleaning and consistent home care. Later stages require ongoing management to prevent further damage.",
+          },
+          {
+            question: "3. How do I know if I need a gum specialist in Coral Springs?",
+            answer:
+              "If you notice persistent bleeding, gum recession, loose teeth, or you've been told you have periodontal pockets, it's time to see a specialist. Dr. Anand can evaluate your gums and recommend the right next step.",
+          },
+          {
+            question: "4. What is LANAP laser gum therapy?",
+            answer:
+              "LANAP is a laser-based treatment for gum disease that removes diseased tissue while preserving as much healthy gum as possible, often resulting in less discomfort and quicker recovery than traditional gum surgery.",
+          },
+          {
+            question: "5. Does Coral Springs Smiles accept my insurance for gum treatment?",
+            answer:
+              "We accept several major insurance plans, including Humana, United Healthcare, WellCare, Simply Healthcare, Care Plus, and Florida Blue. [Contact our office](/contact-us) and we'll help verify your coverage before your visit.",
+          },
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Schedule Your Gum Health Evaluation Today",
+      },
+      {
+        type: "paragraph",
+        text: "Gum disease only gets harder to treat the longer it's left unchecked. If you're searching for a **gum specialist in Coral Springs**, Dr. Payal Anand and the team at Coral Springs Smiles are ready to help you protect your smile with expert, compassionate care.",
+      },
+      {
+        type: "paragraph",
+        text: "📍 [2929 North University Drive, Suite 203, Coral Springs, FL 33065](https://share.google/foAykmLoiJ3n2X1Nb) 📞 Call [(954) 266-8755](tel:9542668755) or [book your appointment online](/contact-us) today.",
+      },
+    ],
+  },
+  {
+    slug: "peri-implantitis-treatment-coral-springs",
+    title: "Peri-Implantitis Treatment in Coral Springs",
+    excerpt:
+      "Signs of peri-implantitis around your dental implant? Payal Anand offers expert peri-implantitis treatment in Coral Springs. Call (954) 266-8755.",
+    publishedAt: "2026-07-29",
+    cardImage: {
+      src: "/blog/peri-implantitis-treatment-coral-springs.webp",
+      alt: "Periodontist examining a dental implant for peri-implantitis at Coral Springs Smiles",
+    },
+    meta: {
+      title: "Peri-Implantitis Treatment Coral Springs | Coral Springs Smiles",
+      description:
+        "Signs of peri-implantitis around your dental implant? Payal Anand offers expert peri-implantitis treatment in Coral Springs. Call (954) 266-8755.",
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "If your dental implant feels tender, your gums around it look puffy or red, or you've noticed a bad taste that won't go away, you may be dealing with peri-implantitis — an infection that, left untreated, can cause your implant to fail. The good news: with prompt [peri-implantitis treatment in Coral Springs](/peri-implantitis), Dr. Payal Anand at Coral Springs Smiles can often catch this condition early and save the implant you invested time and money in.",
+      },
+      {
+        type: "paragraph",
+        text: "Dental implants have a remarkable success rate, but they aren't immune to gum disease. In fact, implants can develop their own version of periodontal infection, and it requires a periodontally trained dentist to manage it correctly. That's exactly the kind of specialized care Coral Springs Smiles was built around.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "What Is Peri-Implantitis, and Why Does It Happen?",
+      },
+      {
+        type: "paragraph",
+        text: "Peri-implantitis is an inflammatory condition that affects the gum tissue and bone surrounding a dental implant. It typically starts as peri-implant mucositis — inflammation limited to the soft tissue — and, if ignored, progresses into bone loss around the implant itself. Left unaddressed, this bone loss can loosen the implant to the point of failure.",
+      },
+      {
+        type: "paragraph",
+        text: "Common causes Payal Anand sees in her Coral Springs practice include:",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "Plaque and bacterial buildup around the implant collar",
+          "Residual cement left behind after implant crown placement",
+          "Poor home care or difficulty cleaning around the implant",
+          "Smoking, which significantly raises the risk of implant infection",
+          "Uncontrolled gum disease elsewhere in the mouth",
+          "Bite forces that stress the implant and irritate surrounding tissue",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Because implants don't have the same natural defense system as real teeth, infection around them can move faster and be harder to detect without a trained eye. That's why routine follow-up visits at Coral Springs Smiles matter just as much after implant placement as before it.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Warning Signs You Shouldn't Ignore",
+      },
+      {
+        type: "paragraph",
+        text: "Payal Anand encourages Coral Springs patients with implants to watch for:",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "Red, swollen, or bleeding gums around the implant",
+          "Tenderness or pain when chewing",
+          "Pus or discharge near the implant site",
+          "A metallic or bad taste, or persistent bad breath",
+          "Visible gum recession exposing the implant metal",
+          "Looseness or shifting of the implant crown",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "If you notice any of these symptoms, don't wait. Peri-implantitis is far easier to treat in its early, mucositis-only stage than after bone loss has set in.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How Payal Anand Diagnoses and Treats Peri-Implantitis",
+      },
+      {
+        type: "paragraph",
+        text: "With 16+ years of experience, more than 10,000+ patients treated, and over 2,000+ implants placed, Payal Anand has seen the full range of implant complications — and she knows how to intervene before a failing implant becomes a lost one. As a periodontics fellowship graduate of LSU School of Dentistry, she brings specialty-level training in gum and bone health to every case at Coral Springs Smiles.",
+      },
+      {
+        type: "paragraph",
+        text: "Treatment is tailored to how advanced the infection is:",
+      },
+      {
+        type: "paragraph",
+        text: "**Non-surgical therapy**: For early peri-implantitis, Payal Anand often starts with [scaling and root planing](/scaling-root-planing) ([deep cleaning](/deep-cleaning)) to remove bacterial deposits from around the implant surface, paired with antimicrobial rinses or localized antibiotics.",
+      },
+      {
+        type: "paragraph",
+        text: "**[Laser dentistry](/laser-dentistry)**: Coral Springs Smiles uses [laser dentistry](/laser-dentistry) to decontaminate the implant surface and reduce harmful bacteria with minimal discomfort and faster healing than traditional instruments alone.",
+      },
+      {
+        type: "paragraph",
+        text: "**[LANAP](/lanap) for surrounding gum disease**: When peri-implantitis coexists with periodontal disease elsewhere in the mouth, Payal Anand may recommend LANAP, a minimally invasive laser protocol that treats infected gum tissue while preserving as much healthy structure as possible.",
+      },
+      {
+        type: "paragraph",
+        text: "**Surgical intervention**: For more advanced cases with significant bone loss, surgical access may be needed to clean the implant threads directly and, in some cases, regenerate lost bone to stabilize the implant long-term.",
+      },
+      {
+        type: "paragraph",
+        text: "Because every case is different, Payal Anand builds a plan around your specific implant, bone levels, and health history rather than applying a one-size-fits-all protocol.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Protecting Your Investment: Implant Maintenance at Coral Springs Smiles",
+      },
+      {
+        type: "paragraph",
+        text: "An implant is a long-term investment in your smile, and Coral Springs Smiles treats it that way. Beyond active treatment, Payal Anand's team works with patients on the maintenance habits that keep peri-implantitis from coming back — proper home cleaning techniques, periodic professional [deep cleanings](/deep-cleaning), and monitoring at routine visits. If you're considering a new implant or have questions about the process from the ground up, our [dental implants](/dental-implants) page walks through what to expect at every stage.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why Coral Springs Patients Choose Us",
+      },
+      {
+        type: "paragraph",
+        text: "Patients throughout Coral Springs trust Payal Anand with their implant and gum health because her background isn't generalist — it's specialized. Her periodontics fellowship at LSU, combined with membership in the ADA, AGD, and Academy of Cosmetic Dentistry, means she approaches implant complications with both the clinical precision of a periodontist and the aesthetic judgment of a cosmetic dentist. With over 2,000 [dental implants](/dental-implants) placed and 10,000+ patients treated, few practices in Coral Springs have handled as broad a range of implant cases.",
+      },
+      {
+        type: "paragraph",
+        text: "Coral Springs Smiles also makes care accessible: we accept Humana, United Healthcare, WellCare, Simply Healthcare, Care Plus, and Florida Blue, with appointments available Monday through Friday and same-day urgent care when possible — important when implant symptoms need fast attention.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently Asked Questions",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            question: "Can peri-implantitis be reversed?",
+            answer:
+              "Early-stage peri-implant mucositis is often fully reversible with professional [deep cleaning](/deep-cleaning) and improved home care. Once bone loss occurs, treatment focuses on stopping progression and stabilizing the implant rather than full reversal — which is why early diagnosis at Coral Springs Smiles matters.",
+          },
+          {
+            question: "Will I lose my implant if I have peri-implantitis?",
+            answer:
+              "Not necessarily. Many implants are saved with timely, appropriate treatment. Payal Anand's periodontal training allows her to intervene at the stage most likely to preserve the implant.",
+          },
+          {
+            question: "Is peri-implantitis treatment painful?",
+            answer:
+              "Most non-surgical treatments, including [laser-assisted](/laser-dentistry) decontamination, cause minimal discomfort. Payal Anand and her team explain each step and manage comfort throughout the process.",
+          },
+          {
+            question: "How often should I have my implants checked?",
+            answer:
+              "Payal Anand generally recommends implant check-ups alongside your regular hygiene visits, though patients with a history of gum disease may need more frequent monitoring.",
+          },
+          {
+            question: "Does insurance cover peri-implantitis treatment?",
+            answer:
+              "Coverage varies by plan. Coral Springs Smiles accepts Humana, United Healthcare, WellCare, Simply Healthcare, Care Plus, and Florida Blue, and our team can help verify your specific benefits before treatment begins.",
+          },
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Protect Your Smile — Schedule Your Visit Today",
+      },
+      {
+        type: "paragraph",
+        text: "If you're noticing swelling, tenderness, or changes around a dental implant, don't wait for it to get worse. Dr. Payal Anand and the team at Coral Springs Smiles are ready to evaluate your implant and put together a treatment plan to protect it.",
+      },
+      {
+        type: "paragraph",
+        text: "**Coral Springs Smiles** — [2929 North University Drive, Suite 203, Coral Springs, FL 33065](https://share.google/foAykmLoiJ3n2X1Nb). Call [(954) 266-8755](tel:9542668755) or book online to schedule your appointment.",
+      },
+    ],
+  },
+  {
+    slug: "receding-gums-coral-springs-when-to-see-a-periodontist",
+    title: "Receding Gums in Coral Springs? Here's When to See a Periodontist",
+    excerpt:
+      "Noticing receding gums? Coral Springs Smiles' gum specialist in Coral Springs, Dr. Payal Anand, explains when to seek treatment. Call (954) 266-8755.",
+    publishedAt: "2026-07-29",
+    cardImage: {
+      src: "/blog/receding-gums-coral-springs-when-to-see-a-periodontist.webp",
+      alt: "Gum specialist in Coral Springs examining a patient's receding gums at Coral Springs Smiles",
+    },
+    meta: {
+      title: "Receding Gums? Gum Specialist in Coral Springs | CSS",
+      description:
+        "Noticing receding gums? Coral Springs Smiles' gum specialist in Coral Springs, Dr. Payal Anand, explains when to seek treatment. Call (954) 266-8755.",
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "If you've noticed your teeth looking a little longer than they used to, or you've felt a twinge of sensitivity when you sip your morning coffee, you may be dealing with receding gums. It's one of the most common — and most commonly ignored — dental concerns we see at [Coral Springs Smiles](/). The good news is that when it's caught early, gum recession is very manageable. The key is knowing when a simple cleaning is enough and when it's time to see a [gum specialist in Coral Springs](/gum-disease-treatment) who can stop the problem before it progresses.",
+      },
+      {
+        type: "paragraph",
+        text: "[Dr. Payal Anand, DDS](/our-doctor), leads our practice at 2929 North University Drive, Suite 203, and brings a periodontics fellowship from LSU along with more than 16 years of hands-on experience treating gum disease. If you're searching for a \"gum specialist near me\" because something doesn't feel right, this guide will help you understand what's happening — and what we can do about it.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "What Causes Receding Gums? Coral Springs Patients Ask This a Lot",
+      },
+      {
+        type: "paragraph",
+        text: "Gum recession happens when the gum tissue surrounding your teeth pulls back, exposing more of the tooth or its root. At Coral Springs Smiles, the most common causes we see include:",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "Untreated gum disease (gingivitis or periodontitis)",
+          "Aggressive brushing or a hard-bristled toothbrush",
+          "Genetics — some patients are simply more prone to thin or fragile gum tissue",
+          "Teeth grinding or clenching",
+          "Tobacco use",
+          "Misaligned teeth putting uneven pressure on the gums",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Because Florida's humid climate and busy lifestyles can make it easy to skip regular dental visits, many Coral Springs patients don't notice recession until it's already moderate. That's exactly why routine checkups with a [gum specialist near Coral Springs](/gum-disease-treatment) matter — small changes are much easier to treat than advanced ones.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Warning Signs You Shouldn't Ignore",
+      },
+      {
+        type: "paragraph",
+        text: "Not every case of gum recession comes with obvious pain, which is part of what makes it tricky. Watch for:",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "Teeth that appear longer than before",
+          "Sensitivity to hot, cold, or sweet foods",
+          "A visible notch or line where the gum meets the tooth",
+          "Gums that bleed easily when brushing or flossing",
+          "Loose-feeling teeth",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "If any of these sound familiar, it's worth scheduling an exam with Dr. Anand rather than waiting for symptoms to worsen. Gum tissue doesn't grow back on its own, and early intervention gives you far more treatment options.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How Coral Springs Smiles Treats Receding Gums",
+      },
+      {
+        type: "paragraph",
+        text: "Every case is different, which is why Dr. Anand starts with a thorough periodontal evaluation before recommending a treatment path. Depending on the severity of your recession, options may include:",
+      },
+      {
+        type: "paragraph",
+        text: "**[Scaling and Root Planing](/scaling-root-planing) ([Deep Cleaning](/deep-cleaning))** For mild to moderate recession caused by gum disease, a deep cleaning removes plaque and tartar from below the gumline and smooths the tooth root, helping gums reattach and reducing further recession.",
+      },
+      {
+        type: "paragraph",
+        text: "**[LANAP® Laser Gum Therapy](/lanap)** For more advanced gum disease, Coral Springs Smiles offers LANAP, a laser-based, minimally invasive alternative to traditional gum surgery. It targets diseased tissue while preserving healthy gum, typically with less discomfort and faster healing.",
+      },
+      {
+        type: "paragraph",
+        text: "**[Peri-Implantitis](/peri-implantitis) Treatment** If you already have dental implants and are noticing gum recession or inflammation around them, this needs prompt attention. Dr. Anand — who has placed over 2,000 implants — treats peri-implantitis to protect both the surrounding gum tissue and the long-term success of your implant.",
+      },
+      {
+        type: "paragraph",
+        text: "You can learn more about our approach to gum therapy on our [gum disease and periodontal treatment page](/gum-disease-treatment), where we break down what to expect at each stage of care.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "When Should You Actually See a Periodontist?",
+      },
+      {
+        type: "paragraph",
+        text: "Not every patient with slightly receded gums needs specialized periodontal treatment — but you should schedule a visit with our Coral Springs gum specialist if:",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "Recession has progressed noticeably over the past year",
+          "You have persistent bad breath or a bad taste that won't go away",
+          "Your teeth feel loose or your bite has changed",
+          "You've been told you have moderate-to-severe periodontitis",
+          "You have gum recession around an existing [dental implant](/dental-implants)",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Dr. Anand's periodontics fellowship training means she can identify whether your case needs a conservative approach or more advanced intervention — without unnecessary treatment or unnecessary worry.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why Coral Springs Patients Choose Us",
+      },
+      {
+        type: "paragraph",
+        text: "Patients throughout Coral Springs choose our practice for gum treatment because Dr. Anand combines specialized periodontal training with a genuinely calm, patient-first chairside manner. A few reasons our neighbors keep coming back:",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "**16+ years of experience** and **10,000+ patients treated** in our community",
+          "A dedicated periodontics fellowship from LSU School of Dentistry, on top of her DDS",
+          "Active membership in the ADA, AGD, and Academy of Cosmetic Dentistry",
+          "Advanced options like [laser dentistry](/laser-dentistry) and [LANAP](/lanap) available in-office",
+          "We accept Humana, United Healthcare, WellCare, Simply Healthcare, Care Plus, and Florida Blue",
+          "Appointments Monday through Friday, with same-day urgent care when possible",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "If you've been putting off a gum treatment near you because you weren't sure where to start, our Coral Springs office is a convenient, trusted option just off North University Drive.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently Asked Questions",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            question: "Can receding gums grow back on their own?",
+            answer: "No. Gum tissue does not regenerate naturally once it recedes. Treatment focuses on stopping further recession and, in some cases, restoring coverage through grafting or laser therapy.",
+          },
+          {
+            question: "Is LANAP painful?",
+            answer: "Most patients report significantly less discomfort with [LANAP](/lanap) compared to traditional gum surgery, since it's minimally invasive and preserves more healthy tissue.",
+          },
+          {
+            question: "How do I know if I need a deep cleaning or a periodontist?",
+            answer: "Dr. Anand will assess the depth of your gum pockets and the extent of recession during your exam to recommend the right level of care — from a deep cleaning to more advanced periodontal treatment.",
+          },
+          {
+            question: "Does insurance cover gum treatment at Coral Springs Smiles?",
+            answer: "We accept Humana, United Healthcare, WellCare, Simply Healthcare, Care Plus, and Florida Blue. Our team can help verify your specific coverage before treatment.",
+          },
+          {
+            question: "How quickly can I be seen for receding gums?",
+            answer: "We offer appointments Monday through Friday and same-day urgent care when possible, so you don't have to wait long to have a concern evaluated.",
+          },
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Ready to Protect Your Gums? Let's Talk.",
+      },
+      {
+        type: "paragraph",
+        text: "Receding gums don't improve with time — but with the right care, they don't have to get worse either. Dr. Payal Anand and the team at **Coral Springs Smiles** are here to give you a clear, honest evaluation and a treatment plan that fits your needs.",
+      },
+      {
+        type: "paragraph",
+        text: "📍 [2929 North University Drive, Suite 203, Coral Springs, FL 33065](https://share.google/foAykmLoiJ3n2X1Nb) 📞 Call [(954) 266-8755](tel:9542668755)",
+      },
+      {
+        type: "paragraph",
+        text: "Don't wait for symptoms to worsen — reach out to your gum specialist in Coral Springs today.",
+      },
+    ],
+  },
+  {
+    slug: "new-patient-guide-dentist-coral-springs",
+    title: "New Patient Guide: Your First Visit to Coral Springs Smiles",
+    excerpt:
+      "First visit to a dentist in Coral Springs? See what to expect at Coral Springs Smiles with Dr. Payal Anand. Call (954) 266-8755.",
+    publishedAt: "2026-07-28",
+    cardImage: {
+      src: "/blog/new-patient-guide-dentist-coral-springs.webp",
+      alt: "Dr. Payal Anand, dentist in Coral Springs, greeting a new patient at Coral Springs Smiles",
+    },
+    meta: {
+      title: "New Patient Guide Coral Springs | Dentist in Coral Springs",
+      description:
+        "First visit to a dentist in Coral Springs? See what to expect at Coral Springs Smiles with Dr. Payal Anand. Call (954) 266-8755.",
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "Searching for a [dentist in Coral Springs](/) and not sure what your first appointment will actually involve? You're not alone — most new patients want to know how long the visit takes, what's included, whether their insurance is accepted, and whether the office actually feels comfortable. At Coral Springs Smiles, Dr. Payal Anand, DDS, and her team have walked more than 10,000+ patients through exactly this process, and this guide breaks down what to expect from the moment you call to the moment you leave with a plan for your smile.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Meet Dr. Payal Anand, Your Dentist in Coral Springs",
+      },
+      {
+        type: "paragraph",
+        text: "Dr. Anand is a graduate of the LSU School of Dentistry and completed an advanced periodontics fellowship at LSU before opening Coral Springs Smiles. She holds memberships with the American Dental Association (ADA), the Academy of General Dentistry (AGD), and the Academy of Cosmetic Dentistry. With more than 16 years of clinical experience, over 10,000 patients treated, and more than 2,000 [dental implants](/dental-implants) placed, Dr. Anand brings both surgical precision and a genuinely calming chairside manner to every new patient exam. Many patients tell us they chose Coral Springs Smiles specifically because they wanted a dentist near Coral Springs who treats complex cases without losing the personal touch of a neighborhood practice.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "What Happens During Your First Visit to Coral Springs Smiles",
+      },
+      {
+        type: "paragraph",
+        text: "Your first appointment at Coral Springs Smiles is built around getting a full, honest picture of your oral health — no rushed exams, no guesswork. Here's what to expect:",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "**Welcome and paperwork.** Our front desk team will confirm your insurance and walk you through any forms before you're seen.",
+          "**Comprehensive exam.** Dr. Anand personally reviews your teeth, gums, bite, and jaw, checking for decay, gum disease, and early warning signs that are easy to miss.",
+          "**Digital X-rays.** These help us catch issues below the surface, including bone loss around the teeth or early signs of [peri-implantitis](/peri-implantitis) if you have existing implants.",
+          "**Cleaning (when appropriate).** If you're due for a routine cleaning, our hygienists can often complete it the same day. If you need a deeper cleaning, we'll explain why and what it involves.",
+          "**A clear conversation.** Dr. Anand walks through her findings in plain language and outlines a treatment plan, including cost and insurance coverage, before you leave.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Gum Health Comes First: Scaling, Root Planing, and Laser Dentistry at Coral Springs Smiles",
+      },
+      {
+        type: "paragraph",
+        text: "Because of her periodontics background, Dr. Anand pays close attention to gum health at every new patient visit — something general checkups can sometimes gloss over. If you're showing early signs of gum disease, we may recommend [scaling and root planing](/scaling-root-planing) (a deep cleaning below the gumline) to remove bacteria and plaque before it progresses. For more advanced cases, Coral Springs Smiles offers [LANAP® laser gum treatment](/lanap), a minimally invasive alternative to traditional gum surgery that uses [laser dentistry](/laser-dentistry) to target diseased tissue while preserving healthy gum structure. Catching gum issues at your first visit is one of the simplest ways to protect your teeth — and your implants, if you have them — for the long term.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Considering Dental Implants or Invisalign? We'll Talk About It Early",
+      },
+      {
+        type: "paragraph",
+        text: "If you're a new patient interested in [dental implants](/dental-implants) or [Invisalign](/invisalign), your first visit is the right time to bring it up. Dr. Anand has placed over 2,000 implants and can walk you through whether you're a candidate, what the process looks like, and realistic timelines — without any pressure to commit that day. The same goes for Invisalign: we'll evaluate your bite and discuss whether clear aligners make sense for your goals. Patients often come to Coral Springs Smiles specifically because they want one dentist who can handle both the restorative and cosmetic side of their care, rather than being referred out repeatedly.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why Coral Springs Patients Choose Coral Springs Smiles",
+      },
+      {
+        type: "paragraph",
+        text: "Coral Springs has plenty of dental offices, but patients consistently point to a few reasons they stick with Coral Springs Smiles:",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "**Experience that shows.** 16+ years, 10,000+ patients, and 2,000+ implants placed by Dr. Anand herself.",
+          "**Insurance flexibility.** We accept Humana, United Healthcare, WellCare, Simply Healthcare, Care Plus, and Florida Blue, which makes finding an **affordable dentist in Coral Springs** far less stressful.",
+          "**Same-day urgent care when possible.** Dental pain doesn't wait for a convenient appointment slot, and neither do we.",
+          "**A full range of care under one roof.** From routine cleanings to LANAP, implants, and cosmetic work, most patients never need to be referred elsewhere.",
+          "**Location.** We're at 2929 North University Drive, Suite 203, easy to reach whether you're searching for a dentist near Coral Springs from Parkland, Margate, or within the city itself.",
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently Asked Questions",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            question: "How long is a first visit at Coral Springs Smiles?",
+            answer:
+              "Most new patient appointments take 60–90 minutes, which includes your exam, digital X-rays, and a conversation with Dr. Anand about any findings.",
+          },
+          {
+            question: "Is Coral Springs Smiles an affordable dentist in Coral Springs?",
+            answer:
+              "We work with several major insurance providers, including Humana, United Healthcare, WellCare, Simply Healthcare, Care Plus, and Florida Blue, to help keep care accessible. Our team can verify your benefits before your visit.",
+          },
+          {
+            question: "Do I need a referral to see Dr. Anand for implants or gum treatment?",
+            answer:
+              "No. Dr. Anand evaluates and treats most implant and periodontal cases directly, including [LANAP](/lanap) laser gum therapy, without requiring an outside referral.",
+          },
+          {
+            question: "What if I have dental pain and need to be seen quickly?",
+            answer:
+              "Coral Springs Smiles offers same-day urgent care when possible. Call [(954) 266-8755](tel:9542668755) and our team will do their best to get you in.",
+          },
+          {
+            question: "What are Coral Springs Smiles' office hours?",
+            answer:
+              "Appointments are available Monday through Friday. Call ahead or book online to find a time that works for your schedule.",
+          },
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Ready to Meet Your Dentist in Coral Springs?",
+      },
+      {
+        type: "paragraph",
+        text: "If you've been putting off finding a dentist near Coral Springs, let your first visit to Coral Springs Smiles be the easy part. Call [(954) 266-8755](tel:9542668755) or book online to schedule your appointment with Dr. Payal Anand at [2929 North University Drive, Suite 203, Coral Springs, FL 33065](https://share.google/foAykmLoiJ3n2X1Nb).",
+      },
+    ],
+  },
+  {
+    slug: "new-patient-dental-special-coral-springs",
+    title: "New Patient Dental Special in Coral Springs",
+    excerpt:
+      "Get our New Patient Dental Special in Coral Springs at Coral Springs Smiles with Dr. Payal Anand. Call (954) 266-8755 to book today.",
+    publishedAt: "2026-07-28",
+    cardImage: {
+      src: "/blog/new-patient-dental-special-coral-springs.webp",
+      alt: "New Patient Dental Special in Coral Springs at Coral Springs Smiles dental office",
+    },
+    meta: {
+      title: "New Patient Dental Special in Coral Springs | Coral Springs Smiles",
+      description:
+        "Get our New Patient Dental Special in Coral Springs at Coral Springs Smiles with Dr. Payal Anand. Call (954) 266-8755 to book today.",
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "If it's been a while since your last cleaning, or you're simply looking for a dentist near Coral Springs who won't make you feel rushed or judged, our [New Patient Dental Special in Coral Springs](/) was built with you in mind. At Coral Springs Smiles, Dr. Payal Anand, DDS and her team make it simple and affordable to get back on track with your oral health — without the guesswork, the upselling, or the long waits so many patients dread.",
+      },
+      {
+        type: "paragraph",
+        text: "Starting care at a new dental office can feel intimidating. Maybe you've put off a visit because of cost concerns, maybe you moved to the area and haven't found a dentist yet, or maybe you just need someone to finally take a real look at that nagging issue. Whatever brought you here, our new patient special is designed to remove the barriers and get you the care you need.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "What's Included in Our New Patient Dental Special",
+      },
+      {
+        type: "paragraph",
+        text: "Our New Patient Dental Special in Coral Springs typically includes:",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "🦷 **Comprehensive oral exam** — a full evaluation of your teeth, gums, bite, and overall oral health",
+          "📸 **Necessary X-rays** — to catch what the eye can't see",
+          "🩺 **Personalized consultation with Dr. Anand** — no rushed five-minute look, just real one-on-one time",
+          "📋 **A clear, honest treatment plan** — no surprise upsells",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "This isn't a rushed visit. If your exam shows signs of gum disease or plaque buildup, we'll walk you through options like [scaling and root planing](/scaling-root-planing) or [laser dentistry](/laser-dentistry), and explain exactly why they're recommended before any treatment begins.",
+      },
+      {
+        type: "paragraph",
+        text: "Because every patient's mouth is different, your visit may also include a discussion of next steps — whether that's a standard cleaning, a conversation about [Invisalign](/invisalign), or a referral to one of Dr. Anand's specialty services like [dental implants](/dental-implants) or [LANAP](/lanap) for gum disease. Nothing is one-size-fits-all at Coral Springs Smiles.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Meet Dr. Payal Anand, DDS",
+      },
+      {
+        type: "paragraph",
+        text: "Choosing a new dentist is a decision built on trust, and Dr. Payal Anand has earned that trust with more than 16 years of experience and over 10,000 patients treated at Coral Springs Smiles. She's a graduate of the LSU School of Dentistry and completed an advanced periodontics fellowship at LSU, giving her a depth of training in gum health that goes beyond general dentistry. She's also placed more than 2,000 [dental implants](/dental-implants) and is a member of the American Dental Association (ADA), the Academy of General Dentistry (AGD), and the Academy of Cosmetic Dentistry.",
+      },
+      {
+        type: "paragraph",
+        text: "That combination of credentials matters most when a routine visit uncovers something more complex, like early gum disease or the need for a [peri-implantitis](/peri-implantitis) treatment. You won't be bounced around to unfamiliar specialists — Dr. Anand has the training to manage a wide range of concerns right here in her Coral Springs practice.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why This Matters for an Affordable Dentist in Coral Springs",
+      },
+      {
+        type: "paragraph",
+        text: "Cost is one of the biggest reasons people delay dental care, and we understand that. Our New Patient Dental Special in Coral Springs is structured to make that first visit accessible, so you can find out exactly what your mouth needs before committing to a bigger treatment plan.",
+      },
+      {
+        type: "paragraph",
+        text: "✔ [Insurance Plans Accepted at Coral Springs Smiles](/dental-insurance-coral-springs)",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "✅ MetLife",
+          "✅ Cigna",
+          "✅ Humana",
+          "✅ WellCare",
+          "✅ United Healthcare",
+          "✅ Simply Healthcare",
+          "✅ Care Plus",
+          "✅ Florida Blue",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Our team will verify your benefits before your appointment, so there are no surprise costs when you arrive.",
+      },
+      {
+        type: "paragraph",
+        text: "If you're searching for an affordable dentist in Coral Springs who's upfront about pricing and never pressures you into unnecessary treatment, this is exactly the kind of visit we aim to provide.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Advanced Care Available Right Here in Coral Springs",
+      },
+      {
+        type: "paragraph",
+        text: "Many new patients come to us for a simple cleaning and end up appreciating that Coral Springs Smiles offers advanced services in-house if they're ever needed. That includes [laser dentistry](/laser-dentistry) for more comfortable, precise treatment of gum issues, and [LANAP](/lanap), a minimally invasive laser procedure for treating gum disease. If your exam reveals early signs of periodontal concerns, you can learn more on our [scaling and root planing page](/scaling-root-planing) to understand what deep cleaning involves and why catching it early makes a real difference.",
+      },
+      {
+        type: "paragraph",
+        text: "Having these services available at one Coral Springs location means fewer referrals, fewer new offices to get comfortable with, and continuity of care with a dentist who already knows your history.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why Coral Springs Patients Choose Us",
+      },
+      {
+        type: "paragraph",
+        text: "Patients across Coral Springs choose our practice because Dr. Anand treats every visit like a relationship, not a transaction. Coral Springs Smiles is conveniently located at 2929 North University Drive, Suite 203, making it an easy stop for residents throughout Coral Springs and the surrounding area. We offer appointments Monday through Friday, with same-day urgent care when possible for patients dealing with a toothache or unexpected dental issue.",
+      },
+      {
+        type: "paragraph",
+        text: "Whether you're new to the area or simply searching for a dentist in Coral Springs who takes the time to explain things clearly, our team's goal is to make every visit feel comfortable, informative, and pressure-free.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently Asked Questions",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            question: "What does the New Patient Dental Special at Coral Springs Smiles include?",
+            answer:
+              "It typically includes a comprehensive exam, necessary X-rays, and a personalized consultation with Dr. Payal Anand to review your oral health and any next steps.",
+          },
+          {
+            question: "Is Coral Springs Smiles accepting new patients?",
+            answer:
+              "Yes. Dr. Anand and her team welcome new patients throughout Coral Springs and nearby communities, with appointments available Monday through Friday.",
+          },
+          {
+            question: "Does Coral Springs Smiles accept dental insurance?",
+            answer:
+              "Yes, we accept MetLife, Cigna, Humana, United Healthcare, WellCare, Simply Healthcare, Care Plus, and Florida Blue. Our team can help verify your benefits before your visit.",
+          },
+          {
+            question: "What if my exam shows I need a deep cleaning or gum treatment?",
+            answer:
+              "Dr. Anand completed a periodontics fellowship at LSU, so she's well-equipped to recommend and perform treatments like [scaling and root planing](/scaling-root-planing) or laser-based gum therapy right at our Coral Springs office.",
+          },
+          {
+            question: "Can I get a same-day appointment for a dental emergency?",
+            answer:
+              "We offer same-day urgent care when possible. Call [(954) 266-8755](tel:9542668755) to check availability for your situation.",
+          },
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Schedule Your Visit at Coral Springs Smiles",
+      },
+      {
+        type: "paragraph",
+        text: "If you've been putting off a dental visit, there's no better time to take advantage of our New Patient Dental Special in Coral Springs. Dr. Payal Anand and the team at Coral Springs Smiles are ready to welcome you.",
+      },
+      {
+        type: "paragraph",
+        text: "📍 [2929 North University Drive, Suite 203, Coral Springs, FL 33065](https://share.google/foAykmLoiJ3n2X1Nb) 📞 Call [(954) 266-8755](tel:9542668755) or [book your appointment online](/contact-us) today.",
+      },
+    ],
+  },
+  {
+    slug: "affordable-dentist-near-me-in-coral-springs",
+    title: "Looking for an Affordable Dentist Near Me in Coral Springs? Here's What to Expect",
+    excerpt:
+      "Looking for an affordable dentist Coral Springs? Discover quality, affordable dental care at Coral Springs Smiles with Dr. Payal Anand. Schedule your visit today.",
+    publishedAt: "2026-07-28",
+    cardImage: {
+      src: "/blog/affordable-dentist-near-me-coral-springs-july.webp",
+      alt: "Affordable Dentist Coral Springs | Coral Springs Smiles",
+    },
+    meta: {
+      title: "Affordable Dentist Coral Springs | Coral Springs Smiles",
+      description:
+        "Looking for an affordable dentist Coral Springs? Discover quality, affordable dental care at Coral Springs Smiles with Dr. Payal Anand. Schedule your visit today.",
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "Searching for an [affordable dentist Coral Springs](/) often means balancing quality care with a budget that works for you. Whether you need a routine checkup, treatment for a dental concern, or a complete smile restoration, finding a practice that offers experienced care, modern technology, and transparent treatment options is essential.",
+      },
+      {
+        type: "paragraph",
+        text: "At [Coral Springs Smiles](/), Dr. [Payal Anand, DDS](/our-doctor), and her team are committed to making high-quality dental care accessible for families and individuals throughout Coral Springs. Conveniently located at [2929 North University Drive, Suite 203, Coral Springs, FL 33065](https://share.google/foAykmLoiJ3n2X1Nb), the practice provides comprehensive dental services in a welcoming environment where patient comfort and long-term oral health always come first.",
+      },
+      {
+        type: "paragraph",
+        text: "With more than **16+ years of clinical experience**, treatment for **10,000+ patients**, and over **2,000+** [dental implants](/dental-implants) **placed**, Dr. Anand combines advanced training with a personalized approach that helps patients receive the care they need without unnecessary stress.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "What Makes an Affordable Dentist in Coral Springs?",
+      },
+      {
+        type: "paragraph",
+        text: "Affordability isn't simply about finding the lowest price—it's about receiving exceptional value for your investment in your oral health.",
+      },
+      {
+        type: "paragraph",
+        text: "At Coral Springs Smiles, every treatment begins with a comprehensive evaluation so Dr. Payal Anand can recommend only the care that's appropriate for your specific needs. Patients receive clear explanations, customized treatment plans, and guidance that helps them make informed decisions.",
+      },
+      {
+        type: "paragraph",
+        text: "As a graduate of the LSU School of Dentistry who also completed a Periodontics Fellowship at LSU, Dr. Anand brings advanced clinical knowledge to every patient she treats. She is also an active member of the American Dental Association (ADA), Academy of General Dentistry (AGD), and the Academy of Cosmetic Dentistry, reflecting her commitment to continuing education and high standards of patient care.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Comprehensive Dental Services at Coral Springs Smiles",
+      },
+      {
+        type: "paragraph",
+        text: "One reason many patients searching for an **affordable dentist near me** choose Coral Springs Smiles is the convenience of receiving comprehensive care in one location.",
+      },
+      {
+        type: "paragraph",
+        text: "Services include:",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "Preventive dental exams and professional cleanings",
+          "Digital diagnostics",
+          "[Scaling and root planing](/scaling-root-planing) (deep cleaning)",
+          "[LANAP® laser gum therapy](/lanap)",
+          "[Peri-implantitis](/peri-implantitis) treatment",
+          "[Dental implants](/dental-implants)",
+          "[Laser dentistry](/laser-dentistry)",
+          "[Invisalign®](/invisalign) clear aligners",
+          "[Cosmetic dentistry](/cosmetic-dentistry)",
+          "Restorative dental treatments",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Because these services are available under one roof, patients can often avoid visiting multiple offices while maintaining continuity of care with Dr. Anand and her experienced dental team.",
+      },
+      {
+        type: "paragraph",
+        text: "To learn more about available treatments, visit the [Coral Springs Smiles](/) website.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Affordable Dentist Coral Springs: Insurance and Flexible Care",
+      },
+      {
+        type: "paragraph",
+        text: "When patients search for an **affordable dentist Coral Springs**, insurance acceptance is often one of the most important considerations.",
+      },
+      {
+        type: "paragraph",
+        text: "Coral Springs Smiles works with several major insurance providers, including:",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "Humana",
+          "United Healthcare",
+          "WellCare",
+          "Simply Healthcare",
+          "Care Plus",
+          "Florida Blue",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The team helps patients understand their benefits and maximize available coverage whenever possible.",
+      },
+      {
+        type: "paragraph",
+        text: "The practice also offers convenient scheduling designed for busy families and professionals:",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "Monday through Friday appointments",
+          "Saturday appointments available by appointment",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "This flexibility makes it easier to receive quality dental care without disrupting work or family schedules.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why Coral Springs Patients Choose Coral Springs Smiles",
+      },
+      {
+        type: "paragraph",
+        text: "Patients throughout Coral Springs continue choosing Coral Springs Smiles because they value experience, compassion, and personalized treatment.",
+      },
+      {
+        type: "paragraph",
+        text: "Here are just a few reasons patients trust Dr. Payal Anand:",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Experienced Leadership",
+      },
+      {
+        type: "paragraph",
+        text: "With over 16 years of experience and more than 10,000 patients treated, Dr. Anand has extensive experience managing everything from preventive dentistry to complex restorative procedures.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Advanced Technology",
+      },
+      {
+        type: "paragraph",
+        text: "Coral Springs Smiles incorporates modern dental technology and [laser dentistry](/laser-dentistry) to improve accuracy, patient comfort, and treatment outcomes whenever appropriate.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Personalized Treatment",
+      },
+      {
+        type: "paragraph",
+        text: "No two smiles are alike. Every treatment recommendation is based on each patient's oral health goals, clinical needs, and long-term wellness—not a one-size-fits-all approach.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Comfortable Environment",
+      },
+      {
+        type: "paragraph",
+        text: "The team understands that dental visits can feel stressful for some patients. Every effort is made to create a welcoming, relaxed atmosphere where patients feel informed and comfortable throughout their visit.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Comprehensive Care",
+      },
+      {
+        type: "paragraph",
+        text: "From routine cleanings to advanced periodontal therapy and [dental implants](/dental-implants), Coral Springs Smiles offers complete dental care for patients of all ages.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "What to Expect During Your First Visit in Coral Springs",
+      },
+      {
+        type: "paragraph",
+        text: "Many patients searching for a **dentist in Coral Springs** are unsure what their first appointment will involve.",
+      },
+      {
+        type: "paragraph",
+        text: "At Coral Springs Smiles, your initial visit typically includes:",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "Review of your medical and dental history",
+          "Digital X-rays when needed",
+          "Comprehensive oral examination",
+          "Gum health evaluation",
+          "Discussion of any concerns or symptoms",
+          "Personalized treatment recommendations",
+          "Opportunity to ask questions about treatment options and insurance coverage",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The goal is to help every patient understand their oral health and feel confident about the next steps in their care.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Investing in Preventive Dental Care Saves Money",
+      },
+      {
+        type: "paragraph",
+        text: "Choosing preventive dental care is one of the smartest ways to manage long-term dental expenses.",
+      },
+      {
+        type: "paragraph",
+        text: "Routine cleanings and examinations allow Dr. Anand to identify concerns before they become larger, more complex problems requiring extensive treatment.",
+      },
+      {
+        type: "paragraph",
+        text: "Preventive services may help reduce the likelihood of:",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "Advanced gum disease",
+          "Tooth loss",
+          "Dental infections",
+          "Large cavities",
+          "Complex restorative procedures",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Regular visits also support healthier gums and teeth, contributing to better overall oral health for years to come.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently Asked Questions",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            question: "Does Coral Springs Smiles accept dental insurance?",
+            answer:
+              "Yes. Coral Springs Smiles accepts several insurance providers, including Humana, United Healthcare, WellCare, Simply Healthcare, Care Plus, and Florida Blue.",
+          },
+          {
+            question: "Is Coral Springs Smiles accepting new patients?",
+            answer:
+              "Yes. Dr. Payal Anand welcomes new patients seeking comprehensive dental care in Coral Springs.",
+          },
+          {
+            question: "What dental services are available?",
+            answer:
+              "The practice offers preventive dentistry, deep cleanings, [LANAP laser therapy](/lanap), [dental implants](/dental-implants), [Invisalign](/invisalign), [cosmetic dentistry](/cosmetic-dentistry), restorative treatments, and more.",
+          },
+          {
+            question: "How do I schedule an appointment?",
+            answer:
+              "You can call [(954) 266-8755](tel:9542668755) or request an appointment online through the Coral Springs Smiles website.",
+          },
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Schedule Your Visit at Coral Springs Smiles Today",
+      },
+      {
+        type: "paragraph",
+        text: "If you've been searching for an **affordable dentist Coral Springs**, Coral Springs Smiles is ready to help you achieve and maintain a healthy smile with personalized, high-quality dental care.",
+      },
+      {
+        type: "paragraph",
+        text: "Whether you need a routine cleaning, gum treatment, Invisalign, dental implants, or comprehensive family dentistry, Dr. Payal Anand and her experienced team are committed to providing exceptional care in a comfortable environment.",
+      },
+      {
+        type: "paragraph",
+        text: "**Coral Springs Smiles** — 2929 North University Drive, Suite 203, Coral Springs, FL 33065",
+      },
+      {
+        type: "paragraph",
+        text: "📞 **Phone:** [(954) 266-8755](tel:9542668755)",
+      },
+      {
+        type: "paragraph",
+        text: "Experience compassionate, comprehensive dental care from a trusted **dentist in Coral Springs** who puts your oral health first.",
+      },
+    ],
+  },
+  {
+    slug: "periodontist-near-me-coral-springs",
+    title: "Best Periodontist Near Me in Coral Springs: How to Choose the Right Specialist",
+    excerpt:
+      "Looking for a trusted periodontist Coral Springs? Learn how to choose the right specialist at Coral Springs Smiles with Dr. Payal Anand, DDS.",
+    publishedAt: "2026-07-27",
+    cardImage: {
+      src: "/blog/periodontist-near-me-coral-springs.webp",
+      alt: "Dr. Payal Anand providing periodontal treatment at Coral Springs Smiles in Coral Springs, FL",
+    },
+    meta: {
+      title: "Best Periodontist Coral Springs | Choose the Right Specialist",
+      description:
+        "Looking for a trusted periodontist Coral Springs? Learn how to choose the right specialist at Coral Springs Smiles with Dr. Payal Anand, DDS.",
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "If you're searching for a [periodontist Coral Springs](/periodontist), chances are you've noticed bleeding gums, gum recession, loose teeth, or persistent bad breath. These symptoms shouldn't be ignored because they may indicate periodontal (gum) disease, a condition that can affect not only your smile but also your long-term oral health.",
+      },
+      {
+        type: "paragraph",
+        text: "At [Coral Springs Smiles](/), Dr. [Payal Anand, DDS](/our-doctor) provides advanced periodontal care designed to diagnose, treat, and help prevent gum disease at every stage. Conveniently located at [2929 North University Drive, Suite 203, Coral Springs, FL 33065](https://share.google/foAykmLoiJ3n2X1Nb), our practice combines advanced technology with compassionate, personalized care. With over **16+ years of experience**, treatment for **10,000+ patients**, and more than **2,000+** [dental implants](/dental-implants) **placed**, Dr. Anand helps patients restore healthy gums and protect their natural smiles.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why Choosing the Right Periodontist Coral Springs Matters",
+      },
+      {
+        type: "paragraph",
+        text: "Your gums provide the foundation for your teeth. When gum disease progresses untreated, it can damage the supporting bone, cause gum recession, and even lead to tooth loss.",
+      },
+      {
+        type: "paragraph",
+        text: "Dr. Payal Anand brings specialized periodontal expertise to Coral Springs Smiles. She earned her DDS from the LSU School of Dentistry and completed a fellowship in periodontics at LSU. She is also an active member of the American Dental Association (ADA), the Academy of General Dentistry (AGD), and the Academy of Cosmetic Dentistry. Her advanced training allows Coral Springs Smiles to offer comprehensive periodontal treatment under one roof.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Signs You Should Visit a Periodontist in Coral Springs",
+      },
+      {
+        type: "paragraph",
+        text: "Many patients delay treatment because early gum disease can be painless. Scheduling an evaluation at Coral Springs Smiles is recommended if you notice:",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "Bleeding while brushing or flossing",
+          "Red, swollen, or tender gums",
+          "Persistent bad breath",
+          "Receding gums",
+          "Loose teeth",
+          "Changes in your bite",
+          "Pain while chewing",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Early diagnosis often allows for less invasive treatment and better long-term results. The experienced team at Coral Springs Smiles focuses on preserving your natural teeth whenever possible through customized periodontal care.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Advanced Periodontal Treatment at Coral Springs Smiles",
+      },
+      {
+        type: "paragraph",
+        text: "Coral Springs Smiles offers a full range of periodontal services to treat gum disease based on its severity.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Scaling & Root Planing (Deep Cleaning)",
+      },
+      {
+        type: "paragraph",
+        text: "For early to moderate periodontal disease, [scaling and root planing](/scaling-root-planing) remove plaque, bacteria, and tartar below the gumline while smoothing root surfaces to encourage healthy gum reattachment.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "LANAP® Laser Gum Therapy",
+      },
+      {
+        type: "paragraph",
+        text: "Patients seeking a minimally invasive solution may benefit from [LANAP](/lanap) (Laser-Assisted New Attachment Procedure). This advanced laser treatment removes infected tissue while preserving healthy gum tissue, typically resulting in less discomfort and faster recovery than traditional surgery.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Peri-Implantitis Treatment",
+      },
+      {
+        type: "paragraph",
+        text: "Patients with dental implants who experience inflammation around their implants may require specialized periodontal care. Coral Springs Smiles evaluates implant health carefully to help protect your investment and maintain long-term oral function.",
+      },
+      {
+        type: "heading",
+        level: 3,
+        text: "Dental Implants",
+      },
+      {
+        type: "paragraph",
+        text: "When advanced gum disease results in tooth loss, Dr. Anand also provides [dental implant](/dental-implants) treatment, giving patients comprehensive care without needing referrals to multiple offices.",
+      },
+      {
+        type: "paragraph",
+        text: "Each treatment plan at Coral Springs Smiles is tailored to your oral health, comfort level, and long-term goals.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why Coral Springs Patients Choose Coral Springs Smiles",
+      },
+      {
+        type: "paragraph",
+        text: "When searching for a **periodontist near me**, experience, convenience, and trust all matter.",
+      },
+      {
+        type: "paragraph",
+        text: "Patients throughout Coral Springs choose Coral Springs Smiles because they receive:",
+      },
+      {
+        type: "list",
+        ordered: false,
+        items: [
+          "Care from Dr. Payal Anand, DDS, with specialized periodontal fellowship training",
+          "Over 16 years of clinical experience",
+          "More than 10,000 patients successfully treated",
+          "Over 2,000 [dental implants](/dental-implants) placed",
+          "Modern laser dentistry and advanced periodontal technology",
+          "Convenient Monday through Friday appointments",
+          "Late evening hours on Mondays until 7 PM",
+          "Saturday appointments available by appointment",
+          "Acceptance of many insurance plans, including Humana, United Healthcare, WellCare, Simply Healthcare, Care Plus, and Florida Blue",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Everything patients need—from preventive care to advanced periodontal treatment—is available in one comfortable Coral Springs location.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "How to Choose the Best Periodontist in Coral Springs",
+      },
+      {
+        type: "paragraph",
+        text: "Finding the right provider involves more than choosing the closest office. Consider these important factors:",
+      },
+      {
+        type: "paragraph",
+        text: "**Specialized Training**: Choose a dentist with advanced periodontal education. Dr. Anand completed a periodontics fellowship after dental school.",
+      },
+      {
+        type: "paragraph",
+        text: "**Experience**: Extensive clinical experience matters when managing complex gum disease and implant cases.",
+      },
+      {
+        type: "paragraph",
+        text: "**Comprehensive Services**: Coral Springs Smiles offers deep cleanings, [LANAP laser therapy](/lanap), periodontal treatment, [dental implants](/dental-implants), and ongoing maintenance.",
+      },
+      {
+        type: "paragraph",
+        text: "**Modern Technology**: [Laser dentistry](/laser-dentistry) allows many patients to receive comfortable, minimally invasive treatment with quicker healing.",
+      },
+      {
+        type: "paragraph",
+        text: "**Patient-Centered Care**: Every patient receives a personalized evaluation and treatment plan rather than a one-size-fits-all approach.",
+      },
+      {
+        type: "paragraph",
+        text: "These qualities help Coral Springs Smiles provide predictable, long-lasting periodontal care.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Frequently Asked Questions",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            question: "When should I see a periodontist instead of waiting?",
+            answer:
+              "If your gums bleed regularly, are receding, or your teeth feel loose, schedule an evaluation as soon as possible. Early treatment often prevents more advanced problems.",
+          },
+          {
+            question: "Is gum disease reversible?",
+            answer:
+              "Gingivitis, the earliest stage of gum disease, is often reversible with professional treatment and excellent home care. More advanced periodontitis can be effectively managed to prevent further damage.",
+          },
+          {
+            question: "Does scaling and root planing hurt?",
+            answer:
+              "Most patients tolerate treatment very well. Local anesthesia is used when needed to maximize comfort during the procedure.",
+          },
+          {
+            question: "Is LANAP better than traditional gum surgery?",
+            answer:
+              "LANAP offers a minimally invasive option for many patients, with less bleeding, less discomfort, and quicker recovery. Dr. Anand will determine whether it is appropriate for your condition.",
+          },
+          {
+            question: "Does Coral Springs Smiles accept dental insurance?",
+            answer:
+              "Yes. Coral Springs Smiles accepts many insurance plans, including Humana, United Healthcare, WellCare, Simply Healthcare, Care Plus, and Florida Blue. The team can help verify your benefits before treatment.",
+          },
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Schedule Your Periodontal Consultation Today",
+      },
+      {
+        type: "paragraph",
+        text: "If you're looking for a trusted [periodontist Coral Springs](/periodontist), Coral Springs Smiles is here to help protect your gums and preserve your smile.",
+      },
+      {
+        type: "paragraph",
+        text: "Visit us at:",
+      },
+      {
+        type: "paragraph",
+        text: "**Coral Springs Smiles** — 2929 North University Drive, Suite 203, Coral Springs, FL 33065",
+      },
+      {
+        type: "paragraph",
+        text: "📞 **Call:** [(954) 266-8755](tel:9542668755)",
+      },
+      {
+        type: "paragraph",
+        text: "Whether you need a periodontal evaluation, [scaling and root planing](/scaling-root-planing), [LANAP](/lanap) laser treatment, [peri-implantitis](/peri-implantitis) care, or long-term gum maintenance, Dr. Payal Anand and the Coral Springs Smiles team are committed to delivering expert, compassionate care tailored to your needs.",
+      },
+    ],
+  },
+  {
+    slug: "what-does-a-periodontist-do-coral-springs",
+    title: "What Does a Periodontist Do? A Coral Springs Patient's Guide",
+    excerpt:
+      "Wondering what a periodontist treats? Learn what to expect from a periodontist in Coral Springs with Dr. Payal Anand at Coral Springs Smiles.",
+    publishedAt: "2026-07-27",
+    cardImage: {
+      src: "/blog/what-does-a-periodontist-do-coral-springs.webp",
+      alt: "Dr. Payal Anand, periodontist in Coral Springs, FL, examining a patient's gum health at Coral Springs Smiles",
+    },
+    meta: {
+      title: "What Does a Periodontist Do? Coral Springs Guide",
+      description:
+        "Wondering what a periodontist treats? Learn what to expect from a periodontist in Coral Springs with Dr. Payal Anand at Coral Springs Smiles.",
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "If your dentist has ever mentioned \"periodontal\" anything — pockets, bone loss, gum recession — you may have left the appointment with more questions than answers. What exactly does a [periodontist in Coral Springs](/periodontist) do, and how is that different from your regular dentist? At Coral Springs Smiles, [Dr. Payal Anand, DDS](/our-doctor), fields this question often, and the short answer is: a periodontist focuses specifically on the gums and the bone that anchors your teeth. Here's what that actually means for you as a patient.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "A Periodontist Specializes in Gum and Bone Health",
+      },
+      {
+        type: "paragraph",
+        text: "General dentists handle a wide range of care — cleanings, fillings, crowns — but periodontal disease requires a more focused skill set. Periodontists complete additional training beyond dental school specifically in diagnosing and treating conditions that affect the gums, the ligaments holding teeth in place, and the jawbone underneath. Dr. Payal Anand completed a periodontics fellowship at LSU after graduating from LSU School of Dentistry, giving her advanced training most general dentists don't have. That background is exactly why patients throughout Coral Springs are referred to her, or seek her out directly, when gum concerns come up.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Diagnosing Gum Disease Before It Becomes a Bigger Problem",
+      },
+      {
+        type: "paragraph",
+        text: "One of the core things a periodontist does is measure and monitor \"pocket depths\" — the space between your gums and teeth. Deeper pockets usually mean more advanced gum disease. At [Coral Springs Smiles](/), a periodontal evaluation with Dr. Payal Anand includes a thorough look at your gum tissue, bone levels, and any areas of inflammation or recession. Catching these changes early is often the difference between a simple cleaning and a more involved treatment plan down the road.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Treating Gum Disease with Scaling and Root Planing",
+      },
+      {
+        type: "paragraph",
+        text: "When plaque and tartar build up below the gumline, a routine cleaning often isn't enough to remove it. This is where [scaling and root planing](/scaling-root-planing) comes in — a deep cleaning procedure that clears out bacteria and smooths the tooth root so gums can reattach and heal. It's one of the most common treatments Dr. Payal Anand performs at Coral Springs Smiles, and for many patients, it's enough to stop gum disease from progressing further.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Advanced Options: Laser Dentistry and LANAP",
+      },
+      {
+        type: "paragraph",
+        text: "For patients with more advanced periodontal disease, Coral Springs Smiles offers [laser dentistry](/laser-dentistry), including [LANAP](/lanap)-based treatment. Laser therapy allows Dr. Payal Anand to target infected tissue with precision, often with less discomfort and a faster recovery than traditional gum surgery. It's a good example of how periodontal treatment has evolved — patients no longer need to assume gum disease means a long, uncomfortable recovery.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Managing Dental Implants and Peri-Implant Health",
+      },
+      {
+        type: "paragraph",
+        text: "A periodontist's role doesn't stop at natural teeth. Dr. Payal Anand has placed over 2,000+ [dental implants](/dental-implants) over the course of her 16+ years in practice, and she also treats [peri-implant](/peri-implantitis) infections — issues that can develop around an implant if it's not properly monitored. Because she handles both the placement and the ongoing periodontal health of implants, patients at Coral Springs Smiles have one trusted provider managing the whole picture, rather than bouncing between specialists.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why Coral Springs Patients Choose Us",
+      },
+      {
+        type: "paragraph",
+        text: "Patients across Coral Springs choose Dr. Payal Anand because periodontal care here isn't an afterthought — it's a core part of her practice. She's a graduate of LSU School of Dentistry, completed a periodontics fellowship at LSU, and holds membership in the ADA, AGD, and Academy of Cosmetic Dentistry. With 16+ years of experience, more than 10,000+ patients treated, and 2,000+ implants placed, she brings a depth of hands-on experience to every periodontal case. Coral Springs Smiles is located at 2929 North University Drive, Suite 203, with appointments available Monday through Friday and same-day urgent care when possible, so getting the care you need doesn't require reshuffling your entire schedule. We also accept Humana, United Healthcare, WellCare, Simply Healthcare, Care Plus, and Florida Blue, making it easier for patients searching for a [periodontist near me](/periodontist) to get seen without unnecessary delays.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "FAQ",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            question: "What's the difference between a dentist and a periodontist?",
+            answer:
+              "A general dentist manages overall oral health, while a periodontist has additional training focused specifically on the gums and the bone that supports your teeth. Dr. Payal Anand's fellowship training at LSU allows her to diagnose and treat periodontal issues that go beyond routine dental care.",
+          },
+          {
+            question: "Do I need a referral to see a periodontist in Coral Springs?",
+            answer:
+              "No referral is required to be seen at Coral Springs Smiles. Many patients schedule directly with Dr. Payal Anand when they notice symptoms like bleeding gums, recession, or looseness, while others are referred by their general dentist.",
+          },
+          {
+            question: "What happens during a periodontal evaluation?",
+            answer:
+              "Dr. Payal Anand examines your gum tissue, measures pocket depths around each tooth, and checks for signs of bone loss or recession. This helps determine whether you need a standard cleaning, [scaling and root planing](/scaling-root-planing), or a more advanced treatment.",
+          },
+          {
+            question: "Is laser treatment for gum disease better than traditional surgery?",
+            answer:
+              "For many patients, yes. [Laser dentistry](/laser-dentistry) at Coral Springs Smiles allows Dr. Payal Anand to treat infected gum tissue with more precision, often resulting in less discomfort and a quicker recovery compared to traditional periodontal surgery.",
+          },
+          {
+            question: "Can a periodontist help if I already have dental implants?",
+            answer:
+              "Absolutely. Dr. Payal Anand monitors and treats the gum and bone health around existing implants, including [peri-implant](/peri-implantitis) issues, to help protect your investment and keep implants functioning well long-term.",
+          },
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Schedule Your Periodontal Consultation Today",
+      },
+      {
+        type: "paragraph",
+        text: "Now that you know what a periodontist does, the next step is simple: get your gums checked by someone who specializes in exactly this. Dr. Payal Anand and the Coral Springs Smiles team are here to answer your questions and build a treatment plan that fits your needs.",
+      },
+      {
+        type: "paragraph",
+        text: "📍 [2929 North University Drive, Suite 203, Coral Springs, FL 33065](https://share.google/foAykmLoiJ3n2X1Nb) 📞 Call [(954) 266-8755](tel:9542668755) or [book your consultation online](/contact-us) today.",
+      },
+    ],
+  },
+  {
+    slug: "signs-you-need-a-periodontist-in-coral-springs",
+    title: "Signs You Need to See a Periodontist in Coral Springs",
+    excerpt:
+      "Bleeding gums? Loose teeth? Learn the 7 warning signs it's time to see a periodontist in Coral Springs. Dr. Payal Anand at Coral Springs Smiles can help.",
+    publishedAt: "2026-07-27",
+    cardImage: {
+      src: "/blog/signs-you-need-a-periodontist-in-coral-springs.webp",
+      alt: "Signs You Need a Periodontist in Coral Springs",
+    },
+    meta: {
+      title: "7 Signs You Need a Periodontist in Coral Springs",
+      description:
+        "Bleeding gums? Loose teeth? Learn the 7 warning signs it's time to see a periodontist in Coral Springs. Dr. Payal Anand at Coral Springs Smiles can help.",
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "If your gums bleed when you brush, or you've noticed a tooth that feels a little looser than it used to, you might be wondering whether it's time to see a [periodontist in Coral Springs](/periodontist). The truth is, gum disease is sneaky — it often starts with symptoms so mild that people brush them off (literally) for years. By the time it becomes painful, it's usually progressed. At [Coral Springs Smiles](/), [Dr. Payal Anand, DDS](/our-doctor), has spent over 16+ years helping patients catch periodontal disease early, before it costs them their teeth. Here are seven signs it's time to schedule an evaluation.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "1. Your Gums Bleed When You Brush or Floss",
+      },
+      {
+        type: "paragraph",
+        text: "A little blood in the sink might seem minor, but healthy gums shouldn't bleed at all. Bleeding is one of the earliest signs of gingivitis, the first stage of gum disease. Left untreated, it can progress to periodontitis, where the infection begins to damage the bone supporting your teeth. Dr. Payal Anand and the team at Coral Springs Smiles routinely see patients who assumed bleeding gums were \"just how their mouth is\" — when in fact it's a signal worth addressing right away.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "2. Your Gums Are Red, Swollen, or Tender",
+      },
+      {
+        type: "paragraph",
+        text: "Healthy gum tissue is firm and pale pink. If yours looks puffy, dark red, or feels sore to the touch, inflammation is already underway. This is your body's response to bacterial buildup along the gumline. At our Coral Springs office, a periodontal exam can determine whether you're dealing with reversible gingivitis or something that requires deeper treatment, such as [scaling and root planing](/scaling-root-planing) to clean out bacteria below the gumline.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "3. You Have Chronic Bad Breath That Won't Go Away",
+      },
+      {
+        type: "paragraph",
+        text: "Everyone has bad breath occasionally, but persistent halitosis — even after brushing, flossing, and using mouthwash — is often a sign of bacterial buildup in periodontal pockets. These pockets form when gum tissue pulls away from the teeth, creating spaces where bacteria thrive and produce odor. If mints and mouthwash aren't cutting it, it may be time for a periodontal evaluation with Dr. Payal Anand rather than another trip to the drugstore.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "4. Your Teeth Feel Loose or Your Bite Has Shifted",
+      },
+      {
+        type: "paragraph",
+        text: "This is one of the more alarming signs, and understandably so. When periodontal disease advances, it breaks down the bone and ligament structures that hold your teeth in place. Patients sometimes notice their bite feels \"off,\" or that a tooth wiggles slightly when they eat. Dr. Payal Anand completed a periodontics fellowship at LSU and has placed over 2,000+ [dental implants](/dental-implants), so she's well equipped to evaluate whether a tooth can be saved with periodontal therapy or whether restorative options like [implants](/dental-implants) should be part of the conversation.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "5. Your Gums Are Receding",
+      },
+      {
+        type: "paragraph",
+        text: "If your teeth look \"longer\" than they used to, or you're noticing sensitivity near the gumline, gum recession may be the cause. Recession exposes the tooth root, which isn't protected by enamel, leading to sensitivity and a higher risk of decay. Coral Springs Smiles offers [laser dentistry](/laser-dentistry) as a minimally invasive way to treat receding gums and reduce bacterial infection with less discomfort and faster healing than traditional methods.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "6. You Have a Dental Implant That Feels Uncomfortable or Inflamed",
+      },
+      {
+        type: "paragraph",
+        text: "Not all periodontal concerns involve natural teeth. If you have a dental implant and you're noticing swelling, tenderness, or bleeding around it, you could be dealing with [peri-implantitis](/peri-implantitis) — an infection that affects the gum and bone around an implant. It's a serious issue that needs prompt attention. Because Dr. Payal Anand has placed thousands of implants and treats peri-implantitis regularly at our Coral Springs location, patients trust her to catch and manage this early, protecting their investment in their smile.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "7. It's Been Over a Year Since Your Last Periodontal Evaluation",
+      },
+      {
+        type: "paragraph",
+        text: "Sometimes the biggest sign isn't a symptom at all — it's simply time. Gum disease can progress silently, especially in its early stages. If you can't remember your last periodontal check, or your general dentist has mentioned \"pocket depths\" or \"bone loss\" without much explanation, it's worth having Dr. Payal Anand take a closer look. Regular monitoring is one of the simplest ways Coral Springs Smiles helps patients avoid more invasive treatment down the road.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Why Coral Springs Patients Choose Us",
+      },
+      {
+        type: "paragraph",
+        text: "Patients throughout Coral Springs choose Dr. Payal Anand because periodontal care is more than a side service here — it's an area of focused expertise. Dr. Payal Anand is a graduate of LSU School of Dentistry, completed a periodontics fellowship at LSU, and is a member of the ADA, AGD, and Academy of Cosmetic Dentistry. Over 16+ years, she's treated more than 10,000+ patients and placed over 2,000+ implants, giving her the kind of hands-on experience that makes a real difference when diagnosing and treating gum disease. Coral Springs Smiles is conveniently located at 2929 North University Drive, Suite 203, with appointments available Monday through Friday and same-day urgent care when possible — so getting care doesn't mean rearranging your whole week. We also accept Humana, United Healthcare, WellCare, Simply Healthcare, Care Plus, and Florida Blue, making periodontal care accessible for most patients searching for a [periodontist near me](/periodontist) in the area.",
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "FAQ",
+      },
+      {
+        type: "faq",
+        items: [
+          {
+            question: "What's the difference between a general dentist and a periodontist?",
+            answer:
+              "A periodontist focuses specifically on the gums and the bone that supports your teeth. Dr. Payal Anand's fellowship training at LSU means she offers advanced treatments — like [LANAP laser therapy](/lanap) and [peri-implantitis](/peri-implantitis) management — that go beyond what's typically available at a general dental visit.",
+          },
+          {
+            question: "Is gum disease treatment painful?",
+            answer:
+              "Most patients are surprised by how manageable treatment is. Coral Springs Smiles uses [laser dentistry](/laser-dentistry) for many periodontal procedures, which tends to be gentler and involve faster healing than traditional surgical approaches.",
+          },
+          {
+            question: "How do I know if I need a deep cleaning versus a regular cleaning?",
+            answer:
+              "If you have bleeding, gum recession, or pocket depths beyond normal range, a standard cleaning likely won't address the underlying infection. Dr. Payal Anand can evaluate your gums and recommend whether [scaling and root planing](/scaling-root-planing) or another periodontal treatment is appropriate.",
+          },
+        ],
+      },
+      {
+        type: "heading",
+        level: 2,
+        text: "Ready to Protect Your Smile?",
+      },
+      {
+        type: "paragraph",
+        text: "If any of these signs sound familiar, don't wait for things to get worse. Dr. Payal Anand and the team at [Coral Springs Smiles](/) are here to help you get ahead of gum disease with expert, compassionate care right here in Coral Springs.",
+      },
+      {
+        type: "paragraph",
+        text: "📍 [2929 North University Drive, Suite 203, Coral Springs, FL 33065](https://share.google/foAykmLoiJ3n2X1Nb) 📞 Call [(954) 266-8755](tel:9542668755) or [book your appointment online](/contact-us) today.",
+      },
+    ],
+  },
+  {
     slug: "best-dental-office-near-coral-springs",
     title: "How to Choose the Best Dental Office Near Me in Coral Springs for Long-Term Care",
     excerpt:
