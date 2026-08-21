@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: "Your First Visit to Our Practice | Schedule Your Appointment Today",
   description:
     "Schedule your first dental visit at Coral Springs Smiles for personalized family dental care in Coral Springs. Call (954) 266-8755 today.",
+  alternates: { canonical: "/your-first-visit" },
 };
 
 const VISIT_STEPS = [

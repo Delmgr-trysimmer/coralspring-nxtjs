@@ -11,6 +11,13 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import GoogleMapEmbed from "@/components/GoogleMapEmbed";
+import {
+  breadcrumbJsonLd,
+  createPageMetadata,
+  safeJsonLd,
+  SITE_NAME,
+  SITE_URL,
+} from "@/lib/seo";
 
 export const dynamicParams = false;
 
@@ -37,17 +44,26 @@ export async function generateMetadata({
   const { slug } = await params;
   const serviceDoc = getServiceBySlug(slug);
   if (serviceDoc) {
-    return {
+    return createPageMetadata({
       title: serviceDoc.meta.title,
       description: serviceDoc.meta.description,
-    };
+      path: `/${slug}`,
+    });
   }
   const blogDoc = getBlogPostBySlug(slug);
   if (blogDoc) {
-    return {
-      title: blogDoc.meta.title,
-      description: blogDoc.meta.description,
-    };
+    const description =
+      blogDoc.meta.description ||
+      blogDoc.excerpt ||
+      `Dental guidance from ${SITE_NAME} in Coral Springs, Florida.`;
+    return createPageMetadata({
+      title: blogDoc.meta.title || blogDoc.title,
+      description,
+      path: `/${slug}`,
+      image: blogDoc.cardImage.src,
+      type: "article",
+      publishedTime: blogDoc.publishedAt,
+    });
   }
   return {};
 }
@@ -97,8 +113,13 @@ export default async function UnifiedSlugPage({ params }: PageParams) {
 
   const serviceDoc = getServiceBySlug(slug);
   if (serviceDoc) {
+    const breadcrumb = breadcrumbJsonLd(`/${slug}`, serviceDoc.title);
     return (
       <>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: safeJsonLd(breadcrumb) }}
+        />
         <Navbar />
         <PageBanner
           tagline={serviceDoc.tagline}
@@ -127,8 +148,35 @@ export default async function UnifiedSlugPage({ params }: PageParams) {
 
   const blogDoc = getBlogPostBySlug(slug);
   if (blogDoc) {
+    const articleDescription =
+      blogDoc.meta.description ||
+      blogDoc.excerpt ||
+      `Dental guidance from ${SITE_NAME} in Coral Springs, Florida.`;
+    const breadcrumb = breadcrumbJsonLd(`/${slug}`, blogDoc.title);
+    const articleJsonLd = {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      headline: blogDoc.title,
+      description: articleDescription,
+      image: `${SITE_URL}${blogDoc.cardImage.src}`,
+      datePublished: blogDoc.publishedAt,
+      dateModified: blogDoc.publishedAt,
+      mainEntityOfPage: `${SITE_URL}/${slug}`,
+      author: { "@type": "Person", name: "Dr. Payal Anand" },
+      publisher: {
+        "@type": "Organization",
+        name: SITE_NAME,
+        url: SITE_URL,
+      },
+    };
     return (
       <>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: safeJsonLd([breadcrumb, articleJsonLd]),
+          }}
+        />
         <Navbar />
         <PageBanner
           tagline={new Date(blogDoc.publishedAt + "T12:00:00").toLocaleDateString(
@@ -136,6 +184,7 @@ export default async function UnifiedSlugPage({ params }: PageParams) {
             { month: "long", day: "numeric", year: "numeric" },
           )}
           title={"BLOG"}
+          titleAs="p"
           breadcrumbLabel="Blog"
           titleClassName="normal-case tracking-tight text-balance sm:text-4xl lg:text-5xl"
         />

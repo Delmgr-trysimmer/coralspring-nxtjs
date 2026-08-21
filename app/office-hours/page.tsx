@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: "Office Hours | Coral Springs Dental",
   description:
     "Visit Coral Springs Smiles for flexible office hours, advanced dental care, and personalized treatments in Coral Springs. Call (954) 266-8755 today.",
+  alternates: { canonical: "/office-hours" },
 };
 
 const HOURS_ROWS: { day: string; value: string }[] = [

@@ -7,6 +7,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Dental Warranty in Coral Springs",
   description: "Learn about dental warranty options and long-term protection for restorative and cosmetic dental treatments. Call (954) 266-8755 today.",
+  alternates: { canonical: "/dental-warranty" },
 };
 
 export default function DentalWarrantyPage() {

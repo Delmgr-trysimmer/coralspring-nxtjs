@@ -36,6 +36,7 @@ export const metadata: Metadata = {
   title: "See Our Amazing Smile Transformations | Coral Springs Smiles",
   description:
     "Check out our smile gallery to see the remarkable before-and-after photos of our patients who have achieved beautiful, healthy smiles.",
+  alternates: { canonical: "/smile-gallery" },
 };
 
 export default function SmileGalleryPage() {

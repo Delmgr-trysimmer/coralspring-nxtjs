@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   title: "Dental Insurance at Coral Springs Smiles",
   description:
     "Coral Springs Smiles accepts most dental insurance plans to provide affordable, high-quality dental care. Call (954) 266-8755 today.",
+  alternates: { canonical: "/dental-insurance-coral-springs" },
 };
 
 const insurancePlans = [

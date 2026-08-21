@@ -17282,19 +17282,19 @@ const BLOG_POSTS: BlogPostDoc[] = [
   },
   {
     slug: "best-way-to-replace-missing-tooth-coral-springs",
-    title: "Gum Disease Treatment in Coral Springs",
+    title: "Best Way to Replace a Missing Tooth in Coral Springs",
     excerpt:
       "Losing a tooth can affect more than just your appearance. A missing tooth can make chewing difficult, impact your speech, cause nearby teeth to shift, and even lead to bone loss in the jaw over time. If you are searching for the best way to replace a missing tooth in Coral Springs, modern dentistry offers a reliable and long-lasting solution - Dental Implants.",
     publishedAt: "2026-02-26",
     cardImage: {
-      src: "/blog/Gum-Disease-Treatment-in-Coral-Springs-1.png",
+      src: "/blog/best-way-to-replace-missing-tooth-coral-springs.jpg",
       alt: "Dental implants and options to replace a missing tooth in Coral Springs",
     },
     meta: {
       title:
         "Best Way to Replace a Missing Tooth in Coral Springs | Dental Implants",
       description:
-        "Protect your gums and smile with professional gum disease treatment in Coral Springs. Expert periodontal care at Coral Springs Smiles.",
+        "Learn why dental implants are a reliable way to replace a missing tooth in Coral Springs and how they help restore function, appearance and jaw health.",
     },
     content: [
       {

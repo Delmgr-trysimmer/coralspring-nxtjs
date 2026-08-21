@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   title: "Meet Our Expert Dental Team | Coral Springs Smiles",
   description:
     "Get to know our experienced and friendly dentists, orthodontists, and specialists who provide top-quality dental care in Coral Springs, FL.",
+  alternates: { canonical: "/our-doctor" },
 };
 
 export default function OurDoctorPage() {

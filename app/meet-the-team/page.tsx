@@ -40,6 +40,7 @@ export const metadata: Metadata = {
   title: "Meet the team - Coral Springs Smiles",
   description:
     "Get to know our friendly team of dental experts at Coral Springs Smiles. Schedule an appointment today for exceptional dental care.",
+  alternates: { canonical: "/meet-the-team" },
 };
 
 export default function MeetTheTeamPage() {

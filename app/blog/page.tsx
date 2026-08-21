@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   title: "Coral Springs Smiles | Dental Blog | Latest Dental News & Tips",
   description:
     "Stay up-to-date with our latest dental blogs. Visit the Coral Springs Smiles blog for informative articles on dental care.",
+  alternates: { canonical: "/blog" },
 };
 
 function formatBlogDate(iso: string) {

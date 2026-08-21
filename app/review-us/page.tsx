@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "Review Us | Coral Springs Smiles | Dentist in Coral Springs",
   description:
     "Share your experience with Coral Springs Smiles. Leave a review & help us improve our services. Your feedback matters to us!",
+  alternates: { canonical: "/review-us" },
 };
 
 export default function ReviewUsPage() {

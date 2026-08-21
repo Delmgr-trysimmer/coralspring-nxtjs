@@ -17,6 +17,7 @@ export const metadata: Metadata = {
   title: "Best Dental Service at Coral Springs Smiles, Florida",
   description:
     "Explore cosmetic, restorative, family, and emergency dental services at Coral Springs Smiles. Call (954) 266-8755 today.",
+  alternates: { canonical: "/service" },
 };
 
 const SERVICE_ITEMS: ServiceCard[] = [

@@ -178,8 +178,12 @@ function ServiceCard({ service, index }: { service: Service; index: number }) {
               size="default"
               className="group/btn w-full bg-linear-to-r from-brand-light via-brand to-brand-muted text-white shadow-[0_14px_40px_rgba(198,81,42,0.32),0_10px_34px_rgba(158,61,36,0.22)] transition-all duration-300 hover:-translate-y-0.5 hover:from-[#e8896f] hover:via-[#ce5c38] hover:to-[#a63d22] hover:shadow-[0_18px_48px_rgba(223,122,88,0.34),0_12px_40px_rgba(198,81,42,0.28)]"
             >
-              <Link href={service.href}>
+              <Link
+                href={service.href}
+                aria-label={`Learn more about ${service.title}`}
+              >
                 Learn more
+                <span className="sr-only"> about {service.title}</span>
                 <ArrowRight className="ml-1 size-4 transition-transform duration-300 group-hover/btn:translate-x-1" />
               </Link>
             </Button>

@@ -10,21 +10,21 @@ const blogPosts = [
     image: "/images/blog-1.jpg",
     excerpt:
       "Learn modern clear aligner options that straighten teeth discreetly and comfortably, plus how to know if Invisalign is right for your smile.",
-    href: "/blog",
+    href: "/fix-crooked-teeth-without-braces-coral-springs",
   },
   {
     title: "Apicoectomy in Coral Springs: When You Need This Advanced Root-End Surgery",
     image: "/images/blog-2.jpg",
     excerpt:
       "Understand when an apicoectomy is recommended, how the treatment works, and what recovery looks like after this precision procedure.",
-    href: "/blog",
+    href: "/apicoectomy-coral-springs-root-end-surgery-save-tooth",
   },
   {
     title: "How to Fix Missing Teeth Permanently: Dental Implants in Coral Springs",
     image: "/images/blog-3.jpg",
     excerpt:
       "Explore implant benefits, candidacy, and what to expect from consultation to restoration for long-term confidence and oral function.",
-    href: "/blog",
+    href: "/dental-implants-coral-springs",
   },
 ];
 
@@ -75,9 +75,11 @@ export default function BlogHighlights() {
                   </p>
                   <Link
                     href={post.href}
+                    aria-label={`Read ${post.title}`}
                     className="mt-auto inline-flex items-center gap-1.5 pt-3 text-sm font-semibold uppercase tracking-[0.14em] text-[#007ea8] transition-colors hover:text-brand"
                   >
                     Read More
+                    <span className="sr-only">: {post.title}</span>
                     <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
                   </Link>
                 </div>

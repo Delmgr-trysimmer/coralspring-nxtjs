@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Dental Financing in Coral Springs",
   description:
     "At Coral Springs Smiles, we offer insurance & financing options to make dental care affordable for everyone. Learn more about our financing options today.",
+  alternates: { canonical: "/financing" },
 };
 
 export default function FinancingPage() {

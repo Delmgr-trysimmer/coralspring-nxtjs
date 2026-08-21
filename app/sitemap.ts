@@ -1,11 +1,12 @@
 import type { MetadataRoute } from "next";
 import { getBlogSlugs } from "@/data/blog-posts";
 import { getServiceSlugs } from "@/data/service-pages";
+import { SITE_URL } from "@/lib/seo";
 
 const siteUrl = (
   process.env.NEXT_PUBLIC_SITE_URL ??
   process.env.SITE_URL ??
-  "https://coralspringsmiles.com"
+  SITE_URL
 ).replace(/\/$/, "");
 
 const staticRoutes = [
@@ -28,7 +29,6 @@ const staticRoutes = [
   "/privacy-policy",
   "/review-us",
   "/service",
-  "/sitemap",
   "/smile-gallery",
   "/specials",
   "/testimonials",
