@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Tour our office - Coral Springs Smiles",
   description:
     "Explore our dental office and experience exceptional care at Coral Springs Smiles. Book your appointment today!",
+  alternates: { canonical: "/tour-our-office" },
 };
 
 export default function TourOurOfficePage() {

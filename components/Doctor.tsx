@@ -105,8 +105,9 @@ export default function Doctor() {
 
           <Reveal delay={0.48}>
             <Button asChild variant="outline" size="lg" className="mt-8">
-              <Link href="/about-us">
+              <Link href="/about-us" aria-label="Read more about Dr. Payal Anand">
                 Read More
+                <span className="sr-only"> about Dr. Payal Anand</span>
                 <ArrowRight className="size-4" />
               </Link>
             </Button>

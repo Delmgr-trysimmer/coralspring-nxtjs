@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Contact Us for Expert Dental Care in Coral Springs, FL",
   description:
     "Schedule an appointment, ask a question, or give us your feedback. Our compassionate and knowledgeable team is ready to assist you.",
+  alternates: { canonical: "/contact-us" },
 };
 
 export default function ContactUsPage() {

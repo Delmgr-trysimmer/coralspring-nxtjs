@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "Patient Testimonials | Coral Springs Smiles",
   description:
     "Read patient testimonials and reviews to discover why Coral Springs Smiles is trusted for family dental care. Call today.",
+  alternates: { canonical: "/testimonials" },
 };
 
 const TESTIMONIAL_VIDEOS = [

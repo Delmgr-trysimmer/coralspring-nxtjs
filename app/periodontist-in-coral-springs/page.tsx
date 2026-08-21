@@ -154,6 +154,7 @@ export const metadata: Metadata = {
   title: "Periodontist in Coral Springs,FL",
   description:
     "Trusted periodontist in Coral Springs, FL offering advanced gum disease treatment, dental implants & personalized care. Book your visit today!",
+  alternates: { canonical: "/periodontist-in-coral-springs" },
 };
 
 export default function PeriodontistInCoralSpringsPage() {

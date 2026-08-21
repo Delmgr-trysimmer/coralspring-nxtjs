@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Special Offers for Dental Services in Coral Springs Smiles",
   description:
     "Get dental appointment with our special offers! Coral Springs Smiles provides top-notch dental services at affordable prices. Book now and save!",
+  alternates: { canonical: "/specials" },
 };
 
 const summerOfferImages = [

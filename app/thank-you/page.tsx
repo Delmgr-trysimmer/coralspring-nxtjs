@@ -10,6 +10,8 @@ import { CheckCircle2, PhoneCall, MapPin, Clock3 } from "lucide-react";
 export const metadata: Metadata = {
   title: "Thank You | Coral Springs Smiles",
   description: "Thank you for contacting Coral Springs Smiles. We have received your message and will reach out to you shortly.",
+  alternates: { canonical: "/thank-you" },
+  robots: { index: false, follow: false },
 };
 
 export default function ThankYouPage() {

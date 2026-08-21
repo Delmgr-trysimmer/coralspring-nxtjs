@@ -20,6 +20,8 @@ export type PageBannerProps = {
   waveFillClassName?: string;
   /** Override default title typography (defaults to wide uppercase tracking). */
   titleClassName?: string;
+  /** Use a non-heading label when the page supplies its own H1 below the banner. */
+  titleAs?: "h1" | "p";
   className?: string;
 };
 
@@ -51,8 +53,11 @@ export default function PageBanner({
   backgroundImageSrc = "/images/visit-a-dentist.webp",
   waveFillClassName = "text-white",
   titleClassName,
+  titleAs = "h1",
   className,
 }: PageBannerProps) {
+  const TitleTag = titleAs;
+
   return (
     <section
       className={cn(
@@ -77,7 +82,7 @@ export default function PageBanner({
 
       <div className="relative mx-auto max-w-7xl px-4 pb-10 pt-24 text-center sm:px-6 sm:pt-28 lg:px-8 lg:pt-40">
         
-        <h1
+        <TitleTag
           className={cn(
             "font-display text-3xl font-semibold leading-tight text-white sm:text-4xl lg:text-5xl",
             titleClassName ?? "uppercase tracking-[0.14em]",
@@ -85,7 +90,7 @@ export default function PageBanner({
           )}
         >
           {title}
-        </h1>
+        </TitleTag>
 
         <nav
           aria-label="Breadcrumb"

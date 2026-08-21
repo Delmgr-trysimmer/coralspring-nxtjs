@@ -3,6 +3,12 @@ import { Plus_Jakarta_Sans, Sora } from "next/font/google";
 import Script from "next/script";
 import Footer from "@/components/Footer";
 import { SmoothScrollProvider } from "@/components/providers/SmoothScrollProvider";
+import {
+  createPageMetadata,
+  dentistJsonLd,
+  safeJsonLd,
+  SITE_URL,
+} from "@/lib/seo";
 import "./globals.css";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
@@ -18,9 +24,13 @@ const sora = Sora({
 });
 
 export const metadata: Metadata = {
-  title: "Dentist in Coral Springs | Coral Springs Dentist | Affordable Dentistry in Coral Springs | Dental Clinic",
-  description:
-    "Looking for an affordable dentist near Coral Springs, FL? Find the best dentistry led by Dr. Payal in the Coral Springs community! Our dental office is clean and hygienic, welcoming new patients.",
+  metadataBase: new URL(SITE_URL),
+  ...createPageMetadata({
+    title: "Dentist in Coral Springs, FL | Coral Springs Smiles",
+    description:
+      "Comprehensive dental care in Coral Springs, FL, including preventive, cosmetic, implant, emergency and periodontal services. Request an appointment today.",
+    path: "/",
+  }),
   robots: {
     index: true,
     follow: true,
@@ -41,7 +51,11 @@ export default function RootLayout({
       className={`${plusJakartaSans.variable} ${sora.variable} h-full antialiased`}
     >
       <body className="min-h-screen overflow-x-hidden bg-background font-sans text-foreground">
-        <Script id="gtm-script" strategy="beforeInteractive">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: safeJsonLd(dentistJsonLd) }}
+        />
+        <Script id="gtm-script" strategy="afterInteractive">
           {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=

@@ -22,6 +22,7 @@ export const metadata: Metadata = {
   title: "Dentist in Coconut Creek, FL | Coral Springs Smiles Care",
   description:
     "Need a dentist in Coconut Creek, FL? Coral Springs Smiles provides implants, cosmetic dentistry, Invisalign, and emergency dental care. Schedule today!",
+  alternates: { canonical: "/dentist-in-coconut-creek" },
 };
 
 const introParagraphs = [

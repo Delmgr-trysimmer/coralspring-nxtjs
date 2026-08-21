@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "Privacy Policy | Coral Springs Smiles",
   description:
     "Read our Privacy Policy to understand how Coral Springs Smiles collects, uses, and protects your personal information. Trust us with your dental care.",
+  alternates: { canonical: "/privacy-policy" },
 };
 
 export default function PrivacyPolicyPage() {

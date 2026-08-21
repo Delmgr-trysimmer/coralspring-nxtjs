@@ -16,6 +16,7 @@ export const metadata: Metadata = {
   title: "Patient gallery - Coral Springs Smiles",
   description:
     "Explore our patient gallery for stunning smile transformations and see the results achieved at Coral Springs Smiles",
+  alternates: { canonical: "/patient-gallery" },
 };
 
 export default function PatientGalleryPage() {
