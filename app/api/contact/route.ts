@@ -119,8 +119,9 @@ export async function POST(request: Request) {
     return NextResponse.json({ ok: true });
   } catch (err) {
     console.error("contact API:", err);
+    const details = err instanceof Error ? err.message : String(err);
     return NextResponse.json(
-      { error: "Something went wrong sending your message. Please try again later." },
+      { error: `Something went wrong sending your message: ${details}` },
       { status: 500 },
     );
   }

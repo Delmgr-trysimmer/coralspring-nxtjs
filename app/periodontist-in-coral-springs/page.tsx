@@ -1,5 +1,6 @@
 import ActiveMembersSection from "@/components/ActiveMembersSection";
 import BeforeAfter from "@/components/BeforeAfter";
+import LocalVideoCard from "@/components/LocalVideoCard";
 import Navbar from "@/components/Navbar";
 import PeriodontalReviewSlider from "@/components/PeriodontalReviewSlider";
 import {
@@ -17,6 +18,21 @@ import {
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+
+const localTestimonialVideos = [
+  {
+    src: "/videos/testimonial-video-maxine.mp4",
+    title: "Maxine Patient Testimonial",
+  },
+  {
+    src: "/videos/patient-testimonial-coral-springs-smiles-1.mp4",
+    title: "Patient Testimonial Video 1",
+  },
+  {
+    src: "/videos/patient-testimonial-coral-springs-smiles-2.mp4",
+    title: "Patient Testimonial Video 2",
+  },
+] as const;
 
 const periodontalServiceGroups = [
   {
@@ -655,10 +671,13 @@ export default function PeriodontistInCoralSpringsPage() {
               <PeriodontalReviewSlider />
 
               <div className="mt-7 grid gap-5 lg:grid-cols-3">
+                {localTestimonialVideos.map((video) => (
+                  <LocalVideoCard key={video.src} video={video} />
+                ))}
                 {testimonialVideos.map((video, index) => (
                   <div
                     key={video.id}
-                    className="overflow-hidden rounded-lg bg-slate-900 shadow-[0_10px_22px_rgba(15,23,42,0.22)]"
+                    className="overflow-hidden rounded-2xl bg-slate-900 shadow-[0_10px_22px_rgba(15,23,42,0.22)]"
                   >
                     <iframe
                       src={`https://www.youtube.com/embed/${video.id}?si=${video.si}`}

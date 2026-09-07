@@ -1,4 +1,5 @@
 import ActiveMembersSection from "@/components/ActiveMembersSection";
+import LocalVideoCard from "@/components/LocalVideoCard";
 import Navbar from "@/components/Navbar";
 import PageBanner from "@/components/PageBanner";
 import Testimonials from "@/components/Testimonials";
@@ -17,6 +18,21 @@ const TESTIMONIAL_VIDEOS = [
   { id: "pbc5dtfAhRA", si: "CrEhN7TpjVsTzDwl" },
   { id: "SCr5Q_fWWbY", si: "G2yQEUArTVs94pTx" },
   { id: "00sKht0l1mU", si: "VW4rTDLehfs0mUEF" },
+] as const;
+
+const LOCAL_TESTIMONIAL_VIDEOS = [
+  {
+    src: "/videos/testimonial-video-maxine.mp4",
+    title: "Maxine Patient Testimonial",
+  },
+  {
+    src: "/videos/patient-testimonial-coral-springs-smiles-1.mp4",
+    title: "Patient Testimonial Video 1",
+  },
+  {
+    src: "/videos/patient-testimonial-coral-springs-smiles-2.mp4",
+    title: "Patient Testimonial Video 2",
+  },
 ] as const;
 
 export default function TestimonialsPage() {
@@ -42,6 +58,11 @@ export default function TestimonialsPage() {
             </p>
 
             <ul className="mt-10 grid list-none grid-cols-1 gap-6 p-0 md:grid-cols-2 xl:grid-cols-3">
+              {LOCAL_TESTIMONIAL_VIDEOS.map((video) => (
+                <li key={video.src}>
+                  <LocalVideoCard video={video} />
+                </li>
+              ))}
               {TESTIMONIAL_VIDEOS.map((video, index) => {
                 const embedSrc = `https://www.youtube.com/embed/${video.id}?si=${video.si}`;
                 return (
