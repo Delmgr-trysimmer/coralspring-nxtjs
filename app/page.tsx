@@ -1,14 +1,16 @@
-import BeforeAfter from "@/components/BeforeAfter";
-import BlogHighlights from "@/components/BlogHighlights";
-import CTA from "@/components/CTA";
+import dynamic from "next/dynamic";
 import Doctor from "@/components/Doctor";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
-import PatientScheduling from "@/components/PatientScheduling";
-import Services from "@/components/Services";
 import Stats from "@/components/Stats";
-import Testimonials from "@/components/Testimonials";
 import WhyChoose from "@/components/WhyChoose";
+
+const Services = dynamic(() => import("@/components/Services"));
+const PatientScheduling = dynamic(() => import("@/components/PatientScheduling"));
+const BeforeAfter = dynamic(() => import("@/components/BeforeAfter"));
+const Testimonials = dynamic(() => import("@/components/Testimonials"));
+const BlogHighlights = dynamic(() => import("@/components/BlogHighlights"));
+const CTA = dynamic(() => import("@/components/CTA"));
 
 export default function Home() {
   return (

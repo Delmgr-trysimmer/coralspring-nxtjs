@@ -28,7 +28,11 @@ export function SmoothScrollProvider({ children }: SmoothScrollProviderProps) {
   const ctx = useMemo(() => ({ lenisRef }), []);
 
   useEffect(() => {
-    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    if (
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches ||
+      window.matchMedia("(pointer: coarse)").matches ||
+      window.innerWidth < 768
+    ) {
       return;
     }
 

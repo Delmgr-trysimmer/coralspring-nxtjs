@@ -41,7 +41,7 @@ export default function RootLayout({
       className={`${plusJakartaSans.variable} ${sora.variable} h-full antialiased`}
     >
       <body className="min-h-screen overflow-x-hidden bg-background font-sans text-foreground">
-        <Script id="gtm-script" strategy="beforeInteractive">
+        <Script id="gtm-script" strategy="lazyOnload">
           {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=

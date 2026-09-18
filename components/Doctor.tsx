@@ -36,6 +36,7 @@ export default function Doctor() {
                     alt="Stylized portrait of Dr. Payal Anand, DDS."
                     width={960}
                     height={1160}
+                    sizes="(max-width: 768px) 90vw, 460px"
                     className="h-full w-full object-cover object-top"
                   />
                 </div>

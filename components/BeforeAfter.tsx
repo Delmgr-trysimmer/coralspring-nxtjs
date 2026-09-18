@@ -76,6 +76,7 @@ export default function BeforeAfter() {
                         alt={result.alt}
                         width={1200}
                         height={900}
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                         className="h-[260px] w-full object-cover transition-transform duration-500 group-hover:scale-105"
                       />
                       <span className="absolute left-3 top-3 rounded-full bg-slate-900/80 px-3 py-1 text-xs font-semibold tracking-[0.12em] text-white">

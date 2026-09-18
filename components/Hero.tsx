@@ -26,6 +26,7 @@ export default function Hero() {
           alt=""
           fill
           priority
+          sizes="100vw"
           className="object-cover object-center"
         />
       </div>
@@ -146,6 +147,7 @@ export default function Hero() {
                 width={1120}
                 height={1280}
                 priority
+                sizes="(max-width: 768px) 90vw, 520px"
                 className="mx-auto h-auto w-[92%] object-contain"
               />
               <div className="absolute right-4 bottom-4 rounded-full border-0 bg-linear-to-r from-[#006892]/92 via-[#007ea8]/88 to-[#00aeef]/75 px-3 py-1 text-[0.65rem] font-semibold uppercase tracking-[0.14em] text-white shadow-[0_8px_24px_rgba(0,61,84,0.35),inset_0_0_0_1px_rgb(255_255_255/0.18)] backdrop-blur-md sm:px-4 sm:py-1.5 sm:text-[0.7rem]">
