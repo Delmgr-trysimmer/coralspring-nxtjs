@@ -30,6 +30,8 @@ const GALLERY_IMAGES = [
   "/images/smile-gallery-23.jpg",
   "/images/smile-gallery-24.jpg",
   "/images/smile-gallery-25.jpg",
+  "/images/smile-gallery-26-labeled.png",
+  "/images/smile-gallery-27-labeled.png",
 ] as const;
 
 export const metadata: Metadata = {

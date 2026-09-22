@@ -22,6 +22,10 @@ const TESTIMONIAL_VIDEOS = [
 
 const LOCAL_TESTIMONIAL_VIDEOS = [
   {
+    src: "/videos/testimonial-video.mp4",
+    title: "Patient Testimonial Video",
+  },
+  {
     src: "/videos/testimonial-video-maxine.mp4",
     title: "Maxine Patient Testimonial",
   },
@@ -34,6 +38,9 @@ const LOCAL_TESTIMONIAL_VIDEOS = [
     title: "Patient Testimonial Video 2",
   },
 ] as const;
+
+const TOTAL_TESTIMONIAL_VIDEOS =
+  LOCAL_TESTIMONIAL_VIDEOS.length + TESTIMONIAL_VIDEOS.length;
 
 export default function TestimonialsPage() {
   return (
@@ -72,7 +79,7 @@ export default function TestimonialsPage() {
                         <iframe
                           className="absolute inset-0 h-full w-full"
                           src={embedSrc}
-                          title={`Patient testimonial video ${index + 1} of ${TESTIMONIAL_VIDEOS.length}`}
+                          title={`Patient testimonial video ${index + LOCAL_TESTIMONIAL_VIDEOS.length + 1} of ${TOTAL_TESTIMONIAL_VIDEOS}`}
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                           allowFullScreen
                           loading={index < 3 ? "eager" : "lazy"}
