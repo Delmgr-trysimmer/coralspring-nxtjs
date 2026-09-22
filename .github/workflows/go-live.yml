@@ -1,0 +1,141 @@
+name: go-live
+
+# Coral Springs Smiles website (.com) (coralspring) — simmercoder.
+#
+#   git push origin main:go-live/coralspring   -> coralspring goes live (https://www.coralspringsmiles.com)
+#   Actions -> go-live -> Run workflow -> action: rollback -> previous image is restored
+#
+# Everything runs on the self-hosted runner of the machine that hosts the app (user deployer). The deploy logic lives
+# on the machine (/opt/deploy/deploy.sh, root-owned) together with the env files and secrets — this workflow only says
+# WHICH target and WHICH commit. Pushes that only touch .github/ never deploy.
+# Discord: one card per run, edited in place (🔨 building → 🚀 deploying → 🩺 health → ✅ live / ❌ rolled back).
+
+on:
+  push:
+    branches: ['go-live', 'go-live/**']
+  workflow_dispatch:
+    inputs:
+      target:
+        description: 'Target'
+        type: choice
+        required: true
+        default: coralspring
+        options: [coralspring]
+      action:
+        description: 'deploy = build this commit and go live · rollback = restore the image that ran before the last deploy'
+        type: choice
+        required: true
+        default: deploy
+        options: [deploy, rollback]
+
+concurrency:
+  group: go-live-${{ github.event.inputs.target || github.ref_name }}
+  cancel-in-progress: false
+
+jobs:
+  go-live:
+    runs-on: [self-hosted, simmercoder]
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - name: Resolve target
+        id: t
+        run: |
+          T="${{ github.event.inputs.target }}"
+          if [ -z "$T" ]; then T="${GITHUB_REF_NAME#go-live/}"; [ "$T" = "go-live" ] && T="coralspring"; fi
+          case "$T" in
+            coralspring) URL="https://www.coralspringsmiles.com" ;;
+            *) echo "::error::unknown target '$T' — nothing deployed"; exit 1 ;;
+          esac
+          # skip pushes that only touched .github/ (compare with the pre-push commit; a brand-new branch always deploys)
+          SKIP=false
+          if [ "${{ github.event_name }}" = "push" ]; then
+            B="${{ github.event.before }}"
+            if [ -n "$B" ] && [ "$B" != "0000000000000000000000000000000000000000" ] && git cat-file -e "$B^{commit}" 2>/dev/null; then
+              CHANGED=$(git diff --name-only "$B" "$GITHUB_SHA"); echo "changed files:"; echo "$CHANGED" | head -20
+              [ -n "$CHANGED" ] && [ -z "$(printf '%s\n' "$CHANGED" | grep -v '^\.github/' | head -1)" ] && SKIP=true
+            fi
+          fi
+          SUBJECT=$(git log -1 --format=%s | head -c 120)
+          { echo "target=$T"; echo "url=$URL"; echo "skip=$SKIP"; echo "short=${GITHUB_SHA::7}"; echo "subject=$SUBJECT"; } >> "$GITHUB_OUTPUT"
+          [ "$SKIP" = "true" ] && echo "Only .github/ changed — not deploying." || true
+
+      - name: Discord — open card
+        if: steps.t.outputs.skip != 'true'
+        id: card
+        env:   # user-controlled strings go through env, never inline into the script (a backtick in a commit message must not execute)
+          TARGET: ${{ steps.t.outputs.target }}
+          SHORT: ${{ steps.t.outputs.short }}
+          SUBJECT: ${{ steps.t.outputs.subject }}
+          ACTION: ${{ github.event.inputs.action }}
+          ACTOR: ${{ github.actor }}
+        run: |
+          RUN="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          if [ "$ACTION" = "rollback" ]; then
+            HEAD="**$TARGET** · ↩️ rollback requested"
+            DESC=$(printf '%s\n\n🚀 **Restoring previous image…**\n⬜ Health check' "$HEAD")
+          else
+            HEAD="**$TARGET** · \`$SHORT\` — $SUBJECT"
+            DESC=$(printf '%s\n\n🔨 **Building image…**\n⬜ Deploy on simmercoder\n⬜ Health check' "$HEAD")
+          fi
+          ID=$(/opt/deploy/notify.sh post "⏳ go-live in progress" "$DESC" 16776960 "$RUN" "$ACTOR")
+          { echo "id=$ID"; echo "run=$RUN"; echo "head<<EOF"; echo "$HEAD"; echo "EOF"; } >> "$GITHUB_OUTPUT"
+
+      - name: Build + deploy + health check (auto-rollback inside deploy.sh)
+        if: steps.t.outputs.skip != 'true'
+        id: deploy
+        env:
+          CARD_ID: ${{ steps.card.outputs.id }}
+          CARD_HEAD: ${{ steps.card.outputs.head }}
+          CARD_RUN: ${{ steps.card.outputs.run }}
+          TARGET: ${{ steps.t.outputs.target }}
+          ACTION: ${{ github.event.inputs.action }}
+        run: |
+          set -o pipefail     # without it `tee` hides deploy.sh's exit code and a rolled-back deploy would look green
+          if [ "$ACTION" = "rollback" ]; then
+            /opt/deploy/deploy.sh "$TARGET" previous 2>&1 | tee deploy-output.txt
+          else
+            /opt/deploy/deploy.sh "$TARGET" build "$GITHUB_SHA" "$GITHUB_WORKSPACE" 2>&1 | tee deploy-output.txt
+          fi
+
+      - name: Summary
+        if: always() && steps.t.outputs.skip != 'true'
+        env:
+          TARGET: ${{ steps.t.outputs.target }}
+          SHORT: ${{ steps.t.outputs.short }}
+          URL: ${{ steps.t.outputs.url }}
+          OUTCOME: ${{ steps.deploy.outcome }}
+        run: |
+          { if [ "$OUTCOME" = "success" ]; then echo "### ✅ $TARGET live — $SHORT  →  $URL";
+            else echo "### ❌ $TARGET — deploy failed (previous image is running)"; fi
+            echo; echo '```'; tail -60 deploy-output.txt 2>/dev/null; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Discord — final status
+        if: always() && steps.t.outputs.skip != 'true'
+        env:
+          ID: ${{ steps.card.outputs.id }}
+          RUN: ${{ steps.card.outputs.run }}
+          HEAD: ${{ steps.card.outputs.head }}
+          TARGET: ${{ steps.t.outputs.target }}
+          URL: ${{ steps.t.outputs.url }}
+          OUTCOME: ${{ steps.deploy.outcome }}
+          ACTOR: ${{ github.actor }}
+        run: |
+          CRASH=$(awk '/^-{20,}$/{f=!f; next} f' deploy-output.txt 2>/dev/null | tail -25)
+          OUT=$(printf '%s' "${CRASH:-$(tail -c 900 deploy-output.txt 2>/dev/null)}" | tail -c 1500)
+          IMG=$(grep -oE 'new=[^ ]+' deploy-output.txt 2>/dev/null | tail -1 | cut -d= -f2)
+          if [ "$OUTCOME" = "success" ]; then
+            TITLE="✅ $TARGET live"; COLOR=3066993
+            DESC=$(printf '%s\n\n✅ Built `%s`\n🚀 Deployed on simmercoder\n🩺 Health check passed\n\n🌐 %s' "$HEAD" "${IMG:-image}" "$URL")
+          else
+            TITLE="❌ $TARGET — rolled back"; COLOR=15158332
+            if grep -q "BUILD FAILED" deploy-output.txt 2>/dev/null; then STAGE='🔨 **Build failed** — nothing was deployed, the running version is untouched'
+            elif grep -q "HEALTH CHECK FAILED" deploy-output.txt 2>/dev/null; then STAGE='🩺 **Health check FAILED** — the new container did not come up healthy\n↩️ **Rolled back — the previous image is running**'
+            else STAGE='❌ **Deploy failed** — see the run log'; fi
+            DESC=$(printf "%s\n\n$STAGE\n\`\`\`\n%s\n\`\`\`" "$HEAD" "$OUT")
+          fi
+          if [ -n "$ID" ]; then /opt/deploy/notify.sh edit "$ID" "$TITLE" "$DESC" "$COLOR" "$RUN"; else /opt/deploy/notify.sh post "$TITLE" "$DESC" "$COLOR" "$RUN" "$ACTOR" >/dev/null; fi
